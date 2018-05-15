@@ -9,9 +9,14 @@ public class player_movment : MonoBehaviour {
     float horizontal;
     float vertical;
     public Rigidbody rm;
-    public Vector3 curlook;
-    public Vector3 predlook;
-    public Vector3 dir;
+    public Transform cam;
+    public GameObject melee;
+    public Camera camp;
+    public float range = 100f;
+    public LineRenderer line;
+    //public Vector3 curlook;
+    //public Vector3 predlook;
+    //public Vector3 dir;
     // Use this for initialization
     void Start () {
         rm = GetComponent<Rigidbody>();
@@ -20,30 +25,52 @@ public class player_movment : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         horizontal = controller.horizontal;
-        Vector3 myright = new Vector3(horizontal, 0, 0);
+        Vector3 myright = cam.right * horizontal;
         vertical = controller.vertical;
-        Vector3 myup = new Vector3(0, 0, vertical);
-        desierv = (myup + myright) * speed * Time.deltaTime;
+        Vector3 myup = cam.forward * vertical;
+        myright.y = 0;
+        myup.y = 0;
+        desierv = (myup + myright).normalized * speed * Time.deltaTime;
         rm.velocity = desierv;
-
-        curlook = new Vector3(rm.velocity.x, 0, rm.velocity.z);
-
-        if (curlook == Vector3.zero)
+        if (controller.firegun==true)
         {
-            transform.forward = predlook;
+            ray();
         }
-        else
-        {
-            predlook = curlook;
-            transform.forward = curlook;
-        }
-        if (horizontal == 0 && vertical == 0)
-        {
+        //if (controller.hit == true)
+        //{
+        //    GameObject melee2 = Instantiate(melee)as GameObject;
+        //    melee2.transform.position = transform.forward;
+        //    melee2.transform.position.y.Equals(90);
+        
+        //curlook = new Vector3(rm.velocity.x, 0, rm.velocity.z);
 
-        }
-        if (rm.velocity.magnitude > 1)
+        //if (curlook == Vector3.zero)
+        //{
+        //    transform.forward = predlook;
+        //}
+        //else
+        //{
+        //    predlook = curlook;
+        //    transform.forward = curlook;
+        //}
+        //if (horizontal == 0 && vertical == 0)
+        //{
+
+        //}
+        //if (rm.velocity.magnitude > 1)
+        //{
+        //    dir = rm.velocity.normalized;
+        //}
+
+        
+    }
+    void ray()
+    {
+        RaycastHit hit;
+        if(Physics.Raycast(camp.transform.position, camp.transform.forward, out hit, range))
         {
-            dir = rm.velocity.normalized;
+            line.SetPosition(0, transform.position);
+            line.SetPosition(1, hit.transform.position);
         }
     }
 }
