@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class enemy : MonoBehaviour, idamageable
+public class enemy : MonoBehaviour, IDamageable
 {
 
     public NavMeshAgent nav;
@@ -17,7 +17,7 @@ public class enemy : MonoBehaviour, idamageable
     {
 
         nav = GetComponent<NavMeshAgent>();
-        target = FindObjectOfType<Player>().gameObject;
+        target = FindObjectOfType<player_movment>().gameObject;
     }
 
     public bool editor;
@@ -26,13 +26,13 @@ public class enemy : MonoBehaviour, idamageable
         if (editor)
         {
             editor = false;
-            takedamage(2);
+            takeDamage(2);
         }
         nav.destination = target.transform.position;
     }
-    public void takedamage(int damagetaken)
+    public void takeDamage(int damageTaken)
     {
-        currentHealth -= damagetaken;
+        currentHealth -= damageTaken;
         die();
     }
     public void die()
@@ -45,10 +45,10 @@ public class enemy : MonoBehaviour, idamageable
 
     void OnCollisionEnter(Collision other)
     {
-        idamageable damage = other.gameObject.GetComponent<idamageable>();
+        IDamageable damage = other.gameObject.GetComponent<IDamageable>();
         if (damage != null)
         {
-            damage.takedamage(attackDamage);
+            damage.takeDamage(attackDamage);
         }
     }
 }
