@@ -82,6 +82,7 @@
     <Compile Include="Assets\Caleb\GameAudio.cs" />
     <Compile Include="Assets\Caleb\MenuScript.cs" />
     <Compile Include="Assets\harley\controller.cs" />
+    <Compile Include="Assets\harley\Inerface.cs" />
     <Compile Include="Assets\harley\player_movment.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
