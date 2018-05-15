@@ -10,6 +10,8 @@ public class player_movment : MonoBehaviour {
     float vertical;
     public Rigidbody rm;
     public Vector3 curlook;
+    public Vector3 predlook;
+    public Vector3 dir;
     // Use this for initialization
     void Start () {
         rm = GetComponent<Rigidbody>();
@@ -24,5 +26,24 @@ public class player_movment : MonoBehaviour {
         desierv = (myup + myright) * speed * Time.deltaTime;
         rm.velocity = desierv;
 
+        curlook = new Vector3(rm.velocity.x, 0, rm.velocity.z);
+
+        if (curlook == Vector3.zero)
+        {
+            transform.forward = predlook;
+        }
+        else
+        {
+            predlook = curlook;
+            transform.forward = curlook;
+        }
+        if (horizontal == 0 && vertical == 0)
+        {
+
+        }
+        if (rm.velocity.magnitude > 1)
+        {
+            dir = rm.velocity.normalized;
+        }
     }
 }
