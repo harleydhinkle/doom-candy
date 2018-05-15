@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/harley/main game.unity
+- path: Assets/Caleb/MainMenu.unity
   isLoaded: 1
   isActive: 1
