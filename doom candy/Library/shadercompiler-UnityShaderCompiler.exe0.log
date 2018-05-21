@@ -1,2 +1,15 @@
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: getPlatforms
+Unhandled exception: Protocol error - failed to read correct magic number
+
+Quitting shader compiler process
+=======
 Base path: C:/Program Files/Unity2017/Editor/Data
 Cmd: initializeCompiler
+>>>>>>> dav
+=======
+Base path: C:/Program Files/Unity2017/Editor/Data
+Cmd: initializeCompiler
+>>>>>>> Stashed changes
