@@ -557,6 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4252cbd1d2dc24ab34719c24bfb966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Delay: 0
 --- !u!82 &538363652
 AudioSource:
   m_ObjectHideFlags: 0
@@ -857,8 +858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 12.261017, y: -23.75866}
+  m_AnchoredPosition: {x: 0, y: 1.63}
+  m_SizeDelta: {x: 12.26, y: -27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051760392
 MonoBehaviour:
@@ -883,7 +884,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -1068,8 +1069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 12.581024, y: -24.399326}
+  m_AnchoredPosition: {x: 0, y: 0.00000059605}
+  m_SizeDelta: {x: 12.58, y: -28.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267808948
 MonoBehaviour:
@@ -1094,7 +1095,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -1293,8 +1294,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00000033528, y: -0.000011683}
-  m_SizeDelta: {x: 0.000030518, y: -0.000049591}
+  m_AnchoredPosition: {x: -0.00000033528, y: 0.82}
+  m_SizeDelta: {x: 0, y: -28.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778478098
 MonoBehaviour:
@@ -1319,7 +1320,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
