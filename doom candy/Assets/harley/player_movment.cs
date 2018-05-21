@@ -14,6 +14,7 @@ public class player_movment : MonoBehaviour {
     public Camera camp;
     public float range = 100f;
     public LineRenderer line;
+
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
@@ -69,7 +70,7 @@ public class player_movment : MonoBehaviour {
         RaycastHit hit;
         if(Physics.Raycast(camp.transform.position, camp.transform.forward, out hit, range))
         {
-            line.SetPosition(0, transform.position);
+            line.SetPosition(0, camp.transform.position);
             line.SetPosition(1, hit.transform.position);
         }
     }
