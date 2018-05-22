@@ -9,19 +9,9 @@ public class gun : MonoBehaviour {
     public float range = 100f;
     public LineRenderer line;
     public ParticleSystem gunflash;
-    public int currentaimo;
-    private int maxaimo = 999;
     private float timer;
     public float normaltime = 3;
-    public int maxclip = 10;
-    public int currentclip;
     public player_movment owner;
-    // Use this for initialization
-    void Start ()
-    {
-
-	}
-
     // Update is called once per frame
     void Update()
     {
@@ -34,14 +24,14 @@ public class gun : MonoBehaviour {
             controller.reload = false;
             timer = normaltime;
         }
-        if (currentclip == 0)
+        if (owner.currentclip == 0)
         {
             reload2();
             controller.reload = true;
         }
-        if (currentclip >= 0&& controller.reload == false && controller.firegun == true)
+        if (owner.currentclip >= 0&& controller.reload == false && controller.firegun == true)
         {
-            currentclip -= 1;
+            owner.currentclip -= 1;
             ray();
         }
         if(controller.reloadgun == true)
@@ -68,9 +58,9 @@ public class gun : MonoBehaviour {
     }
     public void reload2()
     {
-        int ammoiwant = maxclip - currentclip;
-        int ammoiget = Mathf.Clamp(ammoiwant, 0, currentaimo);
-        currentaimo -= ammoiget;
-        currentclip += ammoiget;
+        int ammoiwant = owner.maxclip - owner.currentclip;
+        int ammoiget = Mathf.Clamp(ammoiwant, 0, owner.currentaimo);
+        owner.currentaimo -= ammoiget;
+        owner.currentclip += ammoiget;
     }
 }

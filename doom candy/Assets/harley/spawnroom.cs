@@ -26,14 +26,18 @@ public class spawnroom : MonoBehaviour {
     void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         if (timer <= 0 && currentpickups < max)
         {
             spawn();
             timer = time;
             currentpickups += 1;
+        }
+        if (timer >= 0)
+        {
+            timer -= Time.deltaTime;
         }
     }
 

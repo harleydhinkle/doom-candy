@@ -10,6 +10,8 @@ public class enemyspawnroom : MonoBehaviour {
     private float timer;
     public int currentanmontofenemys;
     public int max;
+    public player_movment player1;
+
     // Use this for initialization
     void Start () {
 		
@@ -31,6 +33,7 @@ public class enemyspawnroom : MonoBehaviour {
     {
         GameObject spawnenemys = Instantiate(enemys[Random.Range(0, enemys.Length)]);
         GameObject spawnroom = rooms[Random.Range(0, rooms.Length)];
+        spawnenemys.GetComponent<NewBehaviourScript>().player1 = player1;
         spawnenemys.transform.position = spawnroom.transform.position;
         spawnenemys.GetComponent<NewBehaviourScript>().enemy3 = this;
         timer = time;

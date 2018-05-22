@@ -6,6 +6,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     public int health = 10;
     public float timer = 5;
     public enemyspawnroom enemy3;
+    public player_movment player1;
     // Use this for initialization
     void Start () {
 		
@@ -35,5 +36,14 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     {
         enemy3.currentanmontofenemys -= 1;
         Destroy(gameObject);
+    }
+    void OnCollisionStay(Collision hit)
+    {
+        var tamp = hit.gameObject.GetComponent<IDamageable>();
+        player_movment player = hit.gameObject.GetComponent<player_movment>();
+        if (tamp != null)
+        {
+            tamp.takeDamage(1, 0, player1);
+        }
     }
 }
