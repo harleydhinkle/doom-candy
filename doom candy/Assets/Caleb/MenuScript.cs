@@ -5,39 +5,69 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour {
 
+    public float Delay;
+    float t = 0;
     public void StartGame()
     {
-        SceneManager.LoadScene("GameMode");
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("GameMode");
+        }
     }
 
     public void controls()
     {
-        SceneManager.LoadScene("");
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("ControlsMenu");
+        }
     }
 
     public void PvP()
     {
-        SceneManager.LoadScene("");
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("");
+        }
     }
 
     public void Caracter()
     {
-        SceneManager.LoadScene("");
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("");
+        }
     }
 
     public void PvE()
     {
-        SceneManager.LoadScene("");
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("");
+        }
     }
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            Application.Quit();
+        }
     }
 
 }
