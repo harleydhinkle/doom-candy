@@ -7,7 +7,8 @@ public enum States
     wandermap,
     seek
 }
-public class enemy2 : MonoBehaviour {
+public class enemy2 : MonoBehaviour
+{
     NavMeshAgent agent;
     public States state;
     public float radius;
