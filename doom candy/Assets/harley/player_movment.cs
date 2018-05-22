@@ -11,9 +11,9 @@ public class player_movment : MonoBehaviour,IDamageable {
     public Rigidbody rm;
     public Transform cam;
     public GameObject melee;
-    public int narmolhealth;
-    public int currenthealth;
-    public int maxhealth;
+    public float narmolhealth;
+    public float currenthealth;
+    public float maxhealth;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
