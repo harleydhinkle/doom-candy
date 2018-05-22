@@ -26,21 +26,23 @@ public class enemy : MonoBehaviour, IDamageable
         if (editor)
         {
             editor = false;
-            takeDamage(2);
         }
         nav.destination = target.transform.position;
     }
-    public void takeDamage(int damageTaken)
+    public void takeDamage(int damageTaken, int pointgain, player_movment player)
     {
         currentHealth -= damageTaken;
-        die();
+       
+        if (currentHealth <= 0)
+        {
+            player.points += pointgain;
+            die();
+        }
     }
     public void die()
     {
-        if (currentHealth <= 0)
-        {
+        
             Destroy(gameObject);
-        }
     }
 
     void OnCollisionEnter(Collision other)
@@ -48,7 +50,7 @@ public class enemy : MonoBehaviour, IDamageable
         IDamageable damage = other.gameObject.GetComponent<IDamageable>();
         if (damage != null)
         {
-            damage.takeDamage(attackDamage);
+            damage.takeDamage(attackDamage,0,null);
         }
     }
 }
