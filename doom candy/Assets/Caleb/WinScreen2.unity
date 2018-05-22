@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 198910374}
   - component: {fileID: 198910373}
   m_Layer: 5
-  m_Name: ModeSelect (1)
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1888140444}
-        m_MethodName: PvP
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 333494844}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -261,8 +272,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -12.752029, y: -51.847992}
+  m_AnchoredPosition: {x: 0, y: 0.00000047684}
+  m_SizeDelta: {x: -12.75, y: -38.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &295796885
 MonoBehaviour:
@@ -287,7 +298,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -303,6 +314,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 295796883}
+--- !u!1001 &333494843
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 631.2302
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 248.33026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 487.38135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 61fff8799b5e727429710c144db12435, type: 2}
+  m_IsPrefabParent: 0
+--- !u!82 &333494844 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82426911848668554, guid: 61fff8799b5e727429710c144db12435,
+    type: 2}
+  m_PrefabInternal: {fileID: 333494843}
 --- !u!1 &382815172
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +393,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -12.027985, y: -51.72606}
+  m_AnchoredPosition: {x: 0, y: 0.00000059605}
+  m_SizeDelta: {x: -12.03, y: -38.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382815174
 MonoBehaviour:
@@ -361,7 +419,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -455,6 +513,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1888140444}
         m_MethodName: PvP
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 333494844}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -585,6 +654,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 333494844}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &493932343
@@ -651,8 +731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4}
-  m_SizeDelta: {x: -12.027985, y: -51.70993}
+  m_AnchoredPosition: {x: 0, y: 0.18}
+  m_SizeDelta: {x: -12.03, y: -43.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687434348
 MonoBehaviour:
@@ -677,7 +757,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -1021,6 +1101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4252cbd1d2dc24ab34719c24bfb966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Delay: 0
 --- !u!114 &1888140445
 MonoBehaviour:
   m_ObjectHideFlags: 0
