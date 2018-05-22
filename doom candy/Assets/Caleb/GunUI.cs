@@ -12,15 +12,17 @@ public class GunUI : MonoBehaviour {
     public Text ammo;
     public Text score;
     public Text time;
+    public player_movment move;
 
 	// Use this for initialization
 	void Start ()
     {
-        //health.text = ;
+        move = FindObjectOfType<player_movment>();
+        health.text = move.currenthealth.ToString();
         //armor.text = ;
         //weapon.text = ;
-        //ammo.text = ;
-        //score.text = ;
+        ammo.text = move.currentaimo.ToString() + "/" + move.maxaimo.ToString();
+        score.text = move.points.ToString();
         //time.text = ;
 		
 	}
@@ -28,22 +30,22 @@ public class GunUI : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-        //health.text = ;
-        //armor.text = ;
-        //weapon.text = ;
-        //ammo.text = ;
-        //score.text = ;
-        //time.text = ;
 
-        //if ()
-        //{
-
-        //}
-        //else if()
-        //{
-                                  
-        //}
-
+    }
+    //for updating health in hud
+    public void health2()
+    {
+        health.text = move.currenthealth.ToString();
+    }
+    //for updating ammo stock in hud
+    public void ammo2()
+    {
+        ammo.text = move.currentaimo.ToString() + "/" + move.maxaimo.ToString();
+    }
+    //for updating player score in hud
+    public void score2()
+    {
+        score.text = move.points.ToString();
     }
 
 }
