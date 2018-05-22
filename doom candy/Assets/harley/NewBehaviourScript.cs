@@ -5,7 +5,7 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour,IDamageable {
     public int health = 10;
     public float timer = 5;
-    public enemyspawner enemy3;
+    public enemyspawnroom enemy3;
     // Use this for initialization
     void Start () {
 		
@@ -33,7 +33,6 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     void die()
     {
         enemy3.currentanmontofenemys -= 1;
-        enemy3.listOfEnemies.Remove(gameObject);
         Destroy(gameObject);
     }
 }
