@@ -110,6 +110,7 @@
     <Compile Include="Assets\harley\ememyseek.cs" />
     <Compile Include="Assets\harley\enemy2.cs" />
     <Compile Include="Assets\harley\enemyspawner.cs" />
+    <Compile Include="Assets\harley\enemyspawnroom.cs" />
     <Compile Include="Assets\harley\enemywander.cs" />
     <Compile Include="Assets\harley\gun.cs" />
     <Compile Include="Assets\harley\healthpickup.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Assets\harley\pickup.cs" />
     <Compile Include="Assets\harley\pickupscriped.cs" />
     <Compile Include="Assets\harley\player_movment.cs" />
+    <Compile Include="Assets\harley\respawn.cs" />
     <Compile Include="Assets\harley\spawnroom.cs" />
     <Compile Include="Assets\XInputDotNet\Examples\XInputTestCS.cs" />
 >>>>>>> art
