@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour {
-
+    //delay allows for the button sounds to play before moving scenes.
     public float Delay;
     float t = 0;
     public void StartGame()
