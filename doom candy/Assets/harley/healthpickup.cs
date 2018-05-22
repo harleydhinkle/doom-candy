@@ -11,9 +11,6 @@ public class healthpickup : pickup{
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
     void OnTriggerEnter(Collider other)
     {
         player_movment player = other.GetComponent<player_movment>();
