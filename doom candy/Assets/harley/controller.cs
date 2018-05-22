@@ -16,6 +16,16 @@ public class controller : MonoBehaviour {
     GamePadState prevState;
     public bool contrler1;
     public bool contrler2;
+    public float leftrun;
+    public float rightrun;
+    public bool reload;
+    public bool reloadgun;
+    IEnumerator startviprat()
+    {
+        GamePad.SetVibration(playerIndex, state.Triggers.Right, state.Triggers.Right);
+        yield return new WaitForSeconds(.2f);
+        GamePad.SetVibration(playerIndex, 0, 0);
+    }
     // Use this for initialization
     void Start () {
        //if(playernum == 1) { playerIndex = PlayerIndex.One; }
@@ -73,14 +83,24 @@ public class controller : MonoBehaviour {
             {
                 horizontal = state.ThumbSticks.Left.X;
                 vertical = state.ThumbSticks.Left.Y;
-                if (prevState.Buttons.RightShoulder == ButtonState.Released && state.Buttons.RightShoulder == ButtonState.Pressed)
-                {
-                    firegun = true;
+            if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f&&reload == false)
+            {
+                StartCoroutine(startviprat());
+                firegun = true;
 
-                }
+
+            }
             else
             {
                 firegun = false;
+            }
+            if(prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed)
+            {
+                reloadgun = true;
+            }
+            else
+            {
+                reloadgun = false;
             }
             horizontalcamra = state.ThumbSticks.Right.X;
             verticalcamra = state.ThumbSticks.Right.Y;
@@ -89,9 +109,11 @@ public class controller : MonoBehaviour {
         {
             horizontal = state.ThumbSticks.Left.X;
             vertical = state.ThumbSticks.Left.Y;
-            if (prevState.Buttons.RightShoulder == ButtonState.Released && state.Buttons.RightShoulder == ButtonState.Pressed)
+            if (prevState.Triggers.Right == 0 && state.Triggers.Right == 1)
             {
+                GamePad.SetVibration(playerIndex,state.Triggers.Right, state.Triggers.Right);
                 firegun = true;
+                
 
             }
             else
