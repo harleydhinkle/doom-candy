@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class player_movment : MonoBehaviour {
+public class player_movment : MonoBehaviour,IDamageable {
     public float speed;
     public controller controller;
     Vector3 desierv;
@@ -11,16 +11,16 @@ public class player_movment : MonoBehaviour {
     public Rigidbody rm;
     public Transform cam;
     public GameObject melee;
-    public Camera camp;
-    public float range = 100f;
-    public LineRenderer line;
-
+    public float narmolhealth;
+    public float currenthealth;
+    public float maxhealth;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
     // Use this for initialization
     void Start () {
         rm = GetComponent<Rigidbody>();
+        currenthealth = narmolhealth;
     }
 	
 	// Update is called once per frame
@@ -33,10 +33,6 @@ public class player_movment : MonoBehaviour {
         myup.y = 0;
         desierv = (myup + myright).normalized * speed * Time.deltaTime;
         rm.velocity = desierv;
-        if (controller.firegun==true)
-        {
-            ray();
-        }
         //if (controller.hit == true)
         //{
         //    GameObject melee2 = Instantiate(melee)as GameObject;
@@ -65,13 +61,16 @@ public class player_movment : MonoBehaviour {
 
         
     }
-    void ray()
+    public void takeDamage(int damageTaken)
     {
-        RaycastHit hit;
-        if(Physics.Raycast(camp.transform.position, camp.transform.forward, out hit, range))
+        currenthealth -= damageTaken;
+        if (currenthealth <= 0)
         {
-            line.SetPosition(0, camp.transform.position);
-            line.SetPosition(1, hit.transform.position);
+            respawn();
         }
+    }
+    void respawn()
+    {
+        currenthealth = narmolhealth;
     }
 }

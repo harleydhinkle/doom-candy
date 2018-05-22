@@ -395,6 +395,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1973298903}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &492203856
@@ -583,6 +594,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1973298903}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &705446226
@@ -619,8 +641,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.42545524, y: 0.26451057}
   m_AnchorMax: {x: 0.56751496, y: 0.38451058}
-  m_AnchoredPosition: {x: 1.5, y: -0.80000305}
-  m_SizeDelta: {x: -2.8000183, y: -0.9219971}
+  m_AnchoredPosition: {x: 0.050231, y: -0.0000061989}
+  m_SizeDelta: {x: 0.10048, y: 0.000015259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &705446228
 MonoBehaviour:
@@ -704,6 +726,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1973298903}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &786599150
@@ -738,8 +771,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -28.580078, y: -57.624992}
+  m_AnchoredPosition: {x: 0, y: 1.14}
+  m_SizeDelta: {x: -28.58, y: -46.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786599152
 MonoBehaviour:
@@ -764,7 +797,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -812,8 +845,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -28.580078, y: -57.624992}
+  m_AnchoredPosition: {x: 0, y: 1.15}
+  m_SizeDelta: {x: -28.58, y: -44.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1095407741
 MonoBehaviour:
@@ -838,7 +871,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -928,6 +961,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524845935}
+--- !u!1001 &1973298902
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 631.2302
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 248.33026
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 487.38135
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4099462386525134, guid: 61fff8799b5e727429710c144db12435, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 61fff8799b5e727429710c144db12435, type: 2}
+  m_IsPrefabParent: 0
+--- !u!82 &1973298903 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82426911848668554, guid: 61fff8799b5e727429710c144db12435,
+    type: 2}
+  m_PrefabInternal: {fileID: 1973298902}
 --- !u!1 &1996887129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,8 +1102,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -28.580078, y: -57.624992}
+  m_AnchoredPosition: {x: 2.68, y: -1.14}
+  m_SizeDelta: {x: -33.93, y: -43.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2121543184
 MonoBehaviour:
@@ -1048,7 +1128,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
@@ -1057,7 +1137,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PvE - WIP
+  m_Text: 'PvE '
 --- !u!222 &2121543185
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1095,6 +1175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a4252cbd1d2dc24ab34719c24bfb966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Delay: 0
 --- !u!114 &2123416452
 MonoBehaviour:
   m_ObjectHideFlags: 0
