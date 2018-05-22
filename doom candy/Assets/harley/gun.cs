@@ -15,8 +15,11 @@ public class gun : MonoBehaviour {
     public float normaltime = 3;
     public int maxclip = 10;
     public int currentclip;
+    public player_movment owner;
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
+
 	}
 
     // Update is called once per frame
@@ -58,7 +61,7 @@ public class gun : MonoBehaviour {
             NewBehaviourScript target = hit.transform.GetComponent<NewBehaviourScript>();
             if(target != null)
             {
-                target.takeDamage(damige);
+                target.takeDamage(damige,1,owner.GetComponent<player_movment>());
             }
             
         }

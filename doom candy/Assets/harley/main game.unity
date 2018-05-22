@@ -1520,6 +1520,8 @@ MonoBehaviour:
   narmolhealth: 100
   currenthealth: 0
   maxhealth: 100
+  owngun: {fileID: 846198288}
+  points: 0
 --- !u!1 &409384849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2212,7 +2214,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 583241396}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44.3, y: -24.119999, z: 0}
+  m_LocalPosition: {x: 44.3, y: -22.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1289250202}
@@ -3033,6 +3035,7 @@ MonoBehaviour:
   normaltime: 0
   maxclip: 10
   currentclip: 10
+  owner: {fileID: 0}
 --- !u!1 &903342117
 GameObject:
   m_ObjectHideFlags: 0
@@ -7497,12 +7500,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66eca07321bf7ed4fb92bd4c8757e834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rooms: []
+  rooms:
+  - {fileID: 583241396}
+  - {fileID: 1297083524}
   pickup:
-  - {fileID: 0}
-  range: 0
-  time: 0
-  max: 0
+  - {fileID: 1381941001925558, guid: cd41be4bf3362d544a2b442de7a580fa, type: 2}
+  range: 2
+  time: 4
+  max: 5
   currentpickups: 0
 --- !u!1 &1297083524
 GameObject:
@@ -7526,7 +7531,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1297083524}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.9, y: -24.119999, z: 0}
+  m_LocalPosition: {x: 23.9, y: -23.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1289250202}

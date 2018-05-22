@@ -20,7 +20,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
             timer = 5;
         }
     }
-    public void takeDamage(int damageTaken)
+    public void takeDamage(int damageTaken, int pointgain, player_movment player)
     {
         health -= damageTaken;
         gameObject.GetComponent<Renderer>().material.color = Color.red;
@@ -28,6 +28,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
         if(health<= 0)
         {
             die();
+            player.points += pointgain;
         }
     }
     void die()

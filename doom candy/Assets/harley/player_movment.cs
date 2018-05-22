@@ -14,13 +14,17 @@ public class player_movment : MonoBehaviour,IDamageable {
     public float narmolhealth;
     public float currenthealth;
     public float maxhealth;
+    public gun owngun;
+    public int points;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
     // Use this for initialization
-    void Start () {
+    void Start ()
+    {
         rm = GetComponent<Rigidbody>();
         currenthealth = narmolhealth;
+        owngun.owner = this;
     }
 	
 	// Update is called once per frame
@@ -61,12 +65,13 @@ public class player_movment : MonoBehaviour,IDamageable {
 
         
     }
-    public void takeDamage(int damageTaken)
+    public void takeDamage(int damageTaken, int pointgain, player_movment player)
     {
         currenthealth -= damageTaken;
         if (currenthealth <= 0)
         {
             respawn();
+            player.points += pointgain;
         }
     }
     void respawn()
