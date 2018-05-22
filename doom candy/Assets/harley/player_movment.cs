@@ -16,6 +16,12 @@ public class player_movment : MonoBehaviour,IDamageable {
     public float maxhealth;
     public gun owngun;
     public int points;
+    public int currentaimo;
+    public int maxaimo = 999;
+    private float timer;
+    public float normaltime = 3;
+    public int maxclip = 10;
+    public int currentclip;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
