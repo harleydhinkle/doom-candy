@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 42
     width: 1920
-    height: 998
+    height: 1038
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -41,11 +41,19 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
+<<<<<<< HEAD
+    height: 988
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 117
+=======
     height: 948
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 48
+>>>>>>> harley
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -62,10 +70,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1422
     y: 0
+<<<<<<< HEAD
+    width: 500
+    height: 988
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+=======
     width: 498
     height: 948
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> harley
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -88,7 +103,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 361
+<<<<<<< HEAD
+    height: 597
+=======
     height: 574
+>>>>>>> harley
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -111,9 +130,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 597
+    width: 1420
+    height: 391
+=======
     y: 574
     width: 1422
     height: 374
+>>>>>>> harley
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 13}
@@ -142,8 +167,13 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
+<<<<<<< HEAD
+    height: 1038
+  m_MinSize: {x: 950, y: 542}
+=======
     height: 998
   m_MinSize: {x: 950, y: 300}
+>>>>>>> harley
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -181,7 +211,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 978
+    y: 1018
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -204,8 +234,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1420
+    height: 988
+=======
     width: 1422
     height: 948
+>>>>>>> harley
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
@@ -228,8 +263,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1420
+    height: 597
+=======
     width: 1422
     height: 574
+>>>>>>> harley
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
@@ -250,8 +290,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 361
     y: 0
+<<<<<<< HEAD
+    width: 1059
+    height: 597
+=======
     width: 1061
     height: 574
+>>>>>>> harley
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
@@ -277,7 +322,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
@@ -303,16 +348,23 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: -1920
+    y: 688
+    width: 1418
+    height: 370
+=======
     x: 0
     y: 665
     width: 1420
     height: 353
+>>>>>>> harley
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -325,19 +377,25 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/harley
+    - Assets/Art/main character
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/harley
+  - Assets/Art/main character
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\s179057\Desktop\doom-candy\doom candy
+  m_LastProjectPath: C:\Users\s179036\Desktop\doom-candy\doom candy
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: 66290000
+    m_LastClickedID: 10598
+    m_ExpandedIDs: 00000000a0280000ec2800006c2900006e29000000ca9a3bffffff7f
+=======
     m_SelectedIDs: 46260000
     m_LastClickedID: 9798
     m_ExpandedIDs: 000000003a260000922600002a2700002c27000000ca9a3bffffff7f
+>>>>>>> harley
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +423,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000a0280000ec2800006c2900006e290000
+=======
     m_ExpandedIDs: 000000003a260000922600002a2700002c270000
+>>>>>>> harley
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +454,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -436,16 +498,23 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: -498
+    y: 91
+    width: 498
+    height: 967
+=======
     x: 1424
     y: 91
     width: 496
     height: 927
+>>>>>>> harley
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
@@ -469,21 +538,27 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -1920
     y: 91
     width: 359
-    height: 553
+    height: 576
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 60ecffff00000000
+=======
     m_SelectedIDs: 0e2d0000
     m_LastClickedID: 11534
     m_ExpandedIDs: 16ecffff98faffff00000000b42b0000382c00000e2d0000722d0000ac2d0000e62d00001c2e0000
+>>>>>>> harley
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,25 +597,36 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 363
+    x: -1557
     y: 91
+<<<<<<< HEAD
+    width: 1055
+    height: 576
+=======
     width: 1057
     height: 553
+>>>>>>> harley
   m_SceneLighting: 1
   lastFramingTime: 1723.7593259465882
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+    m_Target: {x: -308.29175, y: 41.40716, z: -83.846245}
+    speed: 2
+    m_Value: {x: -308.29175, y: 41.40716, z: -83.846245}
+=======
     m_Target: {x: -154.51617, y: 10.233978, z: 114.79234}
     speed: 2
     m_Value: {x: -154.51617, y: 10.233978, z: 114.79234}
+>>>>>>> harley
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -563,9 +649,15 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
+    m_Target: {x: 0.07442369, y: 0.4662292, z: -0.039401084, w: 0.88064694}
+    speed: 2
+    m_Value: {x: 0.07442369, y: 0.4662292, z: -0.039401084, w: 0.88064694}
+=======
     m_Target: {x: 0.13953449, y: 0.55603576, z: -0.095338516, w: 0.81379664}
     speed: 2
     m_Value: {x: 0.13953449, y: 0.55603576, z: -0.095338516, w: 0.81379664}
+>>>>>>> harley
   m_Size:
     m_Target: 196.39397
     speed: 2
@@ -596,7 +688,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 32
@@ -672,7 +764,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
