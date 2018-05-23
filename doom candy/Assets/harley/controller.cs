@@ -22,8 +22,8 @@ public class controller : MonoBehaviour {
     public bool reloadgun;
     IEnumerator startviprat()
     {
-        GamePad.SetVibration(playerIndex, state.Triggers.Right, state.Triggers.Right);
-        yield return new WaitForSeconds(.2f);
+        GamePad.SetVibration(playerIndex, leftrun, rightrun);
+        yield return new WaitForSeconds(.4f);
         GamePad.SetVibration(playerIndex, 0, 0);
     }
     // Use this for initialization
@@ -119,6 +119,14 @@ public class controller : MonoBehaviour {
             else
             {
                 firegun = false;
+            }
+            if (prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed)
+            {
+                reloadgun = true;
+            }
+            else
+            {
+                reloadgun = false;
             }
             horizontalcamra = state.ThumbSticks.Right.X;
             verticalcamra = state.ThumbSticks.Right.Y;

@@ -12,7 +12,7 @@ public class MenuScript : MonoBehaviour {
         while (t < 1)
         {
             t += Time.deltaTime / Delay;
-            SceneManager.LoadScene("GameMode");
+            SceneManager.LoadScene("main game");
         }
     }
 

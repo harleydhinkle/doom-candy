@@ -10,6 +10,7 @@ public class spawnroom : MonoBehaviour {
     private float timer;
     public int max;
     public int currentpickups;
+    public GunUI play;
     // Use this for initialization
     public void spawn()
     {
@@ -18,7 +19,7 @@ public class spawnroom : MonoBehaviour {
         //float x = Random.Range(-range, range);
         //float z = Random.Range(-range, range);
         GameObject spawnroom = rooms[Random.Range(0, rooms.Length)];
-     
+        spawnpickup.GetComponent<pickup>().play = play;
         spawnpickup.transform.position = spawnroom.transform.position;
         spawnpickup.GetComponent<pickup>().sp = this;
 
