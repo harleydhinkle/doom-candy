@@ -1411,8 +1411,8 @@ MonoBehaviour:
   playerIndex: 0
   contrler1: 1
   contrler2: 0
-  leftrun: 10
-  rightrun: 10
+  leftrun: 60000
+  rightrun: 60000
   reload: 0
   reloadgun: 0
 --- !u!120 &408797321
@@ -3842,7 +3842,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -729001208
+  randomSeed: -827540555
   InitialModule:
     serializedVersion: 3
     enabled: 1
