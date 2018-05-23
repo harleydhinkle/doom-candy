@@ -22,6 +22,7 @@ public class player_movment : MonoBehaviour,IDamageable {
     public float normaltime = 3;
     public int maxclip = 10;
     public int currentclip;
+    public GunUI play;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
@@ -31,6 +32,10 @@ public class player_movment : MonoBehaviour,IDamageable {
         rm = GetComponent<Rigidbody>();
         currenthealth = narmolhealth;
         owngun.owner = this;
+        play.health2();
+        play.ammo2();
+        play.score2();
+        owngun.play = play;
     }
 	
 	// Update is called once per frame
@@ -43,6 +48,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         myup.y = 0;
         desierv = (myup + myright).normalized * speed * Time.deltaTime;
         rm.velocity = desierv;
+     
         //if (controller.hit == true)
         //{
         //    GameObject melee2 = Instantiate(melee)as GameObject;
@@ -74,6 +80,7 @@ public class player_movment : MonoBehaviour,IDamageable {
     public void takeDamage(int damageTaken, int pointgain, player_movment player)
     {
         currenthealth -= damageTaken;
+        play.health2();
         if (currenthealth <= 0)
         {
             respawn();

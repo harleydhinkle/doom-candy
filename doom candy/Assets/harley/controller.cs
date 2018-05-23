@@ -120,6 +120,14 @@ public class controller : MonoBehaviour {
             {
                 firegun = false;
             }
+            if (prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed)
+            {
+                reloadgun = true;
+            }
+            else
+            {
+                reloadgun = false;
+            }
             horizontalcamra = state.ThumbSticks.Right.X;
             verticalcamra = state.ThumbSticks.Right.Y;
         }
