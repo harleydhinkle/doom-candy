@@ -12,6 +12,7 @@ public class gun : MonoBehaviour {
     private float timer;
     public float normaltime = 3;
     public player_movment owner;
+    public GunUI play;
     // Update is called once per frame
     void Update()
     {
@@ -62,5 +63,6 @@ public class gun : MonoBehaviour {
         int ammoiget = Mathf.Clamp(ammoiwant, 0, owner.currentaimo);
         owner.currentaimo -= ammoiget;
         owner.currentclip += ammoiget;
+        play.ammo2();
     }
 }

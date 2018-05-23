@@ -1411,8 +1411,8 @@ MonoBehaviour:
   playerIndex: 0
   contrler1: 1
   contrler2: 0
-  leftrun: 10
-  rightrun: 10
+  leftrun: 60000
+  rightrun: 60000
   reload: 0
   reloadgun: 0
 --- !u!120 &408797321
@@ -1527,6 +1527,7 @@ MonoBehaviour:
   normaltime: 3
   maxclip: 10
   currentclip: 0
+  play: {fileID: 1301749103}
 --- !u!1 &409384849
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3039,7 @@ MonoBehaviour:
   gunflash: {fileID: 1085342220}
   normaltime: 0
   owner: {fileID: 0}
+  play: {fileID: 0}
 --- !u!1 &903342117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3840,7 +3842,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -729001208
+  randomSeed: -827540555
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7512,6 +7514,7 @@ MonoBehaviour:
   time: 4
   max: 2
   currentpickups: 0
+  play: {fileID: 1301749103}
 --- !u!1 &1297083524
 GameObject:
   m_ObjectHideFlags: 0
@@ -7752,14 +7755,44 @@ Prefab:
       propertyPath: m_FontData.m_BestFit
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114071101999096150, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: move
+      value: 
+      objectReference: {fileID: 408797322}
+    - target: {fileID: 224263403242322738, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -47.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224808561343611884, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -117.099976
+      objectReference: {fileID: 0}
+    - target: {fileID: 224517971611465016, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -70.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224109862132713958, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -116.599976
+      objectReference: {fileID: 0}
+    - target: {fileID: 224593085434956988, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -119.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224145698443672444, guid: d0a823489742db046acd97a73c8c14fe,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -118.099976
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0a823489742db046acd97a73c8c14fe, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1301749099 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1021116396224940, guid: d0a823489742db046acd97a73c8c14fe,
-    type: 2}
-  m_PrefabInternal: {fileID: 1301749098}
 --- !u!114 &1301749100 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114333031690250616, guid: d0a823489742db046acd97a73c8c14fe,
@@ -7778,24 +7811,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1301749098}
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
---- !u!114 &1301749103
+--- !u!114 &1301749103 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1301749099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+  m_PrefabParentObject: {fileID: 114071101999096150, guid: d0a823489742db046acd97a73c8c14fe,
+    type: 2}
+  m_PrefabInternal: {fileID: 1301749098}
   m_Script: {fileID: 11500000, guid: 6da9dcd94f76d6a4db6a9a6a6cff2a7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: {fileID: 0}
-  armor: {fileID: 0}
-  weapon: {fileID: 0}
-  ammo: {fileID: 0}
-  score: {fileID: 0}
-  time: {fileID: 0}
-  move: {fileID: 0}
 --- !u!1 &1303377684
 GameObject:
   m_ObjectHideFlags: 0
@@ -8246,6 +8267,7 @@ MonoBehaviour:
   currentanmontofenemys: 0
   max: 5
   player1: {fileID: 408797322}
+  play: {fileID: 1301749103}
 --- !u!4 &1356706369
 Transform:
   m_ObjectHideFlags: 0
