@@ -7,6 +7,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     public float timer = 5;
     public enemyspawnroom enemy3;
     public player_movment player1;
+    public GunUI play;
     // Use this for initialization
     void Start () {
 		
@@ -30,6 +31,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
         {
             die();
             player.points += pointgain;
+            play.score2();
         }
     }
     void die()

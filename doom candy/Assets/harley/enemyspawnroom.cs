@@ -11,7 +11,7 @@ public class enemyspawnroom : MonoBehaviour {
     public int currentanmontofenemys;
     public int max;
     public player_movment player1;
-
+    public GunUI play;
     // Use this for initialization
     void Start () {
 		
@@ -36,6 +36,7 @@ public class enemyspawnroom : MonoBehaviour {
         spawnenemys.GetComponent<NewBehaviourScript>().player1 = player1;
         spawnenemys.transform.position = spawnroom.transform.position;
         spawnenemys.GetComponent<NewBehaviourScript>().enemy3 = this;
+        spawnenemys.GetComponent<NewBehaviourScript>().play = play;
         timer = time;
     }
 }

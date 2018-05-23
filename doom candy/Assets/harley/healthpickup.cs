@@ -18,6 +18,7 @@ public class healthpickup : pickup{
         {
             player.currenthealth += healthpickups;
             player.currenthealth = Mathf.Clamp(player.currenthealth, 0, player.maxhealth);
+            play.health2();
             sp.currentpickups -= 1;
             Destroy(gameObject);
         }
