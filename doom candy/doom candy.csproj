@@ -95,16 +95,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="doom candy.Plugins.csproj">
       <Project>{8D0069C1-F0E5-51C2-B288-4613AB0C073C}</Project>
       <Name>doom candy.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+=======
+    <Compile Include="Assets\Caleb\DoorUI.cs" />
+>>>>>>> calub
     <Compile Include="Assets\Caleb\enemy.cs" />
     <Compile Include="Assets\Caleb\EnemySpawner.cs" />
     <Compile Include="Assets\Caleb\GunUI.cs" />
     <Compile Include="Assets\Caleb\MenuScript.cs" />
+    <Compile Include="Assets\Caleb\PurchaseScript.cs" />
     <Compile Include="Assets\harley\ammopickup.cs" />
     <Compile Include="Assets\harley\camracontrol.cs" />
     <Compile Include="Assets\harley\controller.cs" />
