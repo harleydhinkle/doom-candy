@@ -27,6 +27,7 @@ public class controller : MonoBehaviour {
     public bool gunoff;
     public bool firebash;
     public GameObject damige;
+    public bool door;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -144,7 +145,15 @@ public class controller : MonoBehaviour {
                     gun3.SetActive(true);
                 }
             }
-           }
+            if(prevState.Buttons.A == ButtonState.Released&&state.Buttons.A == ButtonState.Pressed)
+            {
+                door = true;
+            }
+            else
+            {
+                door = false;
+            }
+        }
         if(contrler2 == true)
         {
             horizontal = state.ThumbSticks.Left.X;
