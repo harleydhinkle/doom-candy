@@ -2667,7 +2667,7 @@ ParticleSystem:
   playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
+  useRigidbodyForVelocity: 0
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -2712,7 +2712,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -351089128
+  randomSeed: 2040683980
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3446,7 +3446,7 @@ ParticleSystem:
     enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -3487,7 +3487,7 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -6334,7 +6334,7 @@ MonoBehaviour:
   controller: {fileID: 408797320}
   range: 100
   line: {fileID: 408797321}
-  gunflash: {fileID: 0}
+  gunflash: {fileID: 696211258}
   normaltime: 0
   owner: {fileID: 0}
   play: {fileID: 0}
