@@ -20,6 +20,13 @@ public class controller : MonoBehaviour {
     public float rightrun;
     public bool reload;
     public bool reloadgun;
+    public int swich;
+    public int gun = 1;
+    public int bash = 0;
+    public GameObject gun3;
+    public bool gunoff;
+    public bool firebash;
+    public GameObject damige;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -83,16 +90,33 @@ public class controller : MonoBehaviour {
             {
                 horizontal = state.ThumbSticks.Left.X;
                 vertical = state.ThumbSticks.Left.Y;
-            if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f&&reload == false)
+            if (gunoff == false)
             {
-                StartCoroutine(startviprat());
-                firegun = true;
+                if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f && reload == false)
+                {
+                    StartCoroutine(startviprat());
+                    firegun = true;
+                   
 
-
+                }
+                else
+                {
+                    firegun = false;
+                }
             }
-            else
+            if(gunoff == true)
             {
-                firegun = false;
+                if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f)
+                {
+                    firebash = true;
+                    damige.SetActive(true);
+
+                }
+                else
+                {
+                    firebash = false;
+                    damige.SetActive(false);
+                }
             }
             if(prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed)
             {
@@ -104,7 +128,23 @@ public class controller : MonoBehaviour {
             }
             horizontalcamra = state.ThumbSticks.Right.X;
             verticalcamra = state.ThumbSticks.Right.Y;
-             }
+            if (prevState.Buttons.Y == ButtonState.Released && state.Buttons.Y == ButtonState.Pressed)
+            {
+                if(swich == 0)
+                {
+                    swich = 1;
+                    gunoff = true;
+                    gun3.SetActive(false);
+                    
+                }
+               else if(swich == 1)
+                {
+                    swich = 0;
+                    gunoff = false;
+                    gun3.SetActive(true);
+                }
+            }
+           }
         if(contrler2 == true)
         {
             horizontal = state.ThumbSticks.Left.X;
