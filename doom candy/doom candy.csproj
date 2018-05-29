@@ -87,10 +87,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Caleb\DoorUI.cs" />
     <Compile Include="Assets\Caleb\enemy.cs" />
     <Compile Include="Assets\Caleb\EnemySpawner.cs" />
     <Compile Include="Assets\Caleb\GunUI.cs" />
     <Compile Include="Assets\Caleb\MenuScript.cs" />
+    <Compile Include="Assets\Caleb\PurchaseScript.cs" />
     <Compile Include="Assets\harley\ammopickup.cs" />
     <Compile Include="Assets\harley\camracontrol.cs" />
     <Compile Include="Assets\harley\controller.cs" />
