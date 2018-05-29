@@ -33,6 +33,7 @@ public class gun : MonoBehaviour {
         if (owner.currentclip >= 0&& controller.reload == false && controller.firegun == true)
         {
             owner.currentclip -= 1;
+            owner.play.ammo2();
             ray();
         }
         if(controller.reloadgun == true)
