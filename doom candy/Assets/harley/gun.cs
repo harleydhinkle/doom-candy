@@ -13,6 +13,7 @@ public class gun : MonoBehaviour {
     public float normaltime = 3;
     public player_movment owner;
     public GunUI play;
+    public int points;
     // Update is called once per frame
     void Update()
     {
@@ -53,7 +54,7 @@ public class gun : MonoBehaviour {
             NewBehaviourScript target = hit.transform.GetComponent<NewBehaviourScript>();
             if(target != null)
             {
-                target.takeDamage(damige,1,owner.GetComponent<player_movment>());
+                target.takeDamage(damige,points,owner.GetComponent<player_movment>());
             }
             
         }
