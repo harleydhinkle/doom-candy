@@ -9,11 +9,33 @@ public class PurchaseScript : MonoBehaviour
     //this will be what it ends up as when the player buys a door
     public int change;
 
-    player_movment buy;
-
+    public player_movment buy;
+    public bool canbuy;
+    public GameObject door2;
+    void Update()
+    {
+        if (price <= buy.points)
+        {
+            canbuy = true;
+        }
+        else
+        {
+            canbuy = false;
+        }
+        if(canbuy == true)
+        {
+            purchase();
+        }
+    }
     public void purchase()
     {
-        change = buy.points - price;
-        buy.points = change;
+       
+        if (buy.controller.door == true)
+        {
+            change = buy.points -= price;
+            buy.points = change;
+            buy.play.score2();
+            door2.SetActive(false);
+        }
     }
 }
