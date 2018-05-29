@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class player_movment : MonoBehaviour,IDamageable {
+public class player_movment : MonoBehaviour,IDamageable { 
     public float speed;
     public controller controller;
     Vector3 desierv;
@@ -16,13 +15,15 @@ public class player_movment : MonoBehaviour,IDamageable {
     public float maxhealth;
     public gun owngun;
     public int points;
+    public int lives = 3;
     public int currentaimo;
     public int maxaimo = 999;
-    private float timer;
+    //private float timer;
     public float normaltime = 3;
     public int maxclip = 10;
     public int currentclip;
     public GunUI play;
+    public int money;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
@@ -35,6 +36,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         play.health2();
         play.ammo2();
         play.score2();
+        lives = 3;
         owngun.play = play;
     }
 	
@@ -48,7 +50,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         myup.y = 0;
         desierv = (myup + myright).normalized * speed * Time.deltaTime;
         rm.velocity = desierv;
-     
+       
         //if (controller.hit == true)
         //{
         //    GameObject melee2 = Instantiate(melee)as GameObject;
@@ -84,6 +86,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         if (currenthealth <= 0)
         {
             respawn();
+            lives -= 1;
             player.points += pointgain;
         }
     }

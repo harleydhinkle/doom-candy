@@ -13,7 +13,7 @@ public class bashballbat : MonoBehaviour {
         {
             if (think != null && other.tag == "enemy")
             {
-                think.takeDamage(damige, 1, owner.GetComponent<player_movment>());
+                think.takeDamage(damige, 1, player);
             }
         }
     }
