@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Player1
   - enemy
+  - Fire
+  - shop
+  - exit
   layers:
   - Default
   - TransparentFX
