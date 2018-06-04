@@ -13,6 +13,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+    y: 42
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
     x: 0
     y: 42
     width: 1920
@@ -20,7 +34,58 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 542}
+=======
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> dav
+=======
+=======
+  m_MinSize: {x: 950, y: 542}
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    x: -915
+    y: 387
+    width: 1903
+    height: 958
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 521}
+=======
+    x: 1920
+    y: 42
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+    width: 1920
+    height: 1038
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 6}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_MinSize: {x: 950, y: 300}
+=======
+  m_MinSize: {x: 950, y: 542}
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+  m_MinSize: {x: 950, y: 542}
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+  m_MinSize: {x: 950, y: 542}
+>>>>>>> dav
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -39,13 +104,73 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
     y: 30
     width: 1920
     height: 948
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 9
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    y: 30
+    width: 1920
+    height: 948
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 72
+=======
+<<<<<<< HEAD
+  controlID: 83
+=======
+  controlID: 9
+>>>>>>> harley
+>>>>>>> dav
+=======
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    y: 0
+    width: 1903
+    height: 958
+  m_MinSize: {x: 950, y: 521}
+  m_MaxSize: {x: 10000, y: 10000}
+=======
+    y: 30
+    width: 1920
+    height: 988
+=======
+    y: 30
+    width: 1920
+    height: 948
+>>>>>>> dav
   m_MinSize: {x: 681, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 9
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -60,18 +185,96 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 1531
+    y: 0
+    width: 389
+    height: 948
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 1531
+=======
     x: 1360
+>>>>>>> dav
     y: 0
     width: 560
     height: 948
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
+<<<<<<< HEAD
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+=======
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    x: 0
+    y: 0
+    width: 1903
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+=======
+    x: 1531
+    y: 0
+    width: 389
+    height: 988
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> calub
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> calub
+=======
+=======
+>>>>>>> dav
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+<<<<<<< HEAD
+>>>>>>> harley
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -87,16 +290,105 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 0
+    width: 379
+    height: 573
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    y: 0
+    width: 379
+=======
+    y: 0
+    width: 379
+    height: 573
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+=======
+<<<<<<< Updated upstream
+    y: 938
+    width: 1903
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+=======
+=======
+>>>>>>> dav
     y: 0
     width: 408
     height: 579
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
+>>>>>>> calub
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+>>>>>>> dav
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    height: 575
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+>>>>>>> harley
+  m_Selected: 0
+  m_LastSelected: 0
+=======
+<<<<<<< Updated upstream
+    y: 938
+    width: 1903
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+=======
+    y: 0
+    width: 379
+    height: 597
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> calub
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
+>>>>>>> dav
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -112,9 +404,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 579
-    width: 1360
-    height: 369
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 573
+    width: 1531
+    height: 375
+=======
+<<<<<<< HEAD
+    y: 575
+    width: 1531
+    height: 373
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 14}
@@ -123,6 +424,80 @@ MonoBehaviour:
   - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
+=======
+<<<<<<< HEAD
+    y: 573
+    width: 1531
+    height: 375
+>>>>>>> dav
+=======
+    y: 573
+    width: 1531
+    height: 375
+>>>>>>> dav
+=======
+<<<<<<< Updated upstream
+    y: 30
+    width: 1903
+    height: 908
+  m_MinSize: {x: 683, y: 471}
+  m_MaxSize: {x: 14002, y: 14021}
+  vertical: 0
+  controlID: 9830
+=======
+    y: 597
+    width: 1531
+    height: 391
+>>>>>>> calub
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LastSelected: 0
+=======
+<<<<<<< HEAD
+  m_LastSelected: 1
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> calub
+=======
+    y: 575
+    width: 1531
+    height: 373
+=======
+    y: 579
+    width: 1360
+    height: 369
+>>>>>>> dav
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+<<<<<<< HEAD
+>>>>>>> harley
+=======
+  m_LastSelected: 1
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+  m_LastSelected: 1
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,10 +517,55 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1920
+    height: 998
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    width: 1920
+    height: 998
+  m_MinSize: {x: 950, y: 300}
+=======
+    width: 1920
+    height: 998
+  m_MinSize: {x: 950, y: 542}
+>>>>>>> dav
+  m_MaxSize: {x: 10000, y: 10000}
+=======
+<<<<<<< Updated upstream
+    width: 1604
+    height: 908
+  m_MinSize: {x: 406, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
+  vertical: 1
+  controlID: 9831
+=======
+    width: 1920
+    height: 1038
+  m_MinSize: {x: 950, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
     width: 1920
     height: 998
   m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> dav
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,11 +582,60 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    width: 1604
+    height: 635
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+  vertical: 0
+  controlID: 9832
+=======
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
     width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> calub
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,11 +651,67 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     y: 978
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+    y: 978
+=======
+<<<<<<< Updated upstream
+    y: 0
+    width: 286
+    height: 635
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+=======
+    y: 1018
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+    y: 978
+>>>>>>> dav
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> calub
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,12 +730,72 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+    width: 1531
+    height: 948
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  controlID: 10
+=======
+  controlID: 73
+=======
+=======
+  controlID: 10
+=======
+>>>>>>> dav
+=======
+  controlID: 10
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    width: 1318
+    height: 635
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 2
+=======
+    width: 1531
+    height: 988
+=======
     width: 1360
     height: 948
+>>>>>>> dav
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 10
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,6 +813,61 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    y: 0
+    width: 1531
+    height: 573
+=======
+<<<<<<< HEAD
+    y: 0
+    width: 1531
+    height: 575
+>>>>>>> calub
+=======
+    y: 0
+    width: 1531
+<<<<<<< HEAD
+    height: 573
+=======
+    height: 575
+>>>>>>> harley
+>>>>>>> dav
+=======
+    y: 0
+    width: 1531
+    height: 573
+>>>>>>> dav
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+  vertical: 0
+  controlID: 11
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+<<<<<<< Updated upstream
+    y: 635
+    width: 1604
+    height: 273
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  m_Selected: 1
+  m_LastSelected: 0
+=======
+=======
+>>>>>>> dav
     y: 0
     width: 1360
     height: 579
@@ -235,6 +875,18 @@ MonoBehaviour:
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
   controlID: 11
+<<<<<<< HEAD
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,17 +901,101 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 379
+    y: 0
+    width: 1152
+    height: 573
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 12}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+    x: 379
+=======
+<<<<<<< Updated upstream
+    x: 1604
+>>>>>>> calub
+    y: 0
+    width: 1152
+    height: 573
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+<<<<<<< HEAD
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 12}
+=======
+<<<<<<< HEAD
+    height: 575
+=======
     x: 408
     y: 0
     width: 952
     height: 579
+>>>>>>> dav
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
+<<<<<<< HEAD
+  - {fileID: 18}
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - {fileID: 13}
+=======
+=======
+  - {fileID: 13}
+>>>>>>> harley
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+=======
+=======
+>>>>>>> dav
+  - {fileID: 18}
+>>>>>>> dav
+  - {fileID: 19}
+=======
+    x: 379
+    y: 0
+    width: 1152
+    height: 597
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 12}
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> calub
+>>>>>>> dav
+=======
   - {fileID: 13}
   - {fileID: 18}
+>>>>>>> dav
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &12
@@ -270,6 +1006,104 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: 290
+    y: 19
+    width: 1326
+    height: 642
+  m_MaximizeOnPlay: 1
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_TargetDisplay: 0
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -455
+    m_VBaseRangeMax: 455
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoom: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 17
+      width: 1920
+      height: 910
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 960, y: 455}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -960
+      y: -455
+      width: 1920
+      height: 910
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1920, y: 927}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> dav
+=======
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> dav
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+=======
   m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -279,16 +1113,67 @@ MonoBehaviour:
   m_TitleContent:
     m_Text: Navigation
     m_Image: {fileID: 7874161543223113035, guid: 0000000000000000d000000000000000,
+>>>>>>> calub
+=======
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+>>>>>>> dav
+=======
+    m_Text: Navigation
+    m_Image: {fileID: 7874161543223113035, guid: 0000000000000000d000000000000000,
+>>>>>>> dav
       type: 0}
     m_Tooltip: 
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1359
-    y: 126
-    width: 553
-    height: 884
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+=======
+    x: 1533
+    y: 91
+    width: 387
+    height: 927
+>>>>>>> calub
 --- !u!114 &13
+=======
+    x: -915
+    y: 436
+    width: 284
+    height: 614
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 1663}
+    m_SelectedIDs: b208f9ffd401f9ff8af9f8ff7eedf8ffd0e4f8ff8edbf8fff2cef8ff20caf8ff7cc4f8ffe0bdf8ff0295f8ff6a8cf8ff4278f8ffd672f8ff6e66f8ff6c60f8ff1031f8ff361df8ffb213f8ffea08f8ffea00f8ff78edf7ff30e7f7ffb2e1f7ff08d3f7ff06d3f7ff04d3f7ff
+    m_LastClickedID: -535804
+    m_ExpandedIDs: 3ee0fdff4ae0fdff4ee0fdff52e0fdff56e0fdff5ae0fdff62e0fdff66e0fdff6ae0fdff6ee0fdff72e0fdff76e0fdff7ae0fdff7ee0fdff82e0fdff88e0fdff8ce0fdff90e0fdff96e0fdff9ce0fdffa2e0fdffaee0fdffc2e0fdffc6e0fdffd0e0fdffd4e0fdffdae0fdffdee0fdffe2e0fdffe6e0fdffece0fdfff2e0fdfff6e0fdfffae0fdff06e1fdff0ce1fdff12e1fdff7ee1fdff80e1fdff82e1fdff84e1fdff86e1fdff88e1fdff8ae1fdff8ce1fdff8ee1fdff90e1fdff92e1fdff94e1fdff96e1fdff98e1fdff9ae1fdff9ee1fdffe2e1fdff76fcfdff2e07feffd8fbffff1afcffff00000000fa290000722a0000362b0000602c0000125700008a570000f457000050580000d8580000185900004e59000084590000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 8}
+    m_SearchString: 
+  m_ExpandedScenes:
+  - main game
+  m_CurrenRootInstanceID: 0
+  m_Locked: 0
+  m_CurrentSortingName: TransformSorting
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -296,6 +1181,99 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 1
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 32
+  m_Pos:
+    serializedVersion: 2
+    x: -627
+    y: 436
+    width: 1314
+    height: 614
+  m_SceneLighting: 1
+  lastFramingTime: 3851.7344389662694
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -19.73015, y: 15.77449, z: 72.0347}
+    speed: 2
+    m_Value: {x: -19.73015, y: 15.77449, z: 72.0347}
+  m_RenderMode: 0
+  m_ValidateTrueMetals: 0
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+  grid:
+    xGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    yGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+    zGrid:
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+  m_Rotation:
+    m_Target: {x: 0.07758259, y: 0.19342804, z: 0.01534375, w: -0.9779218}
+    speed: 2
+    m_Value: {x: 0.07758259, y: 0.19342804, z: 0.015343751, w: -0.97792184}
+  m_Size:
+    m_Target: 19.161646
+    speed: 2
+    m_Value: 19.161646
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &15
+>>>>>>> calub
+>>>>>>> dav
+=======
+    x: 1359
+    y: 126
+    width: 553
+    height: 884
+--- !u!114 &13
+>>>>>>> dav
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -310,11 +1288,37 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
     x: 468
     y: 181
     width: 973
     height: 501
---- !u!114 &14
+=======
+    x: 1533
+    y: 91
+    width: 387
+    height: 927
+>>>>>>> harley
+--- !u!114 &13
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+<<<<<<< Updated upstream
+    x: 299
+    y: 123
+    width: 887
+    height: 614
+--- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -322,6 +1326,75 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+    y: 664
+    width: 1529
+    height: 354
+=======
+=======
+>>>>>>> dav
+    x: 8
+    y: 758
+    width: 1625
+    height: 252
+--- !u!114 &17
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+=======
+>>>>>>> calub
+>>>>>>> dav
+=======
+>>>>>>> dav
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &14
+=======
+=======
+>>>>>>> dav
+--- !u!114 &13
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> calub
+=======
+--- !u!114 &14
+>>>>>>> dav
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> calub
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -336,10 +1409,57 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 0
+    y: 664
+    width: 1529
+    height: 354
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 0
+    y: 666
+    width: 1529
+    height: 352
+<<<<<<< HEAD
+=======
+>>>>>>> harley
+>>>>>>> dav
+=======
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    x: -915
+    y: 1071
+    width: 1602
+    height: 252
+=======
+    x: 1920
+    y: 688
+    width: 1529
+    height: 370
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
     x: 0
     y: 670
     width: 1358
     height: 348
+>>>>>>> dav
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -352,15 +1472,114 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+    - Assets
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+>>>>>>> calub
+=======
+<<<<<<< Updated upstream
+>>>>>>> dav
+=======
+>>>>>>> dav
     - Assets/harley
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/harley
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> harley
+>>>>>>> dav
+=======
+>>>>>>> dav
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\s179057\Desktop\doom-candy\doom candy
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 26310000
+    m_LastClickedID: 12582
+    m_ExpandedIDs: 00000000263100003c310000aa320000ec32000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+=======
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 38310000
+    m_LastClickedID: 12600
+    m_ExpandedIDs: 00000000263100003c310000aa32000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: 94260000
+    m_LastClickedID: 9876
+    m_ExpandedIDs: 0000000094260000c626000050290000da29000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 682a0000
+    m_LastClickedID: 10856
+    m_ExpandedIDs: 000000003e2a00006c2a0000d62c000000ca9a3bffffff7f
+>>>>>>> harley
+>>>>>>> dav
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: be260000
+    m_LastClickedID: 9918
+    m_ExpandedIDs: 0000000090260000c22600005229000000ca9a3bffffff7f
+>>>>>>> dav
+=======
+    scrollPos: {x: 0, y: 77}
+    m_SelectedIDs: ba260000
+    m_LastClickedID: 9914
+    m_ExpandedIDs: 000000008c260000be260000dc2800005429000000ca9a3bffffff7f
+=======
+  - Assets/Caleb
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\s179067\Desktop\doom-candy\doom candy
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 48310000
+    m_LastClickedID: 12616
+    m_ExpandedIDs: 000000000030000016300000683000009e3000002c3100003431000036310000663100006e31000000ca9a3bffffff7f
+>>>>>>> Stashed changes
+>>>>>>> calub
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+      m_Name: Art
+      m_OriginalName: Art
+>>>>>>> calub
+=======
+=======
+>>>>>>> dav
+      m_Name: 
+      m_OriginalName: 
+>>>>>>> dav
+=======
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c2260000
     m_LastClickedID: 9922
@@ -369,18 +1588,47 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: Art
       m_OriginalName: Art
+>>>>>>> dav
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+      m_UserData: 0
+=======
       m_UserData: 10612
+>>>>>>> dav
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+<<<<<<< HEAD
+      m_ClientGUIView: {fileID: 0}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      m_UserData: 12970
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
+>>>>>>> calub
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> harley
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+      m_ClientGUIView: {fileID: 5}
+>>>>>>> dav
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -392,7 +1640,41 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000263100003c310000aa320000ec320000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000263100003c310000aa320000ec320000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000094260000c626000050290000da290000
+=======
+    m_ExpandedIDs: 000000003e2a00006c2a0000d62c0000
+>>>>>>> harley
+>>>>>>> dav
+=======
+    m_ExpandedIDs: 0000000090260000c226000052290000
+>>>>>>> dav
+=======
+<<<<<<< Updated upstream
+    m_ExpandedIDs: 000000008c260000be260000dc2800005429000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 000000000030000016300000683000009e3000003431000036310000663100006e310000
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
     m_ExpandedIDs: 0000000090260000c6260000822700005e29000074290000
+>>>>>>> dav
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -419,8 +1701,47 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_HadKeyboardFocusLastEvent: 0
+=======
+<<<<<<< HEAD
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000002310000ba300000
+=======
+=======
+>>>>>>> dav
+<<<<<<< Updated upstream
+    m_HadKeyboardFocusLastEvent: 0
+<<<<<<< HEAD
+    m_ExpandedInstanceIDs: c623000002310000ba300000
+=======
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> calub
+=======
+    m_HadKeyboardFocusLastEvent: 1
+=======
+<<<<<<< Updated upstream
+    m_HadKeyboardFocusLastEvent: 0
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> Stashed changes
+>>>>>>> calub
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> dav
+=======
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ba290000
+>>>>>>> dav
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -447,7 +1768,21 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
+<<<<<<< HEAD
+--- !u!114 &14
+<<<<<<< HEAD
+=======
 --- !u!114 &15
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> harley
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+--- !u!114 &15
+>>>>>>> dav
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -469,18 +1804,76 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+    x: 1533
+=======
     x: 1362
+>>>>>>> dav
     y: 91
     width: 558
     height: 927
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_ScrollPosition: {x: 0, y: 705.9551}
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+<<<<<<< Updated upstream
+    x: 691
+    y: 436
+    width: 297
+    height: 887
+=======
+    x: 3453
+    y: 91
+    width: 387
+    height: 967
+>>>>>>> Stashed changes
+>>>>>>> calub
+  m_ScrollPosition: {x: 0, y: 0}
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
   m_ScrollPosition: {x: 0, y: 780}
+>>>>>>> dav
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
+--- !u!114 &15
+<<<<<<< HEAD
+=======
 --- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> harley
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+--- !u!114 &16
+>>>>>>> dav
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -502,30 +1895,223 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 0
+=======
     x: 0
     y: 91
-    width: 406
-    height: 558
+    width: 377
+    height: 552
   m_TreeViewState:
-    scrollPos: {x: 0, y: 32}
-    m_SelectedIDs: ba93f7ff
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 6a35f5ff1434fbff7cfcfbff88fcfbff9efcfbffa0fcfbffa2fcfbffe2f9ffffe4f9ffffe6f9ffffe8f9ffffeaf9ffffecf9ffffeef9fffff4f9fffff6f9fffffaf9fffffcf9ffff02faffff04faffff06faffff08faffff0afaffff0efaffff10faffff12faffff14faffff16faffff1afaffff1cfaffff46fbffff48fbffff4afbffff4cfbffff52fbffff56fbffff58fbffff62fbffff64fbffff66fbffff6cfbffff72fbffff74fbffff76fbffff78fbffff7afbffff7efbffff88fbffff8afbffff90fbffff92fbffff98fbffff9cfbffff9efbffffa4fbffffacfbffffaefbffffb0fbffffb6fbffffb8fbffffbcfbffffbefbffffc4fbffffc6fbffffc8fbffffccfbffff1afcffff00000000002b0000382b0000ac2b0000c82c0000442d0000662d0000942d0000662e0000ac2e00006a2f00008c2f0000b62f0000d22f0000ae300000bc300000f4310000
+    m_ExpandedIDs: 18fcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
+=======
+<<<<<<< Updated upstream
+    x: 1620
+    y: 91
+    width: 300
+    height: 927
+=======
+    x: 1920
+>>>>>>> dav
+    y: 91
+    width: 377
+    height: 552
+  m_TreeViewState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 1024}
+    m_SelectedIDs: c0350000
+    m_LastClickedID: 13760
+    m_ExpandedIDs: 88d5ffff0000000000390000
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 0
+    y: 91
+    width: 377
+<<<<<<< HEAD
+    height: 552
+=======
+    height: 554
+>>>>>>> harley
+=======
+    x: 0
+    y: 91
+    width: 406
+    height: 558
+>>>>>>> dav
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 32}
+    m_SelectedIDs: ba93f7ff
+    m_LastClickedID: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 0c0cf8ff100cf8ffe658f8ff8660f9ff7070ffff90d3ffff8ad5ffff00000000543400001a370000383a0000
+>>>>>>> calub
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: a8ecffff18fcffff00000000
+=======
+    m_ExpandedIDs: 20f9ffff00000000
+>>>>>>> harley
+>>>>>>> dav
+=======
+    m_ExpandedIDs: 6a35f5ff1434fbff7cfcfbff88fcfbff9efcfbffa0fcfbffa2fcfbffe2f9ffffe4f9ffffe6f9ffffe8f9ffffeaf9ffffecf9ffffeef9fffff4f9fffff6f9fffffaf9fffffcf9ffff02faffff04faffff06faffff08faffff0afaffff0efaffff10faffff12faffff14faffff16faffff1afaffff1cfaffff46fbffff48fbffff4afbffff4cfbffff52fbffff56fbffff58fbffff62fbffff64fbffff66fbffff6cfbffff72fbffff74fbffff76fbffff78fbffff7afbffff7efbffff88fbffff8afbffff90fbffff92fbffff98fbffff9cfbffff9efbffffa4fbffffacfbffffaefbffffb0fbffffb6fbffffb8fbffffbcfbffffbefbffffc4fbffffc6fbffffc8fbffffccfbffff1afcffff00000000002b0000382b0000ac2b0000c82c0000442d0000662d0000942d0000662e0000ac2e00006a2f00008c2f0000b62f0000d22f0000ae300000bc300000f4310000
+>>>>>>> dav
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dav
+=======
+<<<<<<< Updated upstream
+    x: 1620
+    y: 91
+    width: 300
+    height: 927
+=======
+    x: 1920
+    y: 91
+    width: 377
+    height: 576
+  m_TreeViewState:
+=======
+>>>>>>> dav
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 04310000
+    m_LastClickedID: 0
+    m_ExpandedIDs: d887fbff3ac3fbff60d2fbffeed5fbff8aebfbff02f8fbff4ae4ffff8ee4ffff00000000f0aa0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Sphere 1(Clone)
+      m_OriginalName: Sphere 1(Clone)
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
       m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
+<<<<<<< HEAD
+<<<<<<< HEAD
       m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+  m_ExpandedScenes:
+=======
+=======
+      m_UserData: -174324
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+>>>>>>> calub
+=======
+=======
+>>>>>>> dav
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+>>>>>>> dav
+      m_IsRenamingFilename: 0
+<<<<<<< HEAD
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+  m_ExpandedScenes:
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+=======
+  - main game
+=======
+      m_UserData: -174324
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+>>>>>>> dav
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 4}
+    m_SearchString: 
+  m_ExpandedScenes:
+<<<<<<< HEAD
+>>>>>>> dav
+  - main game
+=======
+  - MainMenu
+>>>>>>> calub
+>>>>>>> dav
+  m_CurrenRootInstanceID: 0
+  m_Locked: 0
+  m_CurrentSortingName: TransformSorting
+--- !u!114 &16
+<<<<<<< HEAD
+=======
+--- !u!114 &17
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> harley
+=======
+      m_UserData: -174324
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 4}
+    m_SearchString: 
+  m_ExpandedScenes:
+>>>>>>> dav
+  - MainMenu
+  m_CurrenRootInstanceID: 0
+  m_Locked: 0
+  m_CurrentSortingName: TransformSorting
+--- !u!114 &16
+>>>>>>> calub
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
   m_ExpandedScenes:
@@ -534,6 +2120,7 @@ MonoBehaviour:
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
 --- !u!114 &17
+>>>>>>> dav
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -555,19 +2142,119 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+    x: 381
+    y: 91
+    width: 1148
+<<<<<<< HEAD
+<<<<<<< HEAD
+    height: 552
+  m_SceneLighting: 1
+  lastFramingTime: 0
+=======
+<<<<<<< HEAD
+    x: 381
+    y: 91
+    width: 1148
+    height: 554
+  m_SceneLighting: 1
+  lastFramingTime: 901.5553918998166
+>>>>>>> calub
+=======
+<<<<<<< HEAD
+    height: 552
+  m_SceneLighting: 1
+  lastFramingTime: 50.64198436806717
+=======
+    height: 554
+  m_SceneLighting: 1
+  lastFramingTime: 901.5553918998166
+>>>>>>> harley
+>>>>>>> dav
+=======
     x: 410
     y: 91
     width: 948
     height: 558
   m_SceneLighting: 1
   lastFramingTime: 7961.859800055229
+>>>>>>> dav
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: -6.2663565, y: 9.08908, z: 13.12084}
+    speed: 2
+    m_Value: {x: -6.2663565, y: 9.08908, z: 13.12084}
+=======
+    m_Target: {x: -36.744335, y: 4.5977488, z: 0.5871793}
+    speed: 2
+    m_Value: {x: -36.744335, y: 4.5977488, z: 0.5871793}
+=======
+    m_Target: {x: -15.583193, y: 9.8332615, z: 10.333889}
+    speed: 2
+    m_Value: {x: -15.583193, y: 9.8332615, z: 10.333889}
+=======
+    m_Target: {x: -21.85078, y: 7.441899, z: 9.371543}
+    speed: 2
+    m_Value: {x: -21.85078, y: 7.441899, z: 9.371543}
+>>>>>>> harley
+>>>>>>> dav
+=======
+    x: 2301
+    y: 91
+    width: 1148
+    height: 576
+  m_SceneLighting: 1
+  lastFramingTime: 19606.001000968077
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 574.3853, y: 275.04056, z: -5.75}
+    speed: 2
+    m_Value: {x: 574.3853, y: 275.04056, z: -5.75}
+>>>>>>> calub
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+    height: 552
+  m_SceneLighting: 1
+  lastFramingTime: 0
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 28.655369, y: 20.988443, z: 10.988042}
+    speed: 2
+    m_Value: {x: 28.655369, y: 20.988443, z: 10.988042}
+=======
+    x: 2301
+    y: 91
+    width: 1148
+    height: 576
+  m_SceneLighting: 1
+  lastFramingTime: 19606.001000968077
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 574.3853, y: 275.04056, z: -5.75}
+    speed: 2
+    m_Value: {x: 574.3853, y: 275.04056, z: -5.75}
+>>>>>>> calub
+>>>>>>> dav
+=======
     m_Target: {x: -253.36057, y: 3.188749, z: -6.8059206}
     speed: 2
     m_Value: {x: -253.36057, y: 3.188749, z: -6.8059206}
+>>>>>>> dav
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -582,6 +2269,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
       m_Target: 1
       speed: 2
       m_Value: 1
@@ -590,24 +2290,136 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 0.13402374, y: 0.27127483, z: -0.03817589, w: 0.9523604}
+=======
+    m_Target: {x: -0.20279329, y: 0.35341322, z: -0.07877408, w: -0.9098179}
+    speed: 2
+    m_Value: {x: -0.2027933, y: 0.35341325, z: -0.07877409, w: -0.90981793}
+  m_Size:
+    m_Target: 6.70592
+    speed: 2
+    m_Value: 6.70592
+=======
+    m_Target: {x: -0.059930038, y: 0.3785222, z: -0.024568226, w: -0.9233232}
+>>>>>>> dav
+    speed: 2
+    m_Value: {x: -0.059930038, y: 0.3785222, z: -0.024568226, w: -0.9233232}
+  m_Size:
+    m_Target: 5.5016623
+    speed: 2
+<<<<<<< HEAD
+    m_Value: 10
+=======
+    m_Target: {x: 0.072876684, y: -0.567798, z: 0.0505621, w: 0.8183752}
+    speed: 2
+    m_Value: {x: 0.072876684, y: -0.567798, z: 0.0505621, w: 0.8183752}
+  m_Size:
+    m_Target: 5.5016623
+    speed: 2
+    m_Value: 5.5016623
+>>>>>>> calub
+=======
+    m_Value: 5.5016623
+>>>>>>> harley
+>>>>>>> dav
+=======
+    m_Target: {x: -0.13305448, y: 0.58039486, z: -0.0968281, w: -0.79753536}
+=======
     m_Target: {x: 0.010392822, y: 0.14288993, z: -0.0015002451, w: 0.989683}
+>>>>>>> dav
     speed: 2
     m_Value: {x: 0.010392821, y: 0.14288992, z: -0.0015002448, w: 0.98968285}
   m_Size:
     m_Target: 6.3724318
     speed: 2
+<<<<<<< HEAD
+    m_Value: 10
+>>>>>>> dav
+=======
     m_Value: 6.3724318
+>>>>>>> dav
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+      m_Target: 0
+      speed: 2
+      m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 598.8381
+    speed: 2
+    m_Value: 598.8381
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_LastSceneViewRotation: {x: 0.058920313, y: 0.81818664, z: -0.085243024, w: 0.56553745}
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &17
+=======
+<<<<<<< HEAD
 --- !u!114 &18
+=======
+--- !u!114 &17
+>>>>>>> calub
+>>>>>>> calub
+=======
+<<<<<<< HEAD
+--- !u!114 &17
+=======
+--- !u!114 &18
+>>>>>>> harley
+=======
+--- !u!114 &17
+>>>>>>> calub
+>>>>>>> dav
+=======
+--- !u!114 &17
+>>>>>>> dav
+=======
+--- !u!114 &18
+>>>>>>> dav
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -629,10 +2441,53 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+    x: 507
+    y: 94
+    width: 1532
+    height: 790
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 381
+    y: 91
+    width: 1148
+    height: 554
+<<<<<<< HEAD
+=======
+>>>>>>> harley
+>>>>>>> dav
+=======
+    x: 2301
+    y: 91
+    width: 1148
+    height: 576
+>>>>>>> calub
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+    x: 2301
+    y: 91
+    width: 1148
+    height: 576
+>>>>>>> calub
+>>>>>>> dav
+=======
     x: 410
     y: 91
     width: 948
     height: 558
+>>>>>>> dav
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -641,10 +2496,51 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+    m_HBaseRangeMin: -766
+    m_HBaseRangeMax: 766
+    m_VBaseRangeMin: -386.5
+    m_VBaseRangeMax: 386.5
+=======
+    m_HBaseRangeMin: -574
+    m_HBaseRangeMax: 574
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_VBaseRangeMin: -268.5
+    m_VBaseRangeMax: 268.5
+=======
+    m_VBaseRangeMin: -279.5
+    m_VBaseRangeMax: 279.5
+>>>>>>> calub
+>>>>>>> calub
+=======
+    m_VBaseRangeMin: -268.5
+    m_VBaseRangeMax: 268.5
+>>>>>>> harley
+=======
+    m_HBaseRangeMin: -574
+    m_HBaseRangeMax: 574
+    m_VBaseRangeMin: -279.5
+    m_VBaseRangeMax: 279.5
+>>>>>>> calub
+>>>>>>> dav
+=======
+    m_VBaseRangeMin: -279.5
+    m_VBaseRangeMax: 279.5
+>>>>>>> calub
+>>>>>>> dav
+=======
     m_HBaseRangeMin: -474
     m_HBaseRangeMax: 474
     m_VBaseRangeMin: -270.5
     m_VBaseRangeMax: 270.5
+>>>>>>> dav
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -653,7 +2549,31 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_EnableMouseInput: 1
+=======
     m_EnableMouseInput: 0
+=======
+=======
+>>>>>>> dav
+<<<<<<< HEAD
+    m_EnableMouseInput: 1
+=======
+    m_EnableMouseInput: 0
+<<<<<<< HEAD
+>>>>>>> harley
+=======
+    m_EnableMouseInput: 0
+>>>>>>> dav
+=======
+>>>>>>> dav
+>>>>>>> calub
+=======
+    m_EnableMouseInput: 0
+>>>>>>> dav
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -661,29 +2581,157 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+      width: 1532
+      height: 773
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 766, y: 386.5}
+=======
+      width: 1148
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+      height: 537
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 574, y: 268.5}
+=======
+=======
+      height: 537
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 574, y: 268.5}
+>>>>>>> harley
+=======
+      width: 1148
+>>>>>>> dav
+      height: 559
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 574, y: 279.5}
+>>>>>>> calub
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+      height: 559
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 574, y: 279.5}
+>>>>>>> calub
+>>>>>>> dav
+=======
       width: 948
       height: 541
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 474, y: 270.5}
+>>>>>>> dav
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+      x: -766
+      y: -386.5
+      width: 1532
+      height: 773
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 1
+  m_LastWindowPixelSize: {x: 1532, y: 790}
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      x: -574
+<<<<<<< HEAD
+=======
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+--- !u!114 &18
+=======
+      x: -574
+>>>>>>> dav
+      y: -268.5
+      width: 1148
+      height: 537
+=======
+<<<<<<< HEAD
+=======
+      x: -574
+>>>>>>> dav
+      y: -279.5
+      width: 1148
+      height: 559
+>>>>>>> calub
+=======
+=======
+      x: -574
+      y: -279.5
+      width: 1148
+      height: 559
+>>>>>>> dav
+=======
       x: -474
       y: -270.5
       width: 948
       height: 541
+>>>>>>> dav
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LastWindowPixelSize: {x: 1148, y: 554}
+=======
   m_LastWindowPixelSize: {x: 948, y: 558}
+>>>>>>> dav
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
 --- !u!114 &19
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_LastWindowPixelSize: {x: 1148, y: 576}
+>>>>>>> calub
+=======
+>>>>>>> harley
+=======
+  m_LastWindowPixelSize: {x: 1148, y: 576}
+>>>>>>> dav
+=======
+  m_LastWindowPixelSize: {x: 1148, y: 576}
+>>>>>>> calub
+>>>>>>> dav
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000100000100
+--- !u!114 &18
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> calub
+=======
+>>>>>>> dav
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_PrefabParentObject: {fileID: 0}
@@ -705,7 +2753,53 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> dav
+    x: 8
+    y: 718
+    width: 1366
+    height: 308
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dav
+    x: 0
+    y: 666
+    width: 1529
+    height: 352
+<<<<<<< HEAD
+=======
+>>>>>>> harley
+>>>>>>> dav
+=======
+    x: 0
+    y: 664
+    width: 1529
+    height: 354
+>>>>>>> dav
+=======
+    x: 1920
+    y: 688
+    width: 1529
+    height: 370
+>>>>>>> Stashed changes
+>>>>>>> calub
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> calub
+=======
+>>>>>>> dav
+=======
+>>>>>>> dav
+=======
     x: 0
     y: 670
     width: 1358
     height: 348
+>>>>>>> dav
