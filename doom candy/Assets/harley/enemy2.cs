@@ -9,7 +9,7 @@ public enum States
 }
 public class enemy2 : MonoBehaviour
 {
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
     public States state;
     public float radius;
     enemywander wander;
@@ -20,15 +20,17 @@ public class enemy2 : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         seek = GetComponent<ememyseek>();
         wander = GetComponent<enemywander>();
+        agent.Warp(transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         switch (state)
         {
             case States.wandermap:
-                agent.destination = wander.wandercontol();
+                agent.destination = transform.position + wander.wandercontol();
                 break;
             case States.seek:
                 agent.destination = seek.returnttargetspos();

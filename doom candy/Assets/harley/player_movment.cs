@@ -50,7 +50,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         myup.y = 0;
         desierv = (myup + myright).normalized * speed * Time.deltaTime;
         rm.velocity = desierv;
-       
+      
         //if (controller.hit == true)
         //{
         //    GameObject melee2 = Instantiate(melee)as GameObject;
