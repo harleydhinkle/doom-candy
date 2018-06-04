@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33839430831366226}
   - component: {fileID: 65699281203079268}
   - component: {fileID: 23991899642779038}
-  - component: {fileID: 114133316675291190}
   - component: {fileID: 195475296604942756}
+  - component: {fileID: 114386442339758164}
   - component: {fileID: 114593751567312402}
   - component: {fileID: 114378108112271586}
   - component: {fileID: 114414294724702046}
@@ -98,23 +98,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114133316675291190
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1415289499017382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b56f700fd2651274aaa1cd200566bbbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 4
-  timer: 5
-  enemy3: {fileID: 0}
-  player1: {fileID: 0}
-  play: {fileID: 0}
-  pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!114 &114378108112271586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,6 +111,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   radius: 20
+--- !u!114 &114386442339758164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1415289499017382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56f700fd2651274aaa1cd200566bbbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  timer: 5
+  enemy3: {fileID: 0}
+  player1: {fileID: 0}
+  play: {fileID: 0}
+  pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!114 &114414294724702046
 MonoBehaviour:
   m_ObjectHideFlags: 1

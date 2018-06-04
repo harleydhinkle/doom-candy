@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 114200780650366434}
   - component: {fileID: 114358345559240390}
   - component: {fileID: 114116381173824968}
+  - component: {fileID: 114850929364408518}
   m_Layer: 0
   m_Name: cherry bomb rigged6
   m_TagString: enemy
@@ -800,6 +801,19 @@ MonoBehaviour:
   speed: 3
   jitter: 0
   target: {x: 0, y: 0, z: 0}
+--- !u!114 &114850929364408518
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1474352104885242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e41b95a41b1041a20ee6f9fba5f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  radius: 20
 --- !u!137 &137083127436108174
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
