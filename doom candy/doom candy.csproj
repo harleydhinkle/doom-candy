@@ -105,6 +105,7 @@
     <Compile Include="Assets\harley\bashballbat.cs" />
     <Compile Include="Assets\harley\booooooom.cs" />
     <Compile Include="Assets\harley\camracontrol.cs" />
+    <Compile Include="Assets\harley\chack_if_on_ground.cs" />
     <Compile Include="Assets\harley\controller.cs" />
     <Compile Include="Assets\harley\ememyseek.cs" />
     <Compile Include="Assets\harley\enemy2.cs" />
