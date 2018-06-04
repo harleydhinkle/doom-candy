@@ -23,7 +23,7 @@ public class player_movment : MonoBehaviour,IDamageable {
     public int maxclip = 10;
     public int currentclip;
     public GunUI play;
-    public int money;
+    //public int money;
     //public Vector3 curlook;
     //public Vector3 predlook;
     //public Vector3 dir;
