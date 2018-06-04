@@ -79,7 +79,7 @@ public class camracontrol : MonoBehaviour {
             targetRotCam.x = 270;
         }
 
-        print(mouseY);
+        //print(mouseY);
 
 
         transform.rotation = Quaternion.Euler(targetRotCam);
