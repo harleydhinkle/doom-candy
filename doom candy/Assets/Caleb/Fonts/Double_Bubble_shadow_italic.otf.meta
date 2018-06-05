@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 61c29f9288d1fc0409c623e8d56e074d
+timeCreated: 1527032685
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Double?Bubble Shadow
+  fontNames:
+  - Double?Bubble Shadow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e20dcd2e2092c03408020f6eee6b2ae3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
