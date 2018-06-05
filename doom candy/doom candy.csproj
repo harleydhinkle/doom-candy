@@ -93,14 +93,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Caleb\Bullet.cs" />
-    <Compile Include="Assets\Caleb\DoorUI.cs" />
-    <Compile Include="Assets\Caleb\enemy.cs" />
-    <Compile Include="Assets\Caleb\EnemyShoot.cs" />
-    <Compile Include="Assets\Caleb\EnemySpawner.cs" />
-    <Compile Include="Assets\Caleb\GunUI.cs" />
-    <Compile Include="Assets\Caleb\MenuScript.cs" />
-    <Compile Include="Assets\Caleb\PurchaseScript.cs" />
+    <Compile Include="Assets\Caleb\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Caleb\Scripts\DoorUI.cs" />
+    <Compile Include="Assets\Caleb\Scripts\enemy.cs" />
+    <Compile Include="Assets\Caleb\Scripts\EnemyShoot.cs" />
+    <Compile Include="Assets\Caleb\Scripts\EnemySpawner.cs" />
+    <Compile Include="Assets\Caleb\Scripts\GunUI.cs" />
+    <Compile Include="Assets\Caleb\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\Caleb\Scripts\PurchaseScript.cs" />
     <Compile Include="Assets\harley\ammopickup.cs" />
     <Compile Include="Assets\harley\bashballbat.cs" />
     <Compile Include="Assets\harley\booooooom.cs" />
