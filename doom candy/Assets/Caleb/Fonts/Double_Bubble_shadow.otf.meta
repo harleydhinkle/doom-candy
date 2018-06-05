@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e20dcd2e2092c03408020f6eee6b2ae3
+guid: e1634a2b0e7b04d4b83f759afb3241fd
 timeCreated: 1527032682
 licenseType: Free
 TrueTypeFontImporter:
@@ -12,7 +12,10 @@ TrueTypeFontImporter:
   fontName: Double?Bubble Shadow
   fontNames:
   - Double?Bubble Shadow
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 61c29f9288d1fc0409c623e8d56e074d, type: 3}
+  - {fileID: 12800000, guid: e20dcd2e2092c03408020f6eee6b2ae3, type: 3}
+  - {fileID: 12800000, guid: b048f7ef052483d498736be6e7593923, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

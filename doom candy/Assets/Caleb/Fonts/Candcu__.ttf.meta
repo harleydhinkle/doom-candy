@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5c043b1e76585b447940782028d947ca
+guid: 2030c630493e0ea49a6a816eec8aab9a
 timeCreated: 1527029607
 licenseType: Free
 TrueTypeFontImporter:
@@ -12,7 +12,8 @@ TrueTypeFontImporter:
   fontName: Candy Cane (Unregistered)
   fontNames:
   - Candy Cane (Unregistered)
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5c043b1e76585b447940782028d947ca, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
