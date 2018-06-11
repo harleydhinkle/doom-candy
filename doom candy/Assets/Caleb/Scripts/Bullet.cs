@@ -33,6 +33,10 @@ public class Bullet : MonoBehaviour {
             tamp.takeDamage(damage, 0, other.GetComponent<player_movment>());
             Destroy(gameObject);
         }
+        else if (other.tag == "walls")
+        {
+            Destroy(gameObject);
+        }
 
     }
 }
