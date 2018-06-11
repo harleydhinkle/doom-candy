@@ -33,6 +33,7 @@ public class shoot_swich : MonoBehaviour {
         {
             case States3.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
+                agent.isStopped = false;
                 break;
             case States3.shoot:
                 agent.destination = seek.returnttargetspos();
