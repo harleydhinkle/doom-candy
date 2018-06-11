@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Caleb/MainMenu.unity
+- path: Assets/Art/Map_1.unity
   isLoaded: 1
   isActive: 1

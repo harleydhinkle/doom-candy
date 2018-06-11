@@ -35,9 +35,10 @@ public class gun : MonoBehaviour {
         {
             owner.currentclip -= 1;
             owner.play.ammo2();
+            //controller.player3.SetBool("fire", true);
             ray();
         }
-        if(controller.reloadgun == true)
+            if (controller.reloadgun == true)
         {
             controller.reload = true;
             reload2();
@@ -49,7 +50,6 @@ public class gun : MonoBehaviour {
         RaycastHit hit;
         if (Physics.Raycast(camp.transform.position, camp.transform.forward, out hit, range))
         {
-            
             Debug.Log(hit.transform.name);
             NewBehaviourScript target = hit.transform.GetComponent<NewBehaviourScript>();
             if(target != null)
