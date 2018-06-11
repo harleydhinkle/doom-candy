@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Caleb/ControlsMenu.unity
     guid: 9f8ec45ed3d54d84da2b08ed9360e0b3
-  - enabled: 1
+  - enabled: 0
     path: Assets/harley/main game.unity
     guid: 5f78df9739cabfa49a689aabee090bdb
   - enabled: 0
     path: Assets/Caleb/GameMode.unity
     guid: c219dc4ed7e94414587501f6ec3d53f1
+  - enabled: 1
+    path: Assets/Art/Map_1.unity
+    guid: 691e9024b5b9bce498e527fdfefd6076
+  - enabled: 1
+    path: Assets/harley/lose.unity
+    guid: 46b3dadfddb5a2441b1cc07116b9a663
