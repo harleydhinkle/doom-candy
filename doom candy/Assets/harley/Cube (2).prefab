@@ -23,11 +23,11 @@ GameObject:
   - component: {fileID: 65073972404346492}
   - component: {fileID: 23304178287631482}
   - component: {fileID: 114203725847659300}
-  - component: {fileID: 114745653440504724}
   - component: {fileID: 114458081231574058}
   - component: {fileID: 114291392563818942}
   - component: {fileID: 195864073192346032}
   - component: {fileID: 114266167408358958}
+  - component: {fileID: 114253322440413618}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -116,6 +116,24 @@ MonoBehaviour:
   player1: {fileID: 0}
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
+--- !u!114 &114253322440413618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492083094882668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe940ae0d9e49a40b653a7c87377608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 54161133130876722, guid: deec2561f5332ae4ea5bc832716d7608, type: 2}
+  target: {fileID: 0}
+  speed: 1000
+  fireRate: 1
+  spawnRandomizer: 0
+  range: 10
+  targets: []
 --- !u!114 &114266167408358958
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -124,16 +142,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492083094882668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcd26afc5abf3a34c8ddeb3f975fad2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9399348d1415e3c40baf55251ff89135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1941786653803894, guid: deec2561f5332ae4ea5bc832716d7608, type: 2}
-  target: {fileID: 0}
-  speed: 100
-  fireRate: 1
-  spawnRandomizer: 0
-  range: 10
-  targets: []
+  agent: {fileID: 0}
+  state: 0
+  radius: 20
 --- !u!114 &114291392563818942
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -163,19 +177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   target: {fileID: 0}
---- !u!114 &114745653440504724
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1492083094882668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65e41b95a41b1041a20ee6f9fba5f94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: 0
-  radius: 0
 --- !u!195 &195864073192346032
 NavMeshAgent:
   m_ObjectHideFlags: 1

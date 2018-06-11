@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class player_movment : MonoBehaviour,IDamageable { 
     public float speed;
     public controller controller;
@@ -88,6 +89,10 @@ public class player_movment : MonoBehaviour,IDamageable {
             respawn();
             lives -= 1;
             player.points += pointgain;
+        }
+        if(lives <= 0)
+        {
+            SceneManager.LoadScene("lose");
         }
     }
     void respawn()

@@ -9,6 +9,7 @@ TagManager:
   - Fire
   - shop
   - exit
+  - door
   layers:
   - Default
   - TransparentFX
