@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 309506bb5c3463349aab5e1ccf0d58ab
+timeCreated: 1528735784
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: J_L_Arm_Sholder
+    100002: J_L_Elbow
+    100004: J_L_Fingers_1
+    100006: J_L_Fingers_2
+    100008: J_L_Fingers_3
+    100010: J_L_Fingers_End
+    100012: J_L_Palm
+    100014: J_L_Pointer_1
+    100016: J_L_Pointer_2
+    100018: J_L_Pointer_3
+    100020: J_L_Pointer_End
+    100022: J_L_Thumb_1
+    100024: J_L_Thumb_2
+    100026: J_L_Thumb_End
+    100028: J_L_Wrist
+    100030: J_R_Arm_Sholder
+    100032: J_R_Elbow
+    100034: J_R_Fingers_1
+    100036: J_R_Fingers_2
+    100038: J_R_Fingers_3
+    100040: J_R_Fingers_End
+    100042: J_R_Palm
+    100044: J_R_Pointer_1
+    100046: J_R_Pointer_2
+    100048: J_R_Pointer_3
+    100050: J_R_Pointer_End
+    100052: J_R_Thumb_1
+    100054: J_R_Thumb_2
+    100056: J_R_Thumb_End
+    100058: J_R_Wrist
+    100060: J_Root
+    100062: pCube1
+    100064: pCube11
+    100066: //RootNode
+    400000: J_L_Arm_Sholder
+    400002: J_L_Elbow
+    400004: J_L_Fingers_1
+    400006: J_L_Fingers_2
+    400008: J_L_Fingers_3
+    400010: J_L_Fingers_End
+    400012: J_L_Palm
+    400014: J_L_Pointer_1
+    400016: J_L_Pointer_2
+    400018: J_L_Pointer_3
+    400020: J_L_Pointer_End
+    400022: J_L_Thumb_1
+    400024: J_L_Thumb_2
+    400026: J_L_Thumb_End
+    400028: J_L_Wrist
+    400030: J_R_Arm_Sholder
+    400032: J_R_Elbow
+    400034: J_R_Fingers_1
+    400036: J_R_Fingers_2
+    400038: J_R_Fingers_3
+    400040: J_R_Fingers_End
+    400042: J_R_Palm
+    400044: J_R_Pointer_1
+    400046: J_R_Pointer_2
+    400048: J_R_Pointer_3
+    400050: J_R_Pointer_End
+    400052: J_R_Thumb_1
+    400054: J_R_Thumb_2
+    400056: J_R_Thumb_End
+    400058: J_R_Wrist
+    400060: J_Root
+    400062: pCube1
+    400064: pCube11
+    400066: //RootNode
+    2300000: pCube11
+    3300000: pCube11
+    4300000: pCube1
+    4300002: pCube11
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pCube1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

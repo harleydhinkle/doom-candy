@@ -124,6 +124,7 @@
     <Compile Include="Assets\harley\pickupscriped.cs" />
     <Compile Include="Assets\harley\player_movment.cs" />
     <Compile Include="Assets\harley\respawn.cs" />
+    <Compile Include="Assets\harley\ROTATE.cs" />
     <Compile Include="Assets\harley\shooting ai.cs" />
     <Compile Include="Assets\harley\shooting_ai.cs" />
     <Compile Include="Assets\harley\spawnroom.cs" />
