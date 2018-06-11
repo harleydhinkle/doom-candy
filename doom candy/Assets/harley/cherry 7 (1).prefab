@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114277148053500786}
   - component: {fileID: 114884108998887624}
   - component: {fileID: 114448296537304358}
+  - component: {fileID: 114394864039706800}
   m_Layer: 0
   m_Name: cherry 7 (1)
   m_TagString: Untagged
@@ -730,6 +731,22 @@ MonoBehaviour:
   player1: {fileID: 0}
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
+--- !u!114 &114394864039706800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1108240880888870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e361b093fa9a246a68c4d98cf01b3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dis: 4
+  radius: 2
+  speed: 3
+  jitter: 1
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &114448296537304358
 MonoBehaviour:
   m_ObjectHideFlags: 1

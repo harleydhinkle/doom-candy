@@ -1,60 +1,85 @@
 fileFormatVersion: 2
-guid: 7e349800059f4fb4883aef057102bd2d
-timeCreated: 1528735787
+guid: e6acb4a3f5e2f924a844ae1dbddf7066
+timeCreated: 1528739747
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
-    100000: Ankle_L
-    100002: Ankle_R
-    100004: Head
-    100006: Head_Root
-    100008: Hip_L
-    100010: Hip_R
-    100012: joint2
-    100014: joint3
-    100016: joint4
-    100018: joint5
-    100020: Knee_L
-    100022: Knee_R
-    100024: //RootNode
-    100026: pCylinder4
-    100028: Root_Joint
-    100030: stem1
-    100032: stem2
-    100034: stem3
-    100036: stem4
-    100038: stem5
-    100040: stem6
-    100042: stem7
-    100044: stem8
-    400000: Ankle_L
-    400002: Ankle_R
-    400004: Head
-    400006: Head_Root
-    400008: Hip_L
-    400010: Hip_R
-    400012: joint2
-    400014: joint3
-    400016: joint4
-    400018: joint5
-    400020: Knee_L
-    400022: Knee_R
-    400024: //RootNode
-    400026: pCylinder4
-    400028: Root_Joint
-    400030: stem1
-    400032: stem2
-    400034: stem3
-    400036: stem4
-    400038: stem5
-    400040: stem6
-    400042: stem7
-    400044: stem8
-    4300000: pCylinder4
+    100000: J_L_Arm_Sholder
+    100002: J_L_Elbow
+    100004: J_L_Fingers_1
+    100006: J_L_Fingers_2
+    100008: J_L_Fingers_3
+    100010: J_L_Fingers_End
+    100012: J_L_Palm
+    100014: J_L_Pointer_1
+    100016: J_L_Pointer_2
+    100018: J_L_Pointer_3
+    100020: J_L_Pointer_End
+    100022: J_L_Thumb_1
+    100024: J_L_Thumb_2
+    100026: J_L_Thumb_End
+    100028: J_L_Wrist
+    100030: J_R_Arm_Sholder
+    100032: J_R_Elbow
+    100034: J_R_Fingers_1
+    100036: J_R_Fingers_2
+    100038: J_R_Fingers_3
+    100040: J_R_Fingers_End
+    100042: J_R_Palm
+    100044: J_R_Pointer_1
+    100046: J_R_Pointer_2
+    100048: J_R_Pointer_3
+    100050: J_R_Pointer_End
+    100052: J_R_Thumb_1
+    100054: J_R_Thumb_2
+    100056: J_R_Thumb_End
+    100058: J_R_Wrist
+    100060: J_Root
+    100062: pCube1
+    100064: pCube11
+    100066: //RootNode
+    400000: J_L_Arm_Sholder
+    400002: J_L_Elbow
+    400004: J_L_Fingers_1
+    400006: J_L_Fingers_2
+    400008: J_L_Fingers_3
+    400010: J_L_Fingers_End
+    400012: J_L_Palm
+    400014: J_L_Pointer_1
+    400016: J_L_Pointer_2
+    400018: J_L_Pointer_3
+    400020: J_L_Pointer_End
+    400022: J_L_Thumb_1
+    400024: J_L_Thumb_2
+    400026: J_L_Thumb_End
+    400028: J_L_Wrist
+    400030: J_R_Arm_Sholder
+    400032: J_R_Elbow
+    400034: J_R_Fingers_1
+    400036: J_R_Fingers_2
+    400038: J_R_Fingers_3
+    400040: J_R_Fingers_End
+    400042: J_R_Palm
+    400044: J_R_Pointer_1
+    400046: J_R_Pointer_2
+    400048: J_R_Pointer_3
+    400050: J_R_Pointer_End
+    400052: J_R_Thumb_1
+    400054: J_R_Thumb_2
+    400056: J_R_Thumb_End
+    400058: J_R_Wrist
+    400060: J_Root
+    400062: pCube1
+    400064: pCube11
+    400066: //RootNode
+    2300000: pCube11
+    3300000: pCube11
+    4300000: pCube1
+    4300002: pCube11
     7400000: Take 001
     9500000: //RootNode
-    13700000: pCylinder4
+    13700000: pCube1
   materials:
     importMaterials: 1
     materialName: 0
@@ -78,39 +103,11 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 3
-      lastFrame: 27
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 2
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

@@ -124,16 +124,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492083094882668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcd26afc5abf3a34c8ddeb3f975fad2f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9399348d1415e3c40baf55251ff89135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 1941786653803894, guid: deec2561f5332ae4ea5bc832716d7608, type: 2}
-  target: {fileID: 0}
-  speed: 100
-  fireRate: 1
-  spawnRandomizer: 0
-  range: 10
-  targets: []
+  agent: {fileID: 0}
+  state: 0
+  radius: 20
 --- !u!114 &114291392563818942
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -174,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65e41b95a41b1041a20ee6f9fba5f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 0}
   state: 0
   radius: 0
 --- !u!195 &195864073192346032
