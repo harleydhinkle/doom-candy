@@ -29,6 +29,7 @@ public class controller : MonoBehaviour {
     public GameObject damige;
     public bool door;
     public Animator player3;
+    public bool shop;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -172,7 +173,7 @@ public class controller : MonoBehaviour {
             if(prevState.Buttons.A == ButtonState.Released&&state.Buttons.A == ButtonState.Pressed)
             {
                 door = true;
-
+                shop = true;
             }
             else
             {
