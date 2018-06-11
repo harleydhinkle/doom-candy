@@ -37,6 +37,7 @@ GameObject:
   - component: {fileID: 4644197505559242}
   - component: {fileID: 33525344761846896}
   - component: {fileID: 23706102876069366}
+  - component: {fileID: 65321314915214196}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -50,14 +51,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1506974616981838}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -72.7, y: 10.05, z: 0.6}
-  m_LocalScale: {x: 0.50108427, y: 0.50108427, z: 0.50108427}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -168.50003, y: 724.99225, z: 18.859097}
+  m_LocalScale: {x: 4.1941094, y: 3.119555, z: 2.8341858}
   m_Children:
   - {fileID: 4847413094169230}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!4 &4847413094169230
 Transform:
   m_ObjectHideFlags: 1
@@ -65,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1339094907601744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.21, y: 2.05, z: 0}
+  m_LocalPosition: {x: 0.21, y: 10.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4644197505559242}
@@ -110,6 +111,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1506974616981838}
   m_Mesh: {fileID: 4300000, guid: 92a1652c6f27eb84cba66c84be6bc86f, type: 3}
+--- !u!65 &65321314915214196
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1506974616981838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.89704, y: 26.037796, z: 13.944586}
+  m_Center: {x: -0.0000002384187, y: -0.00003194809, z: -0.000061273575}
 --- !u!108 &108604300003630032
 Light:
   m_ObjectHideFlags: 1
@@ -139,7 +152,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.25
   m_FalloffTable:
