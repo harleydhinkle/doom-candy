@@ -28,6 +28,7 @@ public class controller : MonoBehaviour {
     public bool firebash;
     public GameObject damige;
     public bool door;
+    public Animator player3;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -91,11 +92,32 @@ public class controller : MonoBehaviour {
             {
                 horizontal = state.ThumbSticks.Left.X;
                 vertical = state.ThumbSticks.Left.Y;
-            if (gunoff == false)
+            if (vertical >= 0.2f)
+            {
+                player3.SetBool("walk", true);
+            }
+            if (vertical <= -0.2f)
+            {
+                player3.SetBool("walk", true);
+            }
+            if (horizontal >= 0.2f)
+            {
+                player3.SetBool("walk", true);
+            }
+            if (horizontal <= -0.2f)
+            {
+                player3.SetBool("walk", true);
+            }
+            if (horizontal == 0 && vertical == 0)
+            {
+                player3.SetBool("walk", false);
+            }
+                if (gunoff == false)
             {
                 if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f && reload == false)
                 {
                     StartCoroutine(startviprat());
+                    player3.SetBool("fire", true);
                     firegun = true;
                    
 
@@ -103,6 +125,7 @@ public class controller : MonoBehaviour {
                 else
                 {
                     firegun = false;
+                    player3.SetBool("fire", false);
                 }
             }
             if(gunoff == true)
@@ -110,6 +133,7 @@ public class controller : MonoBehaviour {
                 if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f)
                 {
                     firebash = true;
+
                     damige.SetActive(true);
 
                 }
@@ -148,6 +172,7 @@ public class controller : MonoBehaviour {
             if(prevState.Buttons.A == ButtonState.Released&&state.Buttons.A == ButtonState.Pressed)
             {
                 door = true;
+
             }
             else
             {
