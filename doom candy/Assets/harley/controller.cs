@@ -30,6 +30,8 @@ public class controller : MonoBehaviour {
     public bool door;
     public Animator player3;
     public bool shop;
+    public AudioSource playme;
+    public AudioClip gunsound;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -119,6 +121,8 @@ public class controller : MonoBehaviour {
                 {
                     StartCoroutine(startviprat());
                     player3.SetBool("fire", true);
+                    playme.clip = gunsound;
+                    playme.Play();
                     firegun = true;
                    
 
