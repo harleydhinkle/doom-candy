@@ -27,8 +27,10 @@ public class controller : MonoBehaviour {
     public bool gunoff;
     public bool firebash;
     public GameObject damige;
+    public GameObject damige2;
     public bool door;
     public Animator player3;
+    public Animator player4;
     public bool shop;
     public AudioSource playme;
     public AudioClip gunsound;
@@ -100,22 +102,27 @@ public class controller : MonoBehaviour {
             if (vertical >= 0.2f)
             {
                 player3.SetBool("walk", true);
+                player4.SetBool("run", true);
             }
             if (vertical <= -0.2f)
             {
                 player3.SetBool("walk", true);
+                player4.SetBool("run", true);
             }
             if (horizontal >= 0.2f)
             {
                 player3.SetBool("walk", true);
+                player4.SetBool("run", true);
             }
             if (horizontal <= -0.2f)
             {
                 player3.SetBool("walk", true);
+                player4.SetBool("run", true);
             }
             if (horizontal == 0 && vertical == 0)
             {
                 player3.SetBool("walk", false);
+                player4.SetBool("run", false);
             }
                 if (gunoff == false)
             {
@@ -123,6 +130,7 @@ public class controller : MonoBehaviour {
                 {
                     StartCoroutine(startviprat());
                     player3.SetBool("fire", true);
+                    
                     playme.clip = gunsound;
                     playme.Play();
                     firegun = true;
@@ -140,13 +148,14 @@ public class controller : MonoBehaviour {
                 if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f)
                 {
                     firebash = true;
-
+                    player4.SetBool("hit", true);
                     damige.SetActive(true);
 
                 }
                 else
                 {
                     firebash = false;
+                    player4.SetBool("hit", false);
                     damige.SetActive(false);
                 }
             }
@@ -178,6 +187,7 @@ public class controller : MonoBehaviour {
                     swich = 1;
                     gunoff = true;
                     gun3.SetActive(false);
+                    damige2.SetActive(true);
                     
                 }
                else if(swich == 1)
@@ -185,6 +195,7 @@ public class controller : MonoBehaviour {
                     swich = 0;
                     gunoff = false;
                     gun3.SetActive(true);
+                    damige2.SetActive(false);
                 }
             }
         }

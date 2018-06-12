@@ -18,6 +18,7 @@ public class ControllerCollisionInteraction : MonoBehaviour {
             thing.SetActive(true);
             if(con.door)
             {
+                
                 if (buy4.price <= buy4.buy.points)
                 {
                     buy4.canbuy = true;
