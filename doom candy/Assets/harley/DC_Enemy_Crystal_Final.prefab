@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 114278689128342120}
   m_Layer: 0
   m_Name: DC_Enemy_Crystal_Final
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,7 +406,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1346268182397994}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.98953, y: 53.93, z: -90.74228}
+  m_LocalPosition: {x: -85.704605, y: 53.834198, z: -93.294586}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4032690644811710}
@@ -603,7 +603,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 0142a8bbad4e47942a27a16d73af2918, type: 2}
+  - {fileID: 2100000, guid: 88218d75e6c7e9142b28e80ac50c21b6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
