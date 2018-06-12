@@ -13,6 +13,7 @@ public class EnemyShoot : MonoBehaviour {
     float timer;
     public float range;
     public List<GameObject> targets;
+    public float YOffSet;
 
     void Start()
     {
@@ -36,7 +37,7 @@ public class EnemyShoot : MonoBehaviour {
             {
                 if (timer >= fireRate)
                 {
-                    Rigidbody tim = Instantiate(bullet, transform.position + new Vector3(Random.Range(-spawnRandomizer, spawnRandomizer), 0, Random.Range(-spawnRandomizer, spawnRandomizer)), transform.rotation) as Rigidbody  ;
+                    Rigidbody tim = Instantiate(bullet, transform.position + new Vector3(Random.Range(-spawnRandomizer, spawnRandomizer), YOffSet, Random.Range(-spawnRandomizer, spawnRandomizer)), transform.rotation) as Rigidbody  ;
 
                     Vector3 dir = (target.position - transform.position).normalized;
                     dir.y = 0;

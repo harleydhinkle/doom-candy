@@ -195,7 +195,7 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 1920
     y: 91
     width: 405
     height: 620
@@ -222,7 +222,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - Map_1
+  - MainMenu
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 409
+    x: 2329
     y: 91
     width: 949
     height: 620
@@ -303,13 +303,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
     m_Target: {x: -0.046969987, y: 0.9521598, z: -0.23333904, w: -0.19167233}
     speed: 2
@@ -319,9 +319,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 1840.0773
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -472,7 +472,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/harley
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\s179057\Desktop\doom-candy\doom candy
+  m_LastProjectPath: C:\Users\s179067\Desktop\doom-candy\doom candy
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
@@ -604,7 +604,7 @@ MonoBehaviour:
     x: 1360
     y: 0
     width: 560
-    height: 948
+    height: 988
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
@@ -636,10 +636,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1362
+    x: 3282
     y: 91
     width: 558
-    height: 927
+    height: 967
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
