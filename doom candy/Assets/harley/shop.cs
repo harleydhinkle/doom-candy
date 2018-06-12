@@ -15,37 +15,42 @@ public class shop : MonoBehaviour
     public player_movment player;
     public int change;
     public int gundamigepriceprice;
-    public int price2;
-    public int price3;
+    public int rangeforgunprice;
+    public int damegeforbatprice;
     public int change2;
     public int change3;
     public int change4;
     public void damige_for_gun()
     {
-
-        gun.damige += add;
-        change2 = player.points -= price;
-        player.points = change2;
-        player.play.score2();
-        gun.damige = Mathf.Clamp(gun.damige, 0, maxdamige);
-        change2 = player.points -= price;
-        player.points = change2;
-        player.play.score2();
+        if (gundamigepriceprice <= player.points && gun.damige < maxdamige)
+        {
+            gun.damige += add;
+            change2 = player.points -= gundamigepriceprice;
+            player.points = change2;
+            player.play.score2();
+            gun.damige = Mathf.Clamp(gun.damige, 0, maxdamige);
+        }
     }
     public void range_for_gun()
     {
-        gun.range += addrange;
-        gun.range = Mathf.Clamp(gun.range, 0, maxrange);
-        change3 = player.points -= price2;
-        player.points = change3;
-        player.play.score2();
+        if (rangeforgunprice<= player.points&&gun.range < maxrange)
+        {
+            gun.range += addrange;
+            gun.range = Mathf.Clamp(gun.range, 0, maxrange);
+            change3 = player.points -= rangeforgunprice;
+            player.points = change3;
+            player.play.score2();
+        }
     }
     public void damige_for_bashballbat()
     {
-        bat.damige += addbashballbat;
-        bat.damige = Mathf.Clamp(bat.damige, 0, maxdamigebashbballbat);
-        change4 = player.points -= price3;
-        player.points = change4;
-        player.play.score2();
+        if (damegeforbatprice <= player.points && bat.damige < maxdamigebashbballbat)
+        {
+            bat.damige += addbashballbat;
+            bat.damige = Mathf.Clamp(bat.damige, 0, maxdamigebashbballbat);
+            change4 = player.points -= damegeforbatprice;
+            player.points = change4;
+            player.play.score2();
+        }
     }
 }
