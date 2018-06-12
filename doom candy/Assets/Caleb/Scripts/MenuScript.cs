@@ -70,4 +70,13 @@ public class MenuScript : MonoBehaviour {
         }
     }
 
+    public void Credits()
+    {
+        while (t < 1)
+        {
+            t += Time.deltaTime / Delay;
+            SceneManager.LoadScene("Credits");
+        }
+    }
+
 }
