@@ -2151,7 +2151,7 @@ GameObject:
   - component: {fileID: 179651723}
   m_Layer: 0
   m_Name: Cube (70)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -3263,6 +3263,7 @@ GameObject:
   - component: {fileID: 1504211715}
   - component: {fileID: 301220652}
   - component: {fileID: 301220651}
+  - component: {fileID: 301220655}
   m_Layer: 8
   m_Name: Player_Rigged_Meters
   m_TagString: Player1
@@ -3426,6 +3427,8 @@ MonoBehaviour:
   door: 0
   player3: {fileID: 1741339250}
   shop: 0
+  playme: {fileID: 301220655}
+  gunsound: {fileID: 8300000, guid: 7cea8c0dba1ba034f8e8cc632fa9efd4, type: 3}
 --- !u!114 &301220652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3477,6 +3480,86 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!82 &301220655
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301220647}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.189
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &301752530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,7 +4047,7 @@ GameObject:
   - component: {fileID: 375741571}
   m_Layer: 0
   m_Name: Cube (24)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -4378,7 +4461,7 @@ GameObject:
   - component: {fileID: 399058233}
   m_Layer: 0
   m_Name: Cube (59)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -5249,7 +5332,7 @@ GameObject:
   - component: {fileID: 508310994}
   m_Layer: 0
   m_Name: Cube (80)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -6237,7 +6320,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 571376301}
   serializedVersion: 5
-  lengthInSec: 1
+  lengthInSec: 0.1
   simulationSpeed: 1
   looping: 0
   prewarm: 0
@@ -6289,15 +6372,15 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -74915963
+  randomSeed: -635988040
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.8
-      minScalar: 0.2
+      scalar: 0.3
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -6354,8 +6437,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0.6862745, b: 0, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      minColor: {r: 1, g: 0, b: 0, a: 0.36}
+      maxColor: {r: 1, g: 0, b: 0, a: 0.36078432}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -6637,7 +6720,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 20
+    maxNumParticles: 10
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -10032,7 +10115,7 @@ GameObject:
   - component: {fileID: 605448571}
   m_Layer: 0
   m_Name: Cube (68)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -10312,7 +10395,7 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 648353617}
-  m_LocalRotation: {x: 0.7071068, y: -0.000000059604623, z: -0.000000029802312, w: -0.7071067}
+  m_LocalRotation: {x: 0.7071068, y: -0.00000014901156, z: -0.00000005960462, w: -0.70710677}
   m_LocalPosition: {x: -0.01934886, y: 0.009820886, z: 0.02579354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10381,7 +10464,7 @@ ParticleSystem:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 648353617}
   serializedVersion: 5
-  lengthInSec: 1
+  lengthInSec: 1.5
   simulationSpeed: 1
   looping: 0
   prewarm: 0
@@ -10430,18 +10513,18 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 1
+  moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1537469086
+  randomSeed: 11803063
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 2
-      minScalar: 1
+      minMaxState: 0
+      scalar: 0.4
+      minScalar: 0.3
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10561,8 +10644,8 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.1
-      minScalar: 1
+      scalar: 0
+      minScalar: 0.4
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10671,7 +10754,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -10712,7 +10795,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -10753,8 +10836,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotation:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 3.1415925
+      minMaxState: 0
+      scalar: 0
       minScalar: -3.1415925
       maxCurve:
         serializedVersion: 2
@@ -10781,7 +10864,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 100
+    maxNumParticles: 60
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -10828,7 +10911,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 5
     enabled: 1
-    type: 2
+    type: 4
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -11026,7 +11109,7 @@ ParticleSystem:
       cycleCount: 1
       repeatInterval: 0.01
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -11043,13 +11126,13 @@ ParticleSystem:
           tangentMode: 0
         - serializedVersion: 2
           time: 1
-          value: 1
+          value: 0
           inSlope: 0
           outSlope: 0
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
-        m_RotationOrder: 4
+        m_RotationOrder: 0
       minCurve:
         serializedVersion: 2
         m_Curve:
@@ -11278,7 +11361,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 1
+    enabled: 0
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -14487,7 +14570,7 @@ GameObject:
   - component: {fileID: 696630183}
   m_Layer: 0
   m_Name: Cube (60)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -15926,7 +16009,7 @@ GameObject:
   - component: {fileID: 881208076}
   m_Layer: 0
   m_Name: Cube (79)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -16307,7 +16390,7 @@ GameObject:
   - component: {fileID: 932674655}
   m_Layer: 0
   m_Name: Cube (69)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -16521,7 +16604,7 @@ GameObject:
   - component: {fileID: 980465579}
   m_Layer: 0
   m_Name: Cube (77)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -16989,7 +17072,7 @@ GameObject:
   - component: {fileID: 1006118400}
   m_Layer: 0
   m_Name: Cube (81)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -17576,7 +17659,7 @@ GameObject:
   - component: {fileID: 1085692512}
   m_Layer: 0
   m_Name: Cube (75)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -17740,7 +17823,7 @@ GameObject:
   - component: {fileID: 1088273819}
   m_Layer: 0
   m_Name: Cube (78)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -17893,7 +17976,7 @@ GameObject:
   - component: {fileID: 1090136161}
   m_Layer: 0
   m_Name: Cube (67)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -18315,7 +18398,7 @@ GameObject:
   - component: {fileID: 1164830596}
   m_Layer: 0
   m_Name: Cube (76)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -18521,7 +18604,7 @@ GameObject:
   - component: {fileID: 1202255120}
   m_Layer: 0
   m_Name: Cube (51)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -19025,6 +19108,12 @@ MonoBehaviour:
   - {fileID: 30848321}
   - {fileID: 2025938830}
   - {fileID: 1034023020}
+  - {fileID: 1473036829}
+  - {fileID: 1850245870}
+  - {fileID: 376030687}
+  - {fileID: 587201092}
+  - {fileID: 1690017994}
+  - {fileID: 683281520}
   pickup:
   - {fileID: 1988927474576806, guid: cf9dd78209b2a7c468e0bba8d7b68bcc, type: 2}
   - {fileID: 1959806366606260, guid: 4afcf075181b7544385850b70a2a2a27, type: 2}
@@ -19032,7 +19121,7 @@ MonoBehaviour:
   time: 5
   max: 10
   currentpickups: 0
-  play: {fileID: 0}
+  play: {fileID: 1707386065}
 --- !u!4 &1252891871
 Transform:
   m_ObjectHideFlags: 0
@@ -20061,7 +20150,7 @@ GameObject:
   - component: {fileID: 1381513561}
   m_Layer: 0
   m_Name: Cube (72)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -20779,7 +20868,7 @@ GameObject:
   - component: {fileID: 1464433587}
   m_Layer: 0
   m_Name: Cube (61)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -22323,7 +22412,7 @@ GameObject:
   - component: {fileID: 1623965127}
   m_Layer: 0
   m_Name: Cube (65)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -23276,7 +23365,7 @@ GameObject:
   - component: {fileID: 1725063102}
   m_Layer: 0
   m_Name: Cube (82)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -23663,7 +23752,7 @@ GameObject:
   - component: {fileID: 1781818151}
   m_Layer: 0
   m_Name: Cube (52)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -23919,7 +24008,7 @@ GameObject:
   - component: {fileID: 1792132797}
   m_Layer: 0
   m_Name: Cube (62)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -24161,7 +24250,7 @@ GameObject:
   - component: {fileID: 1805476512}
   m_Layer: 0
   m_Name: Cube (56)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -24259,7 +24348,7 @@ GameObject:
   - component: {fileID: 1815232535}
   m_Layer: 0
   m_Name: Cube (64)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -24423,7 +24512,7 @@ GameObject:
   - component: {fileID: 1831470758}
   m_Layer: 0
   m_Name: Cube (74)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -25253,7 +25342,7 @@ GameObject:
   - component: {fileID: 1942609261}
   m_Layer: 0
   m_Name: Cube (58)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
@@ -26286,9 +26375,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2042476492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f13379b399e4dd4db230cf9b6c19d87, type: 3}
+  m_Script: {fileID: 11500000, guid: b6e23ff65c427694681c9946353f196b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 10
+  change: 0
+  buy: {fileID: 1504211715}
+  canbuy: 0
+  door2: {fileID: 2042476492}
 --- !u!23 &2042476495
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26612,25 +26706,15 @@ Prefab:
       propertyPath: move
       value: 
       objectReference: {fileID: 1504211715}
-    - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
+    - target: {fileID: 224263403242322738, guid: d0a823489742db046acd97a73c8c14fe,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 6.5
+      value: -30.6
       objectReference: {fileID: 0}
-    - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
+    - target: {fileID: 114017515251874808, guid: d0a823489742db046acd97a73c8c14fe,
         type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 1945.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 862.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -44.8
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d0a823489742db046acd97a73c8c14fe, type: 2}
@@ -26680,7 +26764,7 @@ GameObject:
   - component: {fileID: 2079895885}
   m_Layer: 0
   m_Name: Cube (63)
-  m_TagString: Untagged
+  m_TagString: walls
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 4294967295
