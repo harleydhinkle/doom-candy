@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: {fileID: 114896244783947420}
-  armor: {fileID: 0}
+  armor: {fileID: 114017515251874808}
   weapon: {fileID: 114682906528825558}
   ammo: {fileID: 114092193769442852}
   score: {fileID: 114333031690250616}
@@ -620,8 +620,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.0000076294}
-  m_SizeDelta: {x: 1532, y: 773}
+  m_AnchoredPosition: {x: 6.5, y: -44.8}
+  m_SizeDelta: {x: 1945.2, y: 862.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224808561343611884
 RectTransform:
