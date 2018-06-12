@@ -10,6 +10,7 @@ TagManager:
   - shop
   - exit
   - door
+  - walls
   layers:
   - Default
   - TransparentFX

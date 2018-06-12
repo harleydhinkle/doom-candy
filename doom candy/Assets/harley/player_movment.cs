@@ -88,6 +88,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         {
             respawn();
             lives -= 1;
+            play.lives();
             player.points += pointgain;
         }
         if(lives <= 0)
