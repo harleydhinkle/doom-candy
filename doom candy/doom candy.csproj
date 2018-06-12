@@ -107,6 +107,8 @@
     <Compile Include="Assets\harley\camracontrol.cs" />
     <Compile Include="Assets\harley\chack_if_on_ground.cs" />
     <Compile Include="Assets\harley\controller.cs" />
+    <Compile Include="Assets\harley\ControllerCollisionInteraction.cs" />
+    <Compile Include="Assets\harley\ControllerCollisionInteractionShop.cs" />
     <Compile Include="Assets\harley\ememyseek.cs" />
     <Compile Include="Assets\harley\enemy2.cs" />
     <Compile Include="Assets\harley\enemyshooutinhswicth.cs" />
@@ -125,6 +127,7 @@
     <Compile Include="Assets\harley\player_movment.cs" />
     <Compile Include="Assets\harley\respawn.cs" />
     <Compile Include="Assets\harley\ROTATE.cs" />
+    <Compile Include="Assets\harley\shoop_ui.cs" />
     <Compile Include="Assets\harley\shoot_swich.cs" />
     <Compile Include="Assets\harley\shooting ai.cs" />
     <Compile Include="Assets\harley\shooting_ai.cs" />
