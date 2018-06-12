@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class DoorUI : MonoBehaviour {
 
     public Text door;
-
     PurchaseScript price;
 
     private void Start()
@@ -19,4 +18,5 @@ public class DoorUI : MonoBehaviour {
     {
         door.text = "Press A to buy door (" + price.price.ToString() + ")"; 
     }
+    
 }

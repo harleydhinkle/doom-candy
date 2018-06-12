@@ -32,6 +32,8 @@ public class controller : MonoBehaviour {
     public bool shop;
     public AudioSource playme;
     public AudioClip gunsound;
+    public GameObject buyui;
+    public GameObject buyui2;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -156,6 +158,17 @@ public class controller : MonoBehaviour {
             {
                 reloadgun = false;
             }
+            if (prevState.Buttons.A == ButtonState.Released && state.Buttons.A == ButtonState.Pressed)
+            {
+                door = true;
+                shop = true;
+                buyui.SetActive(false);
+                buyui2.SetActive(false);
+            }
+            else
+            {
+                door = false;
+            }
             horizontalcamra = state.ThumbSticks.Right.X;
             verticalcamra = state.ThumbSticks.Right.Y;
             if (prevState.Buttons.Y == ButtonState.Released && state.Buttons.Y == ButtonState.Pressed)
@@ -173,15 +186,6 @@ public class controller : MonoBehaviour {
                     gunoff = false;
                     gun3.SetActive(true);
                 }
-            }
-            if(prevState.Buttons.A == ButtonState.Released&&state.Buttons.A == ButtonState.Pressed)
-            {
-                door = true;
-                shop = true;
-            }
-            else
-            {
-                door = false;
             }
         }
         if(contrler2 == true)
@@ -211,4 +215,5 @@ public class controller : MonoBehaviour {
             verticalcamra = state.ThumbSticks.Right.Y;
         }
     }
+  
 }
