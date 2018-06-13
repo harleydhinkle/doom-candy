@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: dbab8d55318fe0b45b4f9e544fc75cb7
+timeCreated: 1528832620
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Crystal_Uv_mapped_pCube14
+    100002: J_L_Arm_Sholder
+    100004: J_L_Elbow
+    100006: J_L_Fingers_1
+    100008: J_L_Fingers_2
+    100010: J_L_Fingers_3
+    100012: J_L_Fingers_End
+    100014: J_L_Palm
+    100016: J_L_Pointer_1
+    100018: J_L_Pointer_2
+    100020: J_L_Pointer_3
+    100022: J_L_Pointer_End
+    100024: J_L_Thumb_1
+    100026: J_L_Thumb_2
+    100028: J_L_Thumb_End
+    100030: J_L_Wrist
+    100032: J_R_Arm_Sholder
+    100034: J_R_Elbow
+    100036: J_R_Fingers_1
+    100038: J_R_Fingers_2
+    100040: J_R_Fingers_3
+    100042: J_R_Fingers_End
+    100044: J_R_Palm
+    100046: J_R_Pointer_1
+    100048: J_R_Pointer_2
+    100050: J_R_Pointer_3
+    100052: J_R_Pointer_End
+    100054: J_R_Thumb_1
+    100056: J_R_Thumb_2
+    100058: J_R_Thumb_End
+    100060: J_R_Wrist
+    100062: J_Root
+    100064: Jolly_smasher_Idle_animation_pCube1
+    100066: pCube1
+    100068: pCube10
+    100070: pCube108
+    100072: pCube11
+    100074: pCube3
+    100076: pCube4
+    100078: pCube5
+    100080: pCube6
+    100082: pCube7
+    100084: pCube8
+    100086: pCube9
+    100088: pCylinder1
+    100090: pSphere1
+    100092: //RootNode
+    100094: transform1
+    100096: transform10
+    100098: transform11
+    100100: transform12
+    100102: transform13
+    100104: transform2
+    100106: transform3
+    100108: transform4
+    100110: transform5
+    100112: transform6
+    100114: transform7
+    100116: transform8
+    100118: transform9
+    400000: Crystal_Uv_mapped_pCube14
+    400002: J_L_Arm_Sholder
+    400004: J_L_Elbow
+    400006: J_L_Fingers_1
+    400008: J_L_Fingers_2
+    400010: J_L_Fingers_3
+    400012: J_L_Fingers_End
+    400014: J_L_Palm
+    400016: J_L_Pointer_1
+    400018: J_L_Pointer_2
+    400020: J_L_Pointer_3
+    400022: J_L_Pointer_End
+    400024: J_L_Thumb_1
+    400026: J_L_Thumb_2
+    400028: J_L_Thumb_End
+    400030: J_L_Wrist
+    400032: J_R_Arm_Sholder
+    400034: J_R_Elbow
+    400036: J_R_Fingers_1
+    400038: J_R_Fingers_2
+    400040: J_R_Fingers_3
+    400042: J_R_Fingers_End
+    400044: J_R_Palm
+    400046: J_R_Pointer_1
+    400048: J_R_Pointer_2
+    400050: J_R_Pointer_3
+    400052: J_R_Pointer_End
+    400054: J_R_Thumb_1
+    400056: J_R_Thumb_2
+    400058: J_R_Thumb_End
+    400060: J_R_Wrist
+    400062: J_Root
+    400064: Jolly_smasher_Idle_animation_pCube1
+    400066: pCube1
+    400068: pCube10
+    400070: pCube108
+    400072: pCube11
+    400074: pCube3
+    400076: pCube4
+    400078: pCube5
+    400080: pCube6
+    400082: pCube7
+    400084: pCube8
+    400086: pCube9
+    400088: pCylinder1
+    400090: pSphere1
+    400092: //RootNode
+    400094: transform1
+    400096: transform10
+    400098: transform11
+    400100: transform12
+    400102: transform13
+    400104: transform2
+    400106: transform3
+    400108: transform4
+    400110: transform5
+    400112: transform6
+    400114: transform7
+    400116: transform8
+    400118: transform9
+    2300000: pCube108
+    3300000: pCube108
+    4300000: Jolly_smasher_Idle_animation_pCube1
+    4300002: pCube108
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Jolly_smasher_Idle_animation_pCube1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

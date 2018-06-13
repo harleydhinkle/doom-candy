@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56f700fd2651274aaa1cd200566bbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 4
   timer: 5
   enemy3: {fileID: 0}
   player1: {fileID: 0}
@@ -134,6 +134,7 @@ MonoBehaviour:
   spawnRandomizer: 0
   range: 10
   targets: []
+  YOffSet: 0
 --- !u!114 &114266167408358958
 MonoBehaviour:
   m_ObjectHideFlags: 1
