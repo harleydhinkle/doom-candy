@@ -553,13 +553,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe940ae0d9e49a40b653a7c87377608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 54161133130876722, guid: deec2561f5332ae4ea5bc832716d7608, type: 2}
+  bullet: {fileID: 54506540021568376, guid: d55f356ceadd9504ab2960d28a5ba372, type: 2}
   target: {fileID: 0}
   speed: 1000
   fireRate: 1
   spawnRandomizer: 0
   range: 20
   targets: []
+  YOffSet: 3
 --- !u!114 &114683416367030434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -571,7 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56f700fd2651274aaa1cd200566bbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 4
   timer: 5
   enemy3: {fileID: 0}
   player1: {fileID: 0}

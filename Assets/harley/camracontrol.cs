@@ -5,7 +5,8 @@ using XInputDotNetPure;
 
 public class camracontrol : MonoBehaviour {
     public Rigidbody playerBody;
-    public float mouseSensitivity;
+    public float mouseSensitivity_x;
+    public float mouseSensitivity_y;
     public controller controller;
     float xAxisClamp = 0.0f;
 
@@ -53,11 +54,11 @@ public class camracontrol : MonoBehaviour {
     void RotatecCameracomntroler()
     {
 
-        float mouseX =controller.horizontalcamra;
+        float mouseX = controller.horizontalcamra;
         float mouseY = controller.verticalcamra;
 
-        float rotAmountX = mouseX * mouseSensitivity;
-        float rotAmountY = mouseY * mouseSensitivity;
+        float rotAmountX = mouseX * mouseSensitivity_x;
+        float rotAmountY = mouseY * mouseSensitivity_y;
 
         xAxisClamp -= rotAmountY;
 
