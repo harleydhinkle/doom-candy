@@ -48,11 +48,16 @@ public class gun : MonoBehaviour {
     {
         gunflash.Play();
         RaycastHit hit;
-        if (Physics.Raycast(camp.transform.position, camp.transform.forward, out hit, range))
+        Debug.DrawRay(transform.position, transform.forward*range, Color.red, 10);
+        if (Physics.Raycast(transform.position, transform.forward, out hit, range,1))
         {
+
+
             Debug.Log(hit.transform.name);
             NewBehaviourScript target = hit.transform.GetComponent<NewBehaviourScript>();
-            if(target != null)
+            //line.SetPosition(0, transform.position);
+            //line.SetPosition(1, hit.transform.position);
+            if (target != null)
             {
                 target.takeDamage(damige,points,owner.GetComponent<player_movment>());
             }
