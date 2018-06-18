@@ -16,7 +16,6 @@ public class PlayerFaceUI : MonoBehaviour {
     public Sprite[] faceUI;
     //for the image
     public Image face;
-    //for testing
 
 
     //called in order to change face
