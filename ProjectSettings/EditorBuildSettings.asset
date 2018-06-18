@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Caleb/GameMode.unity
     guid: c219dc4ed7e94414587501f6ec3d53f1
   - enabled: 1
+    path: Assets/Caleb/Credits.unity
+    guid: f2246789534f3ac42b79336ef6c4552e
+  - enabled: 1
     path: Assets/Art/Map_1.unity
     guid: 691e9024b5b9bce498e527fdfefd6076
   - enabled: 1

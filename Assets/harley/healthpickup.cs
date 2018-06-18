@@ -16,6 +16,7 @@ public class healthpickup : pickup{
         player_movment player = other.GetComponent<player_movment>();
         if (player != null)
         {
+            pick.playfaceeffect(FaceStates.get);
             player.currenthealth += healthpickups;
             player.currenthealth = Mathf.Clamp(player.currenthealth, 0, player.maxhealth);
             play.health2();

@@ -36,6 +36,7 @@ public class controller : MonoBehaviour {
     public AudioClip gunsound;
     public GameObject buyui;
     public GameObject buyui2;
+    public player_movment yey;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -145,10 +146,11 @@ public class controller : MonoBehaviour {
             }
             if(gunoff == true)
             {
-                if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f)
+                if (prevState.Triggers.Right <= 0.2 && state.Triggers.Right >= 0.5)
                 {
                     firebash = true;
                     player4.SetBool("hit", true);
+                    yey.do_do.playfaceeffect(FaceStates.shoot);
                     damige.SetActive(true);
 
                 }
