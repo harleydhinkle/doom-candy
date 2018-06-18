@@ -3,12 +3,49 @@ guid: f79ea96a8e336c9429ea63c03eda9674
 timeCreated: 1491639515
 licenseType: Free
 PluginImporter:
-  serializedVersion: 2
+  serializedVersion: 1
   iconMap: {}
   executionOrder: {}
   isPreloaded: 0
   isOverridable: 0
   platformData:
+    Editor:
+      enabled: 0
+      settings:
+        CPU: x86_64
+        DefaultValueInitialized: true
+    Linux:
+      enabled: 0
+      settings:
+        CPU: None
+    Linux64:
+      enabled: 1
+      settings:
+        CPU: x86_64
+    LinuxUniversal:
+      enabled: 1
+      settings:
+        CPU: x86_64
+    OSXIntel:
+      enabled: 0
+      settings:
+        CPU: None
+    OSXIntel64:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
+    OSXUniversal:
+      enabled: 0
+      settings:
+        CPU: x86_64
+    Win:
+      enabled: 0
+      settings:
+        CPU: None
+    Win64:
+      enabled: 1
+      settings:
+        CPU: AnyCPU
     data:
       first:
         '': Any
@@ -17,14 +54,14 @@ PluginImporter:
         settings:
           Exclude Android: 1
           Exclude Editor: 0
-          Exclude Linux: 0
+          Exclude Linux: 1
           Exclude Linux64: 0
           Exclude LinuxUniversal: 0
-          Exclude OSXIntel: 0
+          Exclude OSXIntel: 1
           Exclude OSXIntel64: 0
-          Exclude OSXUniversal: 0
+          Exclude OSXUniversal: 1
           Exclude WebGL: 1
-          Exclude Win: 0
+          Exclude Win: 1
           Exclude Win64: 0
           Exclude iOS: 1
     data:
@@ -67,7 +104,7 @@ PluginImporter:
       first:
         Standalone: Linux
       second:
-        enabled: 1
+        enabled: 0
         settings:
           CPU: None
     data:
@@ -83,12 +120,12 @@ PluginImporter:
       second:
         enabled: 1
         settings:
-          CPU: AnyCPU
+          CPU: x86_64
     data:
       first:
         Standalone: OSXIntel
       second:
-        enabled: 1
+        enabled: 0
         settings:
           CPU: None
     data:
@@ -102,14 +139,14 @@ PluginImporter:
       first:
         Standalone: OSXUniversal
       second:
-        enabled: 1
+        enabled: 0
         settings:
-          CPU: AnyCPU
+          CPU: x86_64
     data:
       first:
         Standalone: Win
       second:
-        enabled: 1
+        enabled: 0
         settings:
           CPU: None
     data:
