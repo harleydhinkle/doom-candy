@@ -31,6 +31,7 @@ public class enemy2 : MonoBehaviour
         {
             case States.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
+                agent.speed = wander.speed;
                 break;
             case States.seek:
                 agent.destination = seek.returnttargetspos();
@@ -55,6 +56,7 @@ public class enemy2 : MonoBehaviour
             {
                 state = States.seek;
                 seek.target = hit.transform;
+                agent.speed = seek.speed;
             }
 
 
