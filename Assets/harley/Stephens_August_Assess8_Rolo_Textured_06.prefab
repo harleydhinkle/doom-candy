@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dis: 4
   radius: 2
-  speed: 3
+  speed: 5
   jitter: 1
   target: {x: 0, y: 0, z: 0}
 --- !u!114 &114450299687912736
