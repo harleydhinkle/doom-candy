@@ -1779,7 +1779,7 @@ MonoBehaviour:
   damige: 2
   camp: {fileID: 1894826381}
   controller: {fileID: 301220651}
-  range: 99999
+  range: 20
   line: {fileID: 301220648}
   gunflash: {fileID: 571376302}
   normaltime: 0
@@ -24249,7 +24249,7 @@ MonoBehaviour:
   currenthealth: 0
   maxhealth: 100
   owngun: {fileID: 141489728}
-  points: 100
+  points: 0
   lives: 0
   currentaimo: 40
   maxaimo: 999
