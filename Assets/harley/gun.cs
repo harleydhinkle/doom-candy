@@ -17,6 +17,14 @@ public class gun : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if(owner.god == true)
+        {
+            if(controller.firegun == true)
+            {
+                ray();
+            }
+            return;
+        }
         if(controller.reload == true&& timer >= 0)
         {
             timer -= Time.deltaTime;

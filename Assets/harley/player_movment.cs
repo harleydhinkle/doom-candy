@@ -24,6 +24,7 @@ public class player_movment : MonoBehaviour,IDamageable {
     public int maxclip = 10;
     public int currentclip;
     public GunUI play;
+    public bool god;
     //public int money;
     //public Vector3 curlook;
     //public Vector3 predlook;
@@ -82,6 +83,10 @@ public class player_movment : MonoBehaviour,IDamageable {
     }
     public void takeDamage(int damageTaken, int pointgain, player_movment player)
     {
+        if(god == true)
+        {
+            return;
+        }
         currenthealth -= damageTaken;
         play.health2();
         if (currenthealth <= 0)
