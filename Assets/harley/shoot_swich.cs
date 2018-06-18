@@ -15,6 +15,7 @@ public class shoot_swich : MonoBehaviour {
     enemywander wander;
     ememyseek seek;
     EnemyShoot shoot;
+    public Animator yup;
     // Use this for initialization
     void Start()
     {
@@ -33,6 +34,7 @@ public class shoot_swich : MonoBehaviour {
         {
             case States3.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
+
                 agent.isStopped = false;
                 break;
             case States3.shoot:
@@ -40,6 +42,7 @@ public class shoot_swich : MonoBehaviour {
                 if (Vector3.Distance(transform.position, seek.transform.position) <= 50)
                 {
                     state = States3.wandermap;
+                    yup.SetBool("hit", false);
                     agent.isStopped = false;
                 }
                 break;
@@ -59,6 +62,7 @@ public class shoot_swich : MonoBehaviour {
             {
                 state = States3.shoot;
                 agent.isStopped = true;
+                yup.SetBool("hit", true);
                 seek.target = hit.transform;
             }
 

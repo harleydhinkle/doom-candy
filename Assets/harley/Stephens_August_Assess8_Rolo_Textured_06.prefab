@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 114127977160642378}
   m_Layer: 0
   m_Name: Stephens_August_Assess8_Rolo_Textured_06
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

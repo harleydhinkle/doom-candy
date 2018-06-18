@@ -325,8 +325,9 @@ GameObject:
   - component: {fileID: 195795354439999546}
   - component: {fileID: 114810594474320642}
   - component: {fileID: 114777588403908984}
-  - component: {fileID: 114299370336963098}
   - component: {fileID: 114182543334419426}
+  - component: {fileID: 114444218843694252}
+  - component: {fileID: 114914941718598436}
   m_Layer: 0
   m_Name: cherry 7 2
   m_TagString: enemy
@@ -730,7 +731,7 @@ MonoBehaviour:
   speed: 3
   jitter: 1
   target: {x: 0, y: 0, z: 0}
---- !u!114 &114299370336963098
+--- !u!114 &114444218843694252
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -738,12 +739,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1791719549964544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d65e41b95a41b1041a20ee6f9fba5f94, type: 3}
+  m_Script: {fileID: 11500000, guid: 501861d10e0dd31448584b6f747e9526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agent: {fileID: 0}
-  state: 0
-  radius: 20
+  range: 10
+  time: 5
+  pow: {fileID: 1481434564068414, guid: c1a38d659f275ae4a9135ba71af2f932, type: 2}
 --- !u!114 &114777588403908984
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -774,6 +775,21 @@ MonoBehaviour:
   player1: {fileID: 0}
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
+--- !u!114 &114914941718598436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791719549964544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c3bd69900c341419dcf53a6f298e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 0}
+  state: 0
+  radius: 10
+  radius2: 10
 --- !u!137 &137331622850825986
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

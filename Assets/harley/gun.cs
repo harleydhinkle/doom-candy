@@ -55,6 +55,7 @@ public class gun : MonoBehaviour {
     void ray()
     {
         gunflash.Play();
+        owner.do_do.playfaceeffect(FaceStates.shoot);
         RaycastHit hit;
         Debug.DrawRay(transform.position, transform.forward*range, Color.red, 10);
         if (Physics.Raycast(transform.position, transform.forward, out hit, range,1))

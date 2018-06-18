@@ -504,7 +504,7 @@ Animator:
   m_GameObject: {fileID: 1346268182397994}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3a8352d2f14c8ea45a671c2578265cd0, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 57afd02a3721abd4891bdab01c2ec364, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -526,6 +526,7 @@ MonoBehaviour:
   agent: {fileID: 0}
   state: 0
   radius: 20
+  yup: {fileID: 95138707571576470}
 --- !u!114 &114481446751861416
 MonoBehaviour:
   m_ObjectHideFlags: 1
