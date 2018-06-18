@@ -17,7 +17,6 @@ public class PlayerFaceUI : MonoBehaviour {
     //for the image
     public Image face;
     //for testing
-    public FaceStates testFace;
 
 
     //called in order to change face
