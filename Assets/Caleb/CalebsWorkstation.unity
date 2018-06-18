@@ -24257,6 +24257,7 @@ MonoBehaviour:
   maxclip: 10
   currentclip: 10
   play: {fileID: 1707386065}
+  god: 0
 --- !u!1 &1506856469
 GameObject:
   m_ObjectHideFlags: 0
