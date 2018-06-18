@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: 0a81d58c7160e9a40bfd7133422af434
+<<<<<<< HEAD
+timeCreated: 1529338469
+=======
 timeCreated: 1529343880
+>>>>>>> dav
 licenseType: Free
 NativeFormatImporter:
   mainObjectFileID: 23800000
