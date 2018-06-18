@@ -9,74 +9,58 @@ public class MenuScript : MonoBehaviour {
     float t = 0;
     public void StartGame()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
-            SceneManager.LoadScene("Map_1");
-        }
+        StartCoroutine(DelayLevel("Map_1"));
+        
     }
 
     public void controls()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
-            SceneManager.LoadScene("ControlsMenu");
-        }
+        StartCoroutine(DelayLevel("ControlsMenu"));
     }
 
     public void PvP()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
+
             SceneManager.LoadScene("");
-        }
+
     }
 
     public void Character()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
+    
             SceneManager.LoadScene("");
-        }
+
     }
 
     public void PvE()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
+
             SceneManager.LoadScene("");
-        }
+
     }
 
     public void MainMenu()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
-            SceneManager.LoadScene("MainMenu");
-        }
+        StartCoroutine(DelayLevel("MainMenu"));
+
     }
 
     public void QuitGame()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
+ 
             Application.Quit();
-        }
+
     }
 
     public void Credits()
     {
-        while (t < 1)
-        {
-            t += Time.deltaTime / Delay;
-            SceneManager.LoadScene("Credits");
-        }
+        StartCoroutine(DelayLevel("Credits")); 
     }
 
+
+    IEnumerator DelayLevel(string levelname)
+    {
+        yield return new WaitForSeconds(.4f);
+        SceneManager.LoadScene(levelname);
+    }
 }
