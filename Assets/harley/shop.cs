@@ -33,11 +33,8 @@ public class shop : MonoBehaviour
             player.play.score2();
             gun.damige = Mathf.Clamp(gun.damige, 0, maxdamige);
             gundamigeprice = true;
-            if(gundamigeprice == true)
-            {
-                gundamigepriceprice += 5;
-                gundamigeprice = false;
-            }
+            gundamigepriceprice += 5;
+            gundamigeprice = false;
         }
     }
     public void range_for_gun()
@@ -50,11 +47,8 @@ public class shop : MonoBehaviour
             player.points = change3;
             player.play.score2();
             gunranigeprice = true;
-            if (gunranigeprice == true)
-            {
-                rangeforgunprice += 5;
-                gunranigeprice = false;
-            }
+            rangeforgunprice += 5;
+            gunranigeprice = false;
         }
     }
     public void damige_for_bashballbat()
@@ -67,11 +61,8 @@ public class shop : MonoBehaviour
             player.points = change4;
             player.play.score2();
             batprice = true;
-            if(batprice == true)
-            {
-                damegeforbatprice += 5;
-                batprice = false;
-            }
+            damegeforbatprice += 5;
+            batprice = false;
         }
     }
 }
