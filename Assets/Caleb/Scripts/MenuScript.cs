@@ -9,7 +9,7 @@ public class MenuScript : MonoBehaviour {
     float t = 0;
     public void StartGame()
     {
-        StartCoroutine(DelayLevel("Map_1"));
+        StartCoroutine(DelayLevel("Map_2"));
         
     }
 
