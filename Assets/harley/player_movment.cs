@@ -101,7 +101,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         }
         if(lives <= 0)
         {
-            SceneManager.LoadScene("lose");
+            SceneManager.LoadScene("Dead");
         }
     }
     void respawn()

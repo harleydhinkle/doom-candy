@@ -23,6 +23,15 @@ public class shop : MonoBehaviour
     public bool gundamigeprice;
     public bool gunranigeprice;
     public bool batprice;
+    public Text gunprice;
+    public Text gunpriceringe;
+    public Text batpricedamige;
+    private void Start()
+    {
+        gunprice.text = gundamigepriceprice.ToString();
+        gunpriceringe.text = rangeforgunprice.ToString();
+        batpricedamige.text = damegeforbatprice.ToString();
+    }
     public void damige_for_gun()
     {
         if (gundamigepriceprice <= player.points && gun.damige < maxdamige)
@@ -32,9 +41,13 @@ public class shop : MonoBehaviour
             player.points = change2;
             player.play.score2();
             gun.damige = Mathf.Clamp(gun.damige, 0, maxdamige);
-            gundamigeprice = true;
             gundamigepriceprice += 5;
-            gundamigeprice = false;
+            gunprice.text = gundamigepriceprice.ToString();
+            if(maxdamige == gun.damige)
+            {
+                gunprice.text = "max for this shop";
+            }
+
         }
     }
     public void range_for_gun()
@@ -46,9 +59,12 @@ public class shop : MonoBehaviour
             change3 = player.points -= rangeforgunprice;
             player.points = change3;
             player.play.score2();
-            gunranigeprice = true;
             rangeforgunprice += 5;
-            gunranigeprice = false;
+            gunpriceringe.text = rangeforgunprice.ToString();
+            if(maxrange == gun.range)
+            {
+                gunpriceringe.text = "max for this shop";
+            }
         }
     }
     public void damige_for_bashballbat()
@@ -60,9 +76,13 @@ public class shop : MonoBehaviour
             change4 = player.points -= damegeforbatprice;
             player.points = change4;
             player.play.score2();
-            batprice = true;
             damegeforbatprice += 5;
-            batprice = false;
+            batpricedamige.text = damegeforbatprice.ToString();
+
+            if (maxdamigebashbballbat == bat.damige)
+            {
+                batpricedamige.text = "max for this shop";
+            }
         }
     }
 }
