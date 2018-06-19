@@ -8,7 +8,7 @@ public class win : MonoBehaviour
     {
         if(hit.tag == "Player1")
         {
-            SceneManager.LoadScene("win");
+            SceneManager.LoadScene("WinScreen");
         }
     }
 }
