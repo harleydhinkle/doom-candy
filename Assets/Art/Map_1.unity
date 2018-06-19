@@ -2449,7 +2449,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4107162781925640, guid: 32a5a3db6419eb94fa85881c3a4beea6, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4107162781925640, guid: 32a5a3db6419eb94fa85881c3a4beea6, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -7873,6 +7873,7 @@ MonoBehaviour:
   range: 1
   time: 20
   currentanmontofenemys: 0
+  number_spawn: 5
   max: 20
   player1: {fileID: 0}
   play: {fileID: 0}
@@ -20205,7 +20206,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900497083239144, guid: b6ab75751ee408c499a7300a18cb94a4, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b6ab75751ee408c499a7300a18cb94a4, type: 2}
@@ -20869,7 +20870,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4629637485513150, guid: 9a4b2dd62d24acc489c1b7b4f5a5e78c, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4629637485513150, guid: 9a4b2dd62d24acc489c1b7b4f5a5e78c, type: 2}
       propertyPath: m_LocalScale.x
@@ -28535,6 +28536,7 @@ MonoBehaviour:
   range: 1
   time: 10
   currentanmontofenemys: 0
+  number_spawn: 5
   max: 10
   player1: {fileID: 1504211715}
   play: {fileID: 1707386065}
@@ -29348,8 +29350,9 @@ MonoBehaviour:
   - {fileID: 121482413}
   - {fileID: 711109811}
   range: 2
-  time: 5
+  time: 10
   currentanmontofenemys: 0
+  number_spawn: 5
   max: 50
   player1: {fileID: 1504211715}
   play: {fileID: 1707386065}
@@ -30778,7 +30781,7 @@ MonoBehaviour:
   currenthealth: 0
   maxhealth: 100
   owngun: {fileID: 141489728}
-  points: 100
+  points: 0
   lives: 0
   currentaimo: 40
   maxaimo: 999
@@ -34262,7 +34265,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4668441093476930, guid: baed6322b2cc7da4c903e0e10cd176fe, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: baed6322b2cc7da4c903e0e10cd176fe, type: 2}
@@ -39795,17 +39798,17 @@ Prefab:
     - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.0050049
       objectReference: {fileID: 0}
     - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 1904
+      value: 1977.2
       objectReference: {fileID: 0}
     - target: {fileID: 224682888866515974, guid: d0a823489742db046acd97a73c8c14fe,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 892
+      value: 938.9
       objectReference: {fileID: 0}
     - target: {fileID: 224263403242322738, guid: d0a823489742db046acd97a73c8c14fe,
         type: 2}

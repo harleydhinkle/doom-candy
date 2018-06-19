@@ -9,6 +9,7 @@ public class enemyspawnroom : MonoBehaviour {
     public float time;
     private float timer;
     public int currentanmontofenemys;
+    public int number_spawn;
     public int max;
     public player_movment player1;
     public GunUI play;
@@ -26,17 +27,26 @@ public class enemyspawnroom : MonoBehaviour {
        if (timer <= 0 && currentanmontofenemys < max)
         {
             SpawnFunction();
-            currentanmontofenemys += 1;
+            
         }
     }
     public void SpawnFunction()
     {
-        GameObject spawnenemys = Instantiate(enemys[Random.Range(0, enemys.Length)]);
-        GameObject spawnroom = rooms[Random.Range(0, rooms.Length)];
-        spawnenemys.GetComponent<NewBehaviourScript>().player1 = player1;
-        spawnenemys.transform.position = spawnroom.transform.position;
-        spawnenemys.GetComponent<NewBehaviourScript>().enemy3 = this;
-        spawnenemys.GetComponent<NewBehaviourScript>().play = play;
+        if (currentanmontofenemys < max - number_spawn)
+        {
+            for (int i = 0; i < number_spawn; i++)
+            {
+
+                GameObject spawnenemys = Instantiate(enemys[Random.Range(0, enemys.Length)]);
+                GameObject spawnroom = rooms[Random.Range(0, rooms.Length)];
+                spawnenemys.GetComponent<NewBehaviourScript>().player1 = player1;
+                spawnenemys.transform.position = spawnroom.transform.position;
+                spawnenemys.GetComponent<NewBehaviourScript>().enemy3 = this;
+                spawnenemys.GetComponent<NewBehaviourScript>().play = play;
+                currentanmontofenemys += 1;
+
+            }
+        }
         timer = time;
     }
 }
