@@ -1786,6 +1786,7 @@ MonoBehaviour:
   owner: {fileID: 1504211715}
   play: {fileID: 1707386065}
   points: 1
+  reloadTime: 3
 --- !u!1 &146584333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,6 +3961,7 @@ MonoBehaviour:
   gunsound: {fileID: 8300000, guid: 7cea8c0dba1ba034f8e8cc632fa9efd4, type: 3}
   buyui: {fileID: 1849928969}
   buyui2: {fileID: 1969690768}
+  yey: {fileID: 0}
 --- !u!114 &301220652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4942,6 +4944,9 @@ MonoBehaviour:
   gundamigeprice: 0
   gunranigeprice: 0
   batprice: 0
+  gunprice: {fileID: 0}
+  gunpriceringe: {fileID: 0}
+  batpricedamige: {fileID: 0}
 --- !u!1 &392656567
 GameObject:
   m_ObjectHideFlags: 0
@@ -21401,6 +21406,9 @@ MonoBehaviour:
   gundamigeprice: 0
   gunranigeprice: 0
   batprice: 0
+  gunprice: {fileID: 0}
+  gunpriceringe: {fileID: 0}
+  batpricedamige: {fileID: 0}
 --- !u!114 &1248825390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21528,6 +21536,7 @@ MonoBehaviour:
   max: 10
   currentpickups: 0
   play: {fileID: 1707386065}
+  pick: {fileID: 0}
 --- !u!4 &1252891871
 Transform:
   m_ObjectHideFlags: 0
@@ -23338,6 +23347,7 @@ MonoBehaviour:
   range: 2
   time: 5
   currentanmontofenemys: 0
+  number_spawn: 0
   max: 50
   player1: {fileID: 1504211715}
   play: {fileID: 1707386065}
@@ -24257,6 +24267,7 @@ MonoBehaviour:
   maxclip: 10
   currentclip: 10
   play: {fileID: 1707386065}
+  do_do: {fileID: 0}
   god: 0
 --- !u!1 &1506856469
 GameObject:
