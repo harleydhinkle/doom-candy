@@ -60,7 +60,7 @@ public class MenuScript : MonoBehaviour {
 
     IEnumerator DelayLevel(string levelname)
     {
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(.3f);
         SceneManager.LoadScene(levelname);
     }
 }
