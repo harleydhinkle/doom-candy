@@ -23,9 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Art/Map_1.unity
     guid: 691e9024b5b9bce498e527fdfefd6076
-  - enabled: 1
+  - enabled: 0
     path: Assets/harley/lose.unity
     guid: 46b3dadfddb5a2441b1cc07116b9a663
+  - enabled: 1
+    path: Assets/Caleb/Dead.unity
+    guid: 46b2830b08de63f45be50692eac7c86c
   - enabled: 1
     path: Assets/Art/Map_2.unity
     guid: 8dd07900d3533344b940e843fd4aa0bb
