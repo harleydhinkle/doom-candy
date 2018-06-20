@@ -34,11 +34,11 @@ public class shoot_swich : MonoBehaviour {
         {
             case States3.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
-
                 agent.isStopped = false;
                 break;
             case States3.shoot:
                 agent.destination = seek.returnttargetspos();
+               
                 if (Vector3.Distance(transform.position, seek.transform.position) <= 50)
                 {
                     state = States3.wandermap;
@@ -61,9 +61,9 @@ public class shoot_swich : MonoBehaviour {
             if (hit.tag == "Player1" || hit.tag == "Player2")
             {
                 state = States3.shoot;
-                agent.isStopped = true;
                 yup.SetBool("hit", true);
                 seek.target = hit.transform;
+                agent.isStopped = true;
             }
 
 

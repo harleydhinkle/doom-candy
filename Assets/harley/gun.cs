@@ -16,6 +16,7 @@ public class gun : MonoBehaviour {
     public int points;
     public float reloadTime = 3;
     bool isReloading;
+    public GameObject hit2;
     // Update is called once per frame
     void Update()
     {
@@ -67,11 +68,14 @@ public class gun : MonoBehaviour {
 
             Debug.Log(hit.transform.name);
             NewBehaviourScript target = hit.transform.GetComponent<NewBehaviourScript>();
+            //var spawnBaby = Instantiate(hit2);
+            //spawnBaby.transform.position = hit.transform.position;
             //line.SetPosition(0, transform.position);
             //line.SetPosition(1, hit.transform.position);
             if (target != null)
             {
                 target.takeDamage(damige,points,owner.GetComponent<player_movment>());
+                //spawnBaby.transform.position = hit.transform.position + Vector3.up * 3f;
             }
             
         }
