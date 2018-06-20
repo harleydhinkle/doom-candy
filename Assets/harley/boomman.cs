@@ -52,11 +52,6 @@ public class boomman : MonoBehaviour {
                 boom.explood();
                 boooom.SetBool("explood", true);
                 boom.time -= Time.deltaTime;
-                if (Vector3.Distance(transform.position, seek.transform.position) <= 2)
-                {
-                    state = States4.wandermap;
-                   
-                }
                 break;
 
         }
@@ -78,8 +73,11 @@ public class boomman : MonoBehaviour {
         {
             if (hit.tag == "Player1" || hit.tag == "Player2")
             {
-                state = States4.explood;
-                agent.isStopped = true;
+                if (hit.gameObject != null)
+                {
+                    state = States4.explood;
+                    agent.isStopped = true;
+                }
             }
 
 

@@ -2307,6 +2307,7 @@ MonoBehaviour:
   play: {fileID: 1707386065}
   points: 1
   reloadTime: 3
+  hit2: {fileID: 1353949440199692, guid: 1e46ab8781c3d144d9088ae6e6d84f43, type: 2}
 --- !u!1 &146584333
 GameObject:
   m_ObjectHideFlags: 0
