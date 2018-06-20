@@ -16,6 +16,7 @@ public class boomman : MonoBehaviour {
     enemywander wander;
     ememyseek seek;
     exploodbad boom;
+    public Animator boooom;
     // Use this for initialization
     void Start()
     {
@@ -36,21 +37,25 @@ public class boomman : MonoBehaviour {
             case States4.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
                 agent.speed = wander.speed;
+                boooom.SetBool("explood", false);
+                boom.time = 1.2f;
                 agent.isStopped = false;
                 break;
             case States4.seek:
                 agent.destination = seek.returnttargetspos();
-                if (Vector3.Distance(transform.position, seek.transform.position) <= 50)
+                if (Vector3.Distance(transform.position, seek.transform.position) <= 2)
                 {
                     state = States4.wandermap;
                 }
                 break;
             case States4.explood:
                 boom.explood();
+                boooom.SetBool("explood", true);
                 boom.time -= Time.deltaTime;
-                if (Vector3.Distance(transform.position, seek.transform.position) <= 50)
+                if (Vector3.Distance(transform.position, seek.transform.position) <= 2)
                 {
                     state = States4.wandermap;
+                   
                 }
                 break;
 

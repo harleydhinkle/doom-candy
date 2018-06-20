@@ -14,6 +14,8 @@ public class gun : MonoBehaviour {
     public player_movment owner;
     public GunUI play;
     public int points;
+    public float reloadTime = 3;
+    bool isReloading;
     // Update is called once per frame
     void Update()
     {
@@ -25,18 +27,19 @@ public class gun : MonoBehaviour {
             }
             return;
         }
-        if(controller.reload == true&& timer >= 0)
+        //if(controller.reload == true&& timer >= 0)
+        //{
+        //    timer -= Time.deltaTime;
+        //}
+        //if(timer <= 0)
+        //{
+            
+        //    timer = normaltime;
+        //}
+        if (owner.currentclip == 0 && !isReloading)
         {
-            timer -= Time.deltaTime;
-        }
-        if(timer <= 0)
-        {
-            controller.reload = false;
-            timer = normaltime;
-        }
-        if (owner.currentclip == 0)
-        {
-            reload2();
+            isReloading = true;
+            StartCoroutine(delayReload());
             controller.reload = true;
         }
         if (owner.currentclip >= 0&& controller.reload == false && controller.firegun == true)
@@ -46,10 +49,10 @@ public class gun : MonoBehaviour {
             //controller.player3.SetBool("fire", true);
             ray();
         }
-            if (controller.reloadgun == true)
+        if (controller.reloadgun == true&& owner.currentclip <10)
         {
             controller.reload = true;
-            reload2();
+            StartCoroutine(delayReload());
         }
     }
     void ray()
@@ -75,10 +78,19 @@ public class gun : MonoBehaviour {
     }
     public void reload2()
     {
+
         int ammoiwant = owner.maxclip - owner.currentclip;
         int ammoiget = Mathf.Clamp(ammoiwant, 0, owner.currentaimo);
         owner.currentaimo -= ammoiget;
         owner.currentclip += ammoiget;
         play.ammo2();
+        isReloading = false;
+        controller.reload = false;
+    }
+
+    IEnumerator delayReload()
+    {
+        yield return new WaitForSeconds(reloadTime);
+        reload2();
     }
 }
