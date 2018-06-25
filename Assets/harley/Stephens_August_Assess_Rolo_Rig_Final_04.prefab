@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 114919522815266924}
   - component: {fileID: 114398918126091522}
   m_Layer: 0
-  m_Name: Stephens_August_Assess_Rolo_Rig_Final_01
+  m_Name: Stephens_August_Assess_Rolo_Rig_Final_04
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -478,11 +478,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b56f700fd2651274aaa1cd200566bbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 4
+  health: 11
   timer: 5
   enemy3: {fileID: 0}
   player1: {fileID: 0}
-  Points: 1
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!137 &137877253484686376
