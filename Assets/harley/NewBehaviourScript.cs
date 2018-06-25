@@ -8,6 +8,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     public enemyspawnroom enemy3;
     public player_movment player1;
     public int Points;
+    public int damige;
     public GunUI play;
     public GameObject pow;
 
@@ -51,7 +52,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
         var tamp = hit.gameObject.GetComponent<IDamageable>();
         if (tamp != null)
         {
-            tamp.takeDamage(1, 0, player1);
+            tamp.takeDamage(damige, 0, player1);
         }
     }
 }

@@ -761,6 +761,7 @@ MonoBehaviour:
   enemy3: {fileID: 0}
   player1: {fileID: 0}
   Points: 1
+  damige: 1
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!114 &114394864039706800
