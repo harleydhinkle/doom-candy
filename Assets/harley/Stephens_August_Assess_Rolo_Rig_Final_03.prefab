@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5516092258eed841a3b54b402c137f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
   target: {fileID: 0}
 --- !u!114 &114398918126091522
 MonoBehaviour:
@@ -482,6 +482,7 @@ MonoBehaviour:
   timer: 5
   enemy3: {fileID: 0}
   player1: {fileID: 0}
+  Points: 3
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!137 &137877253484686376

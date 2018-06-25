@@ -30,5 +30,8 @@ EditorBuildSettings:
     path: Assets/Caleb/Dead.unity
     guid: 46b2830b08de63f45be50692eac7c86c
   - enabled: 1
+    path: Assets/Caleb/WinScreen.unity
+    guid: dc1c3de2f0adb694c9e38bf650d6dbbe
+  - enabled: 1
     path: Assets/Art/Map_2.unity
     guid: 8dd07900d3533344b940e843fd4aa0bb

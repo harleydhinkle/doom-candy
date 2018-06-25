@@ -34,15 +34,17 @@ public class shoot_swich : MonoBehaviour {
         {
             case States3.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
+                agent.speed = wander.speed;
                 agent.isStopped = false;
                 break;
             case States3.shoot:
                 agent.destination = seek.returnttargetspos();
-               
+                agent.updateRotation = true;
                 if (Vector3.Distance(transform.position, seek.transform.position) <= 50)
                 {
                     state = States3.wandermap;
                     yup.SetBool("hit", false);
+                    agent.stoppingDistance = 0;
                     agent.isStopped = false;
                 }
                 break;
@@ -62,8 +64,10 @@ public class shoot_swich : MonoBehaviour {
             {
                 state = States3.shoot;
                 yup.SetBool("hit", true);
+                //agent.isStopped = true;
+                agent.stoppingDistance = 10f;
                 seek.target = hit.transform;
-                agent.isStopped = true;
+                
             }
 
 

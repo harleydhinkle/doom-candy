@@ -16,6 +16,7 @@ public class gun : MonoBehaviour {
     public int points;
     public float reloadTime = 3;
     bool isReloading;
+    public GameObject player_fun; 
     public GameObject hit2;
     // Update is called once per frame
     void Update()
@@ -40,6 +41,8 @@ public class gun : MonoBehaviour {
         if (owner.currentclip == 0 && !isReloading)
         {
             isReloading = true;
+            controller.player3.SetBool("relode", true);
+            player_fun.SetActive(true);
             StartCoroutine(delayReload());
             controller.reload = true;
         }
@@ -53,6 +56,8 @@ public class gun : MonoBehaviour {
         if (controller.reloadgun == true&& owner.currentclip <10)
         {
             controller.reload = true;
+            controller.player3.SetBool("relode", true);
+            player_fun.SetActive(true);
             StartCoroutine(delayReload());
         }
     }
@@ -88,6 +93,8 @@ public class gun : MonoBehaviour {
         owner.currentaimo -= ammoiget;
         owner.currentclip += ammoiget;
         play.ammo2();
+        controller.player3.SetBool("relode", false);
+        player_fun.SetActive(false);
         isReloading = false;
         controller.reload = false;
     }

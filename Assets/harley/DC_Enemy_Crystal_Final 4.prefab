@@ -542,6 +542,7 @@ MonoBehaviour:
   timer: 5
   enemy3: {fileID: 0}
   player1: {fileID: 0}
+  Points: 4
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!114 &114410618186624892
@@ -570,7 +571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dis: 4
   radius: 2
-  speed: 3
+  speed: 10
   jitter: 0
   target: {x: 0, y: 0, z: 0}
 --- !u!114 &114701866003731196
@@ -586,7 +587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 54506540021568376, guid: d55f356ceadd9504ab2960d28a5ba372, type: 2}
   target: {fileID: 0}
-  speed: 1000
+  speed: 10000
   fireRate: 1
   spawnRandomizer: 0
   range: 20

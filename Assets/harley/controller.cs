@@ -131,7 +131,6 @@ public class controller : MonoBehaviour {
                 {
                     StartCoroutine(startviprat());
                     player3.SetBool("fire", true);
-                    
                     playme.clip = gunsound;
                     playme.Play();
                     firegun = true;

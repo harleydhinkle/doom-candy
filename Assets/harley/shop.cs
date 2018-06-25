@@ -26,11 +26,15 @@ public class shop : MonoBehaviour
     public Text gunprice;
     public Text gunpriceringe;
     public Text batpricedamige;
+    public Text gundamice;
+    public Text gun_range;
     private void Start()
     {
         gunprice.text = gundamigepriceprice.ToString();
         gunpriceringe.text = rangeforgunprice.ToString();
         batpricedamige.text = damegeforbatprice.ToString();
+        gundamice.text = player.owngun.damige.ToString();
+        gun_range.text = player.owngun.range.ToString();
     }
     public void damige_for_gun()
     {
@@ -43,7 +47,8 @@ public class shop : MonoBehaviour
             gun.damige = Mathf.Clamp(gun.damige, 0, maxdamige);
             gundamigepriceprice += 5;
             gunprice.text = gundamigepriceprice.ToString();
-            if(maxdamige == gun.damige)
+            gundamice.text = player.owngun.damige.ToString();
+            if (maxdamige == gun.damige)
             {
                 gunprice.text = "max for this shop";
             }
