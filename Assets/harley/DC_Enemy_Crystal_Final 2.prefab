@@ -528,6 +528,7 @@ MonoBehaviour:
   enemy3: {fileID: 0}
   player1: {fileID: 0}
   Points: 2
+  damige: 0
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
 --- !u!114 &114465048198831862
@@ -587,7 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 54506540021568376, guid: 97980986a6b687448803029428a08c21, type: 2}
   target: {fileID: 0}
-  speed: 10000
+  speed: 5000
   fireRate: 1
   spawnRandomizer: 0
   range: 20
