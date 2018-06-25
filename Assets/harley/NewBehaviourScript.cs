@@ -7,8 +7,10 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     public float timer = 5;
     public enemyspawnroom enemy3;
     public player_movment player1;
+    public int Points;
     public GunUI play;
     public GameObject pow;
+
     // Use this for initialization
     void Start () {
 		
@@ -33,7 +35,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
             var spawnBaby = Instantiate(pow);
             spawnBaby.transform.position = transform.position;
             die();
-            player.points += pointgain;
+            player.points += pointgain + Points;
             play.score2();
            
             
@@ -44,7 +46,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
         enemy3.currentanmontofenemys -= 1;
         Destroy(gameObject);
     }
-    void OnCollisionStay(Collision hit)
+    void OnCollisionEnter(Collision hit)
     {
         var tamp = hit.gameObject.GetComponent<IDamageable>();
         if (tamp != null)
