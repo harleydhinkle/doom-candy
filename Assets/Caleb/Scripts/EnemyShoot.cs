@@ -25,6 +25,10 @@ public class EnemyShoot : MonoBehaviour {
 
     void Update()
     {
+        if (gamemaniger.GM.pose == true)
+        {
+            return;
+        }
         targets.Clear();
         getTargets();
         timer += Time.deltaTime;
