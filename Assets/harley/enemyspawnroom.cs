@@ -20,6 +20,10 @@ public class enemyspawnroom : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(gamemaniger.GM.pose == true)
+        {
+            return;
+        }
         if (timer >= 0)
        {
            timer -= Time.deltaTime;

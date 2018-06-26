@@ -11,12 +11,12 @@ public class DoorUI : MonoBehaviour {
     private void Start()
     {
         price = FindObjectOfType<PurchaseScript>();
-        door.text = "Press A to buy door (" + price.price.ToString() + ")";
+        door.text = "Press and hold A to buy door (" + price.price.ToString() + ")";
     }
 
     public void textdoor()
     {
-        door.text = "Press A to buy door (" + price.price.ToString() + ")"; 
+        door.text = "Press and hold A to buy door (" + price.price.ToString() + ")"; 
     }
     
 }

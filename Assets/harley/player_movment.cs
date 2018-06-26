@@ -45,6 +45,10 @@ public class player_movment : MonoBehaviour,IDamageable {
 	
 	// Update is called once per frame
 	void Update () {
+        if(gamemaniger.GM.pose == true)
+        {
+            return;
+        }
         horizontal = controller.horizontal;
         Vector3 myright = cam.right * horizontal;
         vertical = controller.vertical;

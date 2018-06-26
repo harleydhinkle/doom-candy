@@ -29,6 +29,7 @@ public class shop : MonoBehaviour
     public Text gundamice;
     public Text gun_range;
     public Text bat_damige;
+    public GameObject me2;
     private void Start()
     {
         gunprice.text = gundamigepriceprice.ToString();
@@ -92,5 +93,11 @@ public class shop : MonoBehaviour
                 batpricedamige.text = "max for this shop";
             }
         }
+    }
+    public void leave()
+    {
+        me2.SetActive(false);
+        gamemaniger.GM.pose = false;
+        player.controller.shop = false;
     }
 }

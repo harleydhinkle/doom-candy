@@ -29,9 +29,14 @@ public class shoot_swich : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
+        if(gamemaniger.GM.pose == true)
+        {
+            agent.isStopped = true;
+            return;
+        }
         switch (state)
         {
+
             case States3.wandermap:
                 agent.destination = transform.position + wander.wandercontol();
                 agent.speed = wander.speed;
