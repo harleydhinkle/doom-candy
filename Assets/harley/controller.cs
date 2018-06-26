@@ -37,6 +37,7 @@ public class controller : MonoBehaviour {
     public GameObject buyui;
     public GameObject buyui2;
     public player_movment yey;
+    public GameObject stop;
     IEnumerator startviprat()
     {
         GamePad.SetVibration(playerIndex, leftrun, rightrun);
@@ -44,15 +45,19 @@ public class controller : MonoBehaviour {
         GamePad.SetVibration(playerIndex, 0, 0);
     }
     // Use this for initialization
-    void Start () {
-       //if(playernum == 1) { playerIndex = PlayerIndex.One; }
-       // if (playernum == 2) { playerIndex = PlayerIndex.Two; }
+    //void Start () {
+    //   //if(playernum == 1) { playerIndex = PlayerIndex.One; }
+    //   // if (playernum == 2) { playerIndex = PlayerIndex.Two; }
 
-    }
+    //}
 	
 	// Update is called once per frame
 	void Update ()
     {
+        if(gamemaniger.GM.pose == true)
+        {
+            return;
+        }
         prevState = state;
         state = GamePad.GetState(playerIndex);
        
@@ -160,6 +165,13 @@ public class controller : MonoBehaviour {
                     damige.SetActive(false);
                 }
             }
+            if(prevState.Buttons.Start == ButtonState.Released && state.Buttons.Start == ButtonState.Pressed)
+            {
+                gamemaniger.GM.pose = true;
+                stop.SetActive(true);
+                
+
+            }
             if(prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed)
             {
                 reloadgun = true;
@@ -177,6 +189,7 @@ public class controller : MonoBehaviour {
             }
             else
             {
+                shop = false;
                 door = false;
             }
             horizontalcamra = state.ThumbSticks.Right.X;

@@ -21,6 +21,10 @@ public class gun : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if (gamemaniger.GM.pose)
+        {
+            return;
+        }
         if(owner.god == true)
         {
             if(controller.firegun == true)
