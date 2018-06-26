@@ -30,7 +30,11 @@ public class boomman : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        
+        if(gamemaniger.GM.pose == true)
+        {
+            agent.isStopped = true;
+            return;
+        }
 
         switch (state)
         {
