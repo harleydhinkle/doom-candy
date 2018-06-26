@@ -23,6 +23,7 @@ public class ControllerCollisionInteractionShop : MonoBehaviour
                 if (other.tag == "Player1")
                 {
                     thing2.SetActive(true);
+                    gamemaniger.GM.pose = true;
                 }
             }
         }

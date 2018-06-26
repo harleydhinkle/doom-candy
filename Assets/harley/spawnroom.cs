@@ -32,6 +32,10 @@ public class spawnroom : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        if(gamemaniger.GM.pose == true)
+        {
+            return;
+        }
         if (timer <= 0 && currentpickups < max)
         {
             spawn();
