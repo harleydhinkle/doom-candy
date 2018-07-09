@@ -54,6 +54,7 @@ public class ControllerUX : MonoBehaviour
         {
             Dir.x = state.ThumbSticks.Left.X;
         }
+       
 
         Selectable trySelect = button.FindSelectable(Dir);
 
@@ -69,15 +70,21 @@ public class ControllerUX : MonoBehaviour
             {
                 button = selectable.GetComponent<Button>();
             }
+            //if (selectable.GetComponent<Slider>())
+            //{
+            //    slider = selectable.GetComponent<Slider>();
+            //}
 
         }
 
         if (getButtonDown())
         {
-
-            button.onClick.Invoke();
+            if (button != null)
+            {
+                button.onClick.Invoke();
+            }
+            
         }
-
         button.Select();
     }
 }
