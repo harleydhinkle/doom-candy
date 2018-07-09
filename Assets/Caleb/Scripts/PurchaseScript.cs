@@ -11,6 +11,7 @@ public class PurchaseScript : MonoBehaviour
     public player_movment buy;
     public bool canbuy;
     public GameObject door2;
+    public GameObject things;
     public void purchase()
     {
 
@@ -20,6 +21,7 @@ public class PurchaseScript : MonoBehaviour
             buy.points = change;
             buy.play.score2();
             door2.SetActive(false);
+            things.SetActive(false);
         }
     }
 }
