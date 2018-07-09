@@ -35,7 +35,7 @@ public class PlayerFaceUI : MonoBehaviour {
     IEnumerator faces(FaceStates face)
     {
         changeFace(face);
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(.9f);
         changeFace(FaceStates.normal);
     }
 }

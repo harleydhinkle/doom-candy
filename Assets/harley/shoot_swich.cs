@@ -31,6 +31,7 @@ public class shoot_swich : MonoBehaviour {
     {
         if(gamemaniger.GM.pose == true)
         {
+            yup.SetBool("hit", false);
             agent.isStopped = true;
             return;
         }

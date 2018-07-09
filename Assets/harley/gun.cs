@@ -86,6 +86,11 @@ public class gun : MonoBehaviour {
                 target.takeDamage(damige,points,owner.GetComponent<player_movment>());
                 //spawnBaby.transform.position = hit.transform.position + Vector3.up * 3f;
             }
+            if(hit.transform.gameObject.tag == "Barrel")
+            {
+                owner.barrels += 1;
+                Destroy(hit.transform.gameObject);
+            }
             
         }
     }
