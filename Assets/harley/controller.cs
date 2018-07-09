@@ -150,7 +150,7 @@ public class controller : MonoBehaviour {
             }
             if(gunoff == true)
             {
-                if (prevState.Triggers.Right <= 0.2 && state.Triggers.Right >= 0.5)
+                if (/*prevState.Triggers.Right <= 0.0 && */state.Triggers.Right >= 0.5)
                 {
                     firebash = true;
                     player4.SetBool("hit", true);
@@ -158,7 +158,7 @@ public class controller : MonoBehaviour {
                     damige.SetActive(true);
 
                 }
-                else
+                if(state.Triggers.Right == 0.0)
                 {
                     firebash = false;
                     player4.SetBool("hit", false);

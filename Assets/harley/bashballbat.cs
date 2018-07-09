@@ -12,8 +12,9 @@ public class bashballbat : MonoBehaviour {
         {
             if (think != null && other.tag == "enemy")
             {
-                think.takeDamage(damige, 1, owner);
+                think.takeDamage(damige, 0 , owner);
             }
+            
         }
     }
 }
