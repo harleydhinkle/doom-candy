@@ -589,9 +589,9 @@ MonoBehaviour:
   bullet: {fileID: 54506540021568376, guid: 97980986a6b687448803029428a08c21, type: 2}
   target: {fileID: 0}
   speed: 5000
-  fireRate: 1
+  fireRate: 1.75
   spawnRandomizer: 0
-  range: 20
+  range: 15
   targets: []
   YOffSet: 3
 --- !u!137 &137461652738513670
