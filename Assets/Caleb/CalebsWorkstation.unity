@@ -1787,6 +1787,8 @@ MonoBehaviour:
   play: {fileID: 1707386065}
   points: 1
   reloadTime: 3
+  player_fun: {fileID: 0}
+  hit2: {fileID: 0}
 --- !u!1 &146584333
 GameObject:
   m_ObjectHideFlags: 0
@@ -4947,6 +4949,9 @@ MonoBehaviour:
   gunprice: {fileID: 0}
   gunpriceringe: {fileID: 0}
   batpricedamige: {fileID: 0}
+  gundamice: {fileID: 0}
+  gun_range: {fileID: 0}
+  bat_damige: {fileID: 0}
 --- !u!1 &392656567
 GameObject:
   m_ObjectHideFlags: 0
@@ -21409,6 +21414,9 @@ MonoBehaviour:
   gunprice: {fileID: 0}
   gunpriceringe: {fileID: 0}
   batpricedamige: {fileID: 0}
+  gundamice: {fileID: 0}
+  gun_range: {fileID: 0}
+  bat_damige: {fileID: 0}
 --- !u!114 &1248825390
 MonoBehaviour:
   m_ObjectHideFlags: 0
