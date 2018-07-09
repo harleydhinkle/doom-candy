@@ -26,6 +26,8 @@ public class player_movment : MonoBehaviour,IDamageable {
     public GunUI play;
     public PlayerFaceUI do_do;
     public bool god;
+    public int barrels;
+    public GameObject havenolife;
     //public int money;
     //public Vector3 curlook;
     //public Vector3 predlook;
@@ -47,6 +49,9 @@ public class player_movment : MonoBehaviour,IDamageable {
 	void Update () {
         if(gamemaniger.GM.pose == true)
         {
+            controller.horizontal = 0;
+            controller.vertical = 0;
+            rm.velocity = Vector3.zero;
             return;
         }
         horizontal = controller.horizontal;
@@ -83,7 +88,10 @@ public class player_movment : MonoBehaviour,IDamageable {
         //{
         //    dir = rm.velocity.normalized;
         //}
-
+        if(barrels == 4)
+        {
+            havenolife.SetActive(true);
+        }
         
     }
     public void takeDamage(int damageTaken, int pointgain, player_movment player)
@@ -107,6 +115,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         {
             SceneManager.LoadScene("Dead");
         }
+        
     }
     void respawn()
     {

@@ -11,6 +11,7 @@ TagManager:
   - exit
   - door
   - walls
+  - Barrel
   layers:
   - Default
   - TransparentFX
