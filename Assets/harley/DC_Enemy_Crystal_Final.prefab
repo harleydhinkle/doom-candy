@@ -559,7 +559,7 @@ MonoBehaviour:
   speed: 5000
   fireRate: 1
   spawnRandomizer: 0
-  range: 20
+  range: 5
   targets: []
   YOffSet: 3
 --- !u!114 &114683416367030434

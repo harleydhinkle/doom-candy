@@ -10,7 +10,7 @@ public class EnemyShoot : MonoBehaviour {
     public float speed = 1000;
     public float fireRate;
     public float spawnRandomizer;
-    float timer;
+   float timer;
     public float range;
     public List<GameObject> targets;
     public float YOffSet;
@@ -55,10 +55,10 @@ public class EnemyShoot : MonoBehaviour {
         else
         {
             getNewTarget();
-            if (target == null)
-            {
-                Debug.Log("Killed everything shoot");
-            }
+            //if (target == null)
+            //{
+            //    Debug.Log("Killed everything shoot");
+            //}
         }
     }
 
