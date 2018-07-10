@@ -33,9 +33,10 @@ public class boomman : MonoBehaviour {
         if(gamemaniger.GM.pose == true)
         {
             agent.isStopped = true;
+           boooom.enabled = false;
             return;
         }
-
+        boooom.enabled = true;
         switch (state)
         {
             case States4.wandermap:

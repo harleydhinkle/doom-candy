@@ -14,6 +14,7 @@ public class enemy2 : MonoBehaviour
     public float radius;
     enemywander wander;
     ememyseek seek;
+    public Animator you;
     // Use this for initialization
     void Start()
     {
@@ -29,9 +30,11 @@ public class enemy2 : MonoBehaviour
         if (gamemaniger.GM.pose == true)
         {
             agent.isStopped = true;
+            you.enabled = false;
             return;
         }
         agent.isStopped = false;
+        you.enabled = true;
         switch (state)
         {
             case States.wandermap:
