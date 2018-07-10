@@ -7,6 +7,7 @@ public class actuvat : MonoBehaviour {
     public GameObject items;
     public GameObject lest_room_enemys;
     public GameObject lest_room_items;
+    public GameObject stopshowing;
     public void OnTriggerEnter(Collider hit)
     {
         if(hit.tag == "Player1")
@@ -15,6 +16,7 @@ public class actuvat : MonoBehaviour {
             items.SetActive(true);
             lest_room_enemys.SetActive(false);
             lest_room_items.SetActive(false);
+            stopshowing.SetActive(false);
         }
     }
 }
