@@ -52,6 +52,16 @@ public class player_movment : MonoBehaviour,IDamageable {
             controller.horizontal = 0;
             controller.vertical = 0;
             rm.velocity = Vector3.zero;
+            controller.player3.SetBool("walk", false);
+            controller.player3.SetBool("fire", false);
+            if(controller.gunoff == true)
+            {
+                controller.horizontal = 0;
+                controller.vertical = 0;
+                rm.velocity = Vector3.zero;
+                controller.player4.SetBool("run", false);
+                controller.player4.SetBool("hit", false);
+            }
             return;
         }
         horizontal = controller.horizontal;

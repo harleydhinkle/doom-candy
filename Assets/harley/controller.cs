@@ -108,27 +108,42 @@ public class controller : MonoBehaviour {
             if (vertical >= 0.2f)
             {
                 player3.SetBool("walk", true);
-                player4.SetBool("run", true);
+                if (gunoff == true)
+                {
+                    player4.SetBool("run", true);
+                }
             }
             if (vertical <= -0.2f)
             {
                 player3.SetBool("walk", true);
-                player4.SetBool("run", true);
+                if (gunoff == true)
+                {
+                    player4.SetBool("run", true);
+                }
             }
             if (horizontal >= 0.2f)
             {
                 player3.SetBool("walk", true);
-                player4.SetBool("run", true);
+                if (gunoff == true)
+                {
+                    player4.SetBool("run", true);
+                }
             }
             if (horizontal <= -0.2f)
             {
                 player3.SetBool("walk", true);
-                player4.SetBool("run", true);
+                if (gunoff == true)
+                {
+                    player4.SetBool("run", true);
+                }
             }
             if (horizontal == 0 && vertical == 0)
             {
                 player3.SetBool("walk", false);
-                player4.SetBool("run", false);
+                if (gunoff == true)
+                {
+                    player4.SetBool("run", false);
+                }
             }
                 if (gunoff == false)
             {
@@ -187,7 +202,7 @@ public class controller : MonoBehaviour {
                 buyui.SetActive(false);
                 buyui2.SetActive(false);
             }
-            else
+            if(prevState.Buttons.A == ButtonState.Pressed && state.Buttons.A == ButtonState.Released)
             {
                 shop = false;
                 door = false;
