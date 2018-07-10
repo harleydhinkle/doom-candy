@@ -12,6 +12,7 @@ public class PurchaseScript : MonoBehaviour
     public bool canbuy;
     public GameObject door2;
     public GameObject things;
+    public ControllerCollisionInteraction THIS;
     public void purchase()
     {
 
@@ -22,6 +23,8 @@ public class PurchaseScript : MonoBehaviour
             buy.play.score2();
             door2.SetActive(false);
             things.SetActive(false);
+            canbuy = false;
+            this.things.SetActive(false);
         }
     }
 }
