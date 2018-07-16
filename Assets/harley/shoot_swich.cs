@@ -32,9 +32,12 @@ public class shoot_swich : MonoBehaviour {
         if(gamemaniger.GM.pose == true)
         {
             yup.SetBool("hit", false);
+            yup.enabled = false;
             agent.isStopped = true;
+            agent.speed=0;
             return;
         }
+        yup.enabled = true;
         switch (state)
         {
 
