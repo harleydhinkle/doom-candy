@@ -8954,6 +8954,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
+      propertyPath: m_TagString
+      value: walls
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
   m_IsPrefabParent: 0
@@ -12426,7 +12430,7 @@ MonoBehaviour:
   time: 10
   currentanmontofenemys: 0
   number_spawn: 5
-  max: 40
+  max: 60
   player1: {fileID: 1504211715}
   play: {fileID: 1707386065}
 --- !u!4 &440024512
@@ -14382,7 +14386,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 513138143}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.1, y: 22.41, z: -34.98}
+  m_LocalPosition: {x: 108.75, y: 40.16, z: -34.98}
   m_LocalScale: {x: 2.62462, y: 1, z: 18.553534}
   m_Children: []
   m_Father: {fileID: 0}
@@ -34811,6 +34815,10 @@ Prefab:
       propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
+      propertyPath: m_TagString
+      value: walls
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
   m_IsPrefabParent: 0
@@ -38162,7 +38170,7 @@ MonoBehaviour:
   - {fileID: 1959806366606260, guid: 4afcf075181b7544385850b70a2a2a27, type: 2}
   range: 1
   time: 0
-  max: 10
+  max: 30
   currentpickups: 0
   play: {fileID: 1707386065}
   pick: {fileID: 1388743169}
@@ -41852,7 +41860,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1403843037}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.2700005, z: -12}
+  m_LocalPosition: {x: -26.46, y: -6.2700005, z: -21.89}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1252891871}
@@ -42169,6 +42177,10 @@ Prefab:
     - target: {fileID: 100002, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
+      propertyPath: m_TagString
+      value: walls
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
@@ -49604,7 +49616,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1743006941}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -6.2700005, z: -10}
+  m_LocalPosition: {x: -29.8, y: -6.2700005, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1252891871}
@@ -59743,6 +59755,10 @@ Prefab:
     - target: {fileID: 100004, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
       propertyPath: m_NavMeshLayer
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
+      propertyPath: m_TagString
+      value: walls
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81974fde4a8236945befdfac47bf2bee, type: 3}
