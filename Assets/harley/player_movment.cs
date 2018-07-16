@@ -54,6 +54,7 @@ public class player_movment : MonoBehaviour,IDamageable {
             rm.velocity = Vector3.zero;
             controller.player3.SetBool("walk", false);
             controller.player3.SetBool("fire", false);
+            controller.player3.enabled = false;
             if(controller.gunoff == true)
             {
                 controller.horizontal = 0;
@@ -61,9 +62,15 @@ public class player_movment : MonoBehaviour,IDamageable {
                 rm.velocity = Vector3.zero;
                 controller.player4.SetBool("run", false);
                 controller.player4.SetBool("hit", false);
+                controller.player4.enabled = false;
             }
             return;
         }
+        if(controller.gunoff == true)
+        {
+            controller.player4.enabled = true;
+        }
+        controller.player3.enabled = true;
         horizontal = controller.horizontal;
         Vector3 myright = cam.right * horizontal;
         vertical = controller.vertical;
@@ -119,7 +126,7 @@ public class player_movment : MonoBehaviour,IDamageable {
             respawn();
             lives -= 1;
             play.lives();
-            player.points += pointgain;
+            //player.points += pointgain;
         }
         if(lives <= 0)
         {

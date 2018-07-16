@@ -451,6 +451,7 @@ MonoBehaviour:
   agent: {fileID: 0}
   state: 0
   radius: 20
+  you: {fileID: 95841550037921080}
 --- !u!114 &114435164768793312
 MonoBehaviour:
   m_ObjectHideFlags: 1
