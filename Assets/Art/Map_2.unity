@@ -44157,9 +44157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e90e85b8c6512144a2059795f08785d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 700
+  speed: 800
   controller: {fileID: 301220651}
-  drag: 1
+  drag: 0.5
   rm: {fileID: 301220650}
   cam: {fileID: 1894826386}
   melee: {fileID: 2095266223}
