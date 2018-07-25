@@ -132,7 +132,7 @@ public class player_movment : MonoBehaviour,IDamageable {
             }
             return;
         }
-        rm.velocity *= drag;
+        rm.drag = drag;
         rm.AddForce(desierv);
     }
     public void takeDamage(int damageTaken, int pointgain, player_movment player)
