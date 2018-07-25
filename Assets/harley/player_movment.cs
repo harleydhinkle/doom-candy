@@ -6,6 +6,7 @@ public class player_movment : MonoBehaviour,IDamageable {
     public float speed;
     public controller controller;
     Vector3 desierv;
+    public float drag;
     float horizontal;
     float vertical;
     public Rigidbody rm;
@@ -78,7 +79,6 @@ public class player_movment : MonoBehaviour,IDamageable {
         myright.y = 0;
         myup.y = 0;
         desierv = (myup + myright).normalized * speed * Time.deltaTime;
-        rm.velocity = desierv;
       
         //if (controller.hit == true)
         //{
@@ -110,6 +110,30 @@ public class player_movment : MonoBehaviour,IDamageable {
             havenolife.SetActive(true);
         }
         
+    }
+    private void FixedUpdate()
+    {
+        if (gamemaniger.GM.pose == true)
+        {
+            controller.horizontal = 0;
+            controller.vertical = 0;
+            rm.velocity = Vector3.zero;
+            controller.player3.SetBool("walk", false);
+            controller.player3.SetBool("fire", false);
+            controller.player3.enabled = false;
+            if (controller.gunoff == true)
+            {
+                controller.horizontal = 0;
+                controller.vertical = 0;
+                rm.velocity = Vector3.zero;
+                controller.player4.SetBool("run", false);
+                controller.player4.SetBool("hit", false);
+                controller.player4.enabled = false;
+            }
+            return;
+        }
+        rm.velocity *= drag;
+        rm.AddForce(desierv);
     }
     public void takeDamage(int damageTaken, int pointgain, player_movment player)
     {

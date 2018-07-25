@@ -7830,7 +7830,7 @@ MonoBehaviour:
   layer:
     serializedVersion: 2
     m_Bits: 512
-  down: 1000
+  down: 300
   player: {fileID: 1504211715}
 --- !u!136 &301220653
 CapsuleCollider:
@@ -44157,7 +44157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e90e85b8c6512144a2059795f08785d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2000
+  speed: 400
   controller: {fileID: 301220651}
   rm: {fileID: 301220650}
   cam: {fileID: 1894826386}
