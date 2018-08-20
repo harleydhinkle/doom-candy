@@ -7,10 +7,10 @@ public class shoop_ui : MonoBehaviour {
     public Text shop;
     void Start()
     {
-        shop.text = "Press and hold A to open the shop";
+        shop.text = "Press and hold A or space to open the shop";
     }
     public void shoptext()
     {
-        shop.text = "Press and hold A to open the shop";
+        shop.text = "Press and hold A or space to open the shop";
     }
 }
