@@ -1,10 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class keybord : MonoBehaviour {
-    public void keybords ()
+    public gamemaniger game;
+    public Toggle trigger;
+    void Start()
     {
-        gamemaniger.GM.keybordcontrols = !gamemaniger.GM.keybordcontrols;
+        game = FindObjectOfType<gamemaniger>();
+    }
+        public void keybords ()
+    {
+        game.keybordcontrols = !game.keybordcontrols;
+        if(game.keybordcontrols == true)
+        {
+            trigger.isOn = true;
+        }
+        if(game.keybordcontrols == false)
+        {
+            trigger.isOn = false;
+        }
     }
 }
