@@ -17,11 +17,15 @@ public class camracontrol : MonoBehaviour {
         if(gamemaniger.GM.pose== true)
         {
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+ 
             return;
         }
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         if (gamemaniger.GM.keybordcontrols == true)
         {
+
             RotateCamera();
         }
         if (gamemaniger.GM.keybordcontrols == false)
