@@ -18,7 +18,7 @@ public class GunUI : MonoBehaviour {
 	void Start ()
     {
         move = FindObjectOfType<player_movment>();
-        health.text = "health " + move.currenthealth.ToString() + "%";
+        health.text = "health: " + move.currenthealth.ToString()+"%";
         armor.text = "lives: " + move.lives.ToString();
         //armor.text = ;
         //weapon.text = ;
@@ -36,12 +36,12 @@ public class GunUI : MonoBehaviour {
     //for updating health in hud
     public void health2()
     {
-        health.text = "health " + move.currenthealth.ToString()+"%";
+        health.text = "health: " + move.currenthealth.ToString()+"%";
     }
     //for updating ammo stock in hud
     public void ammo2()
     {
-        ammo.text = "ammo " + move.currentclip.ToString() + "/" + move.currentaimo.ToString();
+        ammo.text = "ammo: " + move.currentclip.ToString() + "/" + move.currentaimo.ToString();
     }
     //for updating player score in hud
     public void score2()

@@ -10,7 +10,7 @@ public class MenuScript : MonoBehaviour {
     public void StartGame()
     {
         StartCoroutine(DelayLevel("Map_2"));
-        
+        gamemaniger.GM.pose = false;
     }
 
     public void controls()

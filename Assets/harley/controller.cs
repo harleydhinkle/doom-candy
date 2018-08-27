@@ -60,7 +60,8 @@ public class controller : MonoBehaviour {
         }
         prevState = state;
         state = GamePad.GetState(playerIndex);
-       
+        if (gamemaniger.GM.keybordcontrols == true)
+        {
             if (Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
             {
                 vertical = 1;
@@ -85,27 +86,83 @@ public class controller : MonoBehaviour {
             {
                 vertical = 0;
             }
-            //if (Input.GetKeyDown(KeyCode.F))
-            //{
-            //    hit = true;
-            //}
-            //else
-            //{
-            //    hit = false;
-            //}
-            if (Input.GetKeyDown(KeyCode.C))
+            if (gunoff == false)
             {
-                firegun = true;
+                if (Input.GetMouseButtonDown(0) && reload == false)
+                {
+                    //StartCoroutine(startviprat());
+                    player3.SetBool("fire", true);
+                    playme.clip = gunsound;
+                    playme.Play();
+                    firegun = true;
+                }
+                else
+                {
+                    firegun = false;
+                    player3.SetBool("fire", false);
+                }
+            }
+            if (gunoff == true)
+            {
+                if (Input.GetMouseButtonDown(0))
+                {
+                    firebash = true;
+                    player4.SetBool("hit", true);
+                    yey.do_do.playfaceeffect(FaceStates.shoot);
+                    damige.SetActive(true);
+                }
+                else
+                {
+                    firebash = false;
+                    player4.SetBool("hit", false);
+                    damige.SetActive(false);
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                reloadgun = true;
+
             }
             else
             {
-                firegun = false;
+                reloadgun = false;
             }
-            if (contrler1 == true)
+            if (Input.GetKeyDown(KeyCode.F))
             {
-                horizontal = state.ThumbSticks.Left.X;
-                vertical = state.ThumbSticks.Left.Y;
-            if (vertical >= 0.2f)
+                if (swich == 0)
+                {
+                    swich = 1;
+                    gunoff = true;
+                    gun3.SetActive(false);
+                    damige2.SetActive(true);
+
+                }
+                else if (swich == 1)
+                {
+                    swich = 0;
+                    gunoff = false;
+                    gun3.SetActive(true);
+                    damige2.SetActive(false);
+                }
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                gamemaniger.GM.pose = true;
+                stop.SetActive(true);
+            }
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                door = true;
+                shop = true;
+                buyui.SetActive(false);
+                buyui2.SetActive(false);
+            }
+            else
+            {
+                shop = false;
+                door = false;
+            }
+            if (vertical == 1)
             {
                 player3.SetBool("walk", true);
                 if (gunoff == true)
@@ -113,7 +170,7 @@ public class controller : MonoBehaviour {
                     player4.SetBool("run", true);
                 }
             }
-            if (vertical <= -0.2f)
+            if(vertical== -1)
             {
                 player3.SetBool("walk", true);
                 if (gunoff == true)
@@ -121,7 +178,7 @@ public class controller : MonoBehaviour {
                     player4.SetBool("run", true);
                 }
             }
-            if (horizontal >= 0.2f)
+            if(horizontal == 1)
             {
                 player3.SetBool("walk", true);
                 if (gunoff == true)
@@ -129,7 +186,7 @@ public class controller : MonoBehaviour {
                     player4.SetBool("run", true);
                 }
             }
-            if (horizontal <= -0.2f)
+            if (horizontal == -1)
             {
                 player3.SetBool("walk", true);
                 if (gunoff == true)
@@ -145,86 +202,144 @@ public class controller : MonoBehaviour {
                     player4.SetBool("run", false);
                 }
             }
-                if (gunoff == false)
-            {
-                if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f && reload == false)
-                {
-                    StartCoroutine(startviprat());
-                    player3.SetBool("fire", true);
-                    playme.clip = gunsound;
-                    playme.Play();
-                    firegun = true;
-                   
 
+        }
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    hit = true;
+        //}
+        //else
+        //{
+        //    hit = false;
+        //}
+        if (gamemaniger.GM.keybordcontrols == false)
+        {
+            if (contrler1 == true)
+            {
+                horizontal = state.ThumbSticks.Left.X;
+                vertical = state.ThumbSticks.Left.Y;
+                if (vertical >= 0.2f)
+                {
+                    player3.SetBool("walk", true);
+                    if (gunoff == true)
+                    {
+                        player4.SetBool("run", true);
+                    }
+                }
+                if (vertical <= -0.2f)
+                {
+                    player3.SetBool("walk", true);
+                    if (gunoff == true)
+                    {
+                        player4.SetBool("run", true);
+                    }
+                }
+                if (horizontal >= 0.2f)
+                {
+                    player3.SetBool("walk", true);
+                    if (gunoff == true)
+                    {
+                        player4.SetBool("run", true);
+                    }
+                }
+                if (horizontal <= -0.2f)
+                {
+                    player3.SetBool("walk", true);
+                    if (gunoff == true)
+                    {
+                        player4.SetBool("run", true);
+                    }
+                }
+                if (horizontal == 0 && vertical == 0)
+                {
+                    player3.SetBool("walk", false);
+                    if (gunoff == true)
+                    {
+                        player4.SetBool("run", false);
+                    }
+                }
+                if (gunoff == false)
+                {
+                    if (prevState.Triggers.Right <= 0.2f && state.Triggers.Right >= .5f && reload == false)
+                    {
+                        StartCoroutine(startviprat());
+                        player3.SetBool("fire", true);
+                        playme.clip = gunsound;
+                        playme.Play();
+                        firegun = true;
+
+
+                    }
+                    else
+                    {
+                        firegun = false;
+                        player3.SetBool("fire", false);
+                    }
+
+                }
+                if (gunoff == true)
+                {
+                    if (/*prevState.Triggers.Right <= 0.0 && */state.Triggers.Right >= 0.5)
+                    {
+                        firebash = true;
+                        player4.SetBool("hit", true);
+                        yey.do_do.playfaceeffect(FaceStates.shoot);
+                        damige.SetActive(true);
+
+                    }
+                    if (state.Triggers.Right == 0.0)
+                    {
+                        firebash = false;
+                        player4.SetBool("hit", false);
+                        damige.SetActive(false);
+                    }
+                }
+                if (prevState.Buttons.Start == ButtonState.Released && state.Buttons.Start == ButtonState.Pressed)
+                {
+                    gamemaniger.GM.pose = true;
+                    stop.SetActive(true);
+
+
+                }
+                if (prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed )
+                {
+                    reloadgun = true;
                 }
                 else
                 {
-                    firegun = false;
-                    player3.SetBool("fire", false);
+                    reloadgun = false;
                 }
-            }
-            if(gunoff == true)
-            {
-                if (/*prevState.Triggers.Right <= 0.0 && */state.Triggers.Right >= 0.5)
+                if (prevState.Buttons.A == ButtonState.Released && state.Buttons.A == ButtonState.Pressed)
                 {
-                    firebash = true;
-                    player4.SetBool("hit", true);
-                    yey.do_do.playfaceeffect(FaceStates.shoot);
-                    damige.SetActive(true);
+                    door = true;
+                    shop = true;
+                    buyui.SetActive(false);
+                    buyui2.SetActive(false);
+                }
+                if (prevState.Buttons.A == ButtonState.Pressed && state.Buttons.A == ButtonState.Released)
+                {
+                    shop = false;
+                    door = false;
+                }
+                horizontalcamra = state.ThumbSticks.Right.X;
+                verticalcamra = state.ThumbSticks.Right.Y;
+                if (prevState.Buttons.Y == ButtonState.Released && state.Buttons.Y == ButtonState.Pressed )
+                {
+                    if (swich == 0)
+                    {
+                        swich = 1;
+                        gunoff = true;
+                        gun3.SetActive(false);
+                        damige2.SetActive(true);
 
-                }
-                if(state.Triggers.Right == 0.0)
-                {
-                    firebash = false;
-                    player4.SetBool("hit", false);
-                    damige.SetActive(false);
-                }
-            }
-            if(prevState.Buttons.Start == ButtonState.Released && state.Buttons.Start == ButtonState.Pressed)
-            {
-                gamemaniger.GM.pose = true;
-                stop.SetActive(true);
-                
-
-            }
-            if(prevState.Buttons.X == ButtonState.Released && state.Buttons.X == ButtonState.Pressed)
-            {
-                reloadgun = true;
-            }
-            else
-            {
-                reloadgun = false;
-            }
-            if (prevState.Buttons.A == ButtonState.Released && state.Buttons.A == ButtonState.Pressed)
-            {
-                door = true;
-                shop = true;
-                buyui.SetActive(false);
-                buyui2.SetActive(false);
-            }
-            if(prevState.Buttons.A == ButtonState.Pressed && state.Buttons.A == ButtonState.Released)
-            {
-                shop = false;
-                door = false;
-            }
-            horizontalcamra = state.ThumbSticks.Right.X;
-            verticalcamra = state.ThumbSticks.Right.Y;
-            if (prevState.Buttons.Y == ButtonState.Released && state.Buttons.Y == ButtonState.Pressed)
-            {
-                if(swich == 0)
-                {
-                    swich = 1;
-                    gunoff = true;
-                    gun3.SetActive(false);
-                    damige2.SetActive(true);
-                    
-                }
-               else if(swich == 1)
-                {
-                    swich = 0;
-                    gunoff = false;
-                    gun3.SetActive(true);
-                    damige2.SetActive(false);
+                    }
+                    else if (swich == 1)
+                    {
+                        swich = 0;
+                        gunoff = false;
+                        gun3.SetActive(true);
+                        damige2.SetActive(false);
+                    }
                 }
             }
         }

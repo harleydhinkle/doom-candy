@@ -16,7 +16,7 @@ public class stopmenow : MonoBehaviour {
     }
     public void manu()
     {
-        gamemaniger.GM.pose = false;
+        gamemaniger.GM.pose = true;
         SceneManager.LoadScene("MainMenu");
     }
     public void game()
