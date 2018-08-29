@@ -156,6 +156,7 @@ public class player_movment : MonoBehaviour,IDamageable {
         if(lives <= 0)
         {
             SceneManager.LoadScene("Dead");
+            gamemaniger.GM.pose = true;
         }
         
     }
