@@ -32,6 +32,7 @@ public class chack_if_on_ground : MonoBehaviour {
         if (Physics.Raycast(transform.position, -transform.up, hitdistance, layer))
         {
             isGrounded = true;
+            
         }
         else
         {

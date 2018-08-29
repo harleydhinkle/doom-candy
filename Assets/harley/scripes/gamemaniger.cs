@@ -5,7 +5,7 @@ using UnityEngine;
 public class gamemaniger : MonoBehaviour {
     public static gamemaniger GM;
     public bool pose = false;
-    public bool keybordcontrols;
+    public bool keybordcontrols = true;
     void Awake()
     {
         if (GM == null)

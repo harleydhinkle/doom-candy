@@ -11,6 +11,7 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
     public int damige;
     public GunUI play;
     public GameObject pow;
+    public Animator a;
 
     // Use this for initialization
     void Start () {
@@ -53,6 +54,15 @@ public class NewBehaviourScript : MonoBehaviour,IDamageable {
         if (tamp != null)
         {
             tamp.takeDamage(damige, 0, player1);
+            a.SetBool("hit", true);
+        }
+    }
+    void OnCollisionExit(Collision hit)
+    {
+        var tamp = hit.gameObject.GetComponent<IDamageable>();
+        if (tamp != null)
+        {
+            a.SetBool("hit", false);
         }
     }
 }
