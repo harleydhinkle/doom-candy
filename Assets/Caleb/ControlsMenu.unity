@@ -1206,13 +1206,15 @@ MonoBehaviour:
   m_Text: '<i>Keyboard Controls</i>
 
 
-    Shoot     <    Left Click
+    Shoot     <   Left Click
 
     Switch    <   F
 
     Reload    <   R
 
-    Interact  <   Space'
+    Interact  <   Space
+
+    escape   <   pause '
 --- !u!222 &951528504
 CanvasRenderer:
   m_ObjectHideFlags: 0
