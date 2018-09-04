@@ -21,6 +21,7 @@ public class controller : MonoBehaviour {
     public bool reload;
     public bool reloadgun;
     public int swich;
+    public GameObject gun4;
     public int gun = 1;
     public int bash = 0;
     public GameObject gun3;
@@ -134,6 +135,7 @@ public class controller : MonoBehaviour {
                     swich = 1;
                     gunoff = true;
                     gun3.SetActive(false);
+                    gun4.SetActive(false);
                     damige2.SetActive(true);
 
                 }
@@ -142,6 +144,7 @@ public class controller : MonoBehaviour {
                     swich = 0;
                     gunoff = false;
                     gun3.SetActive(true);
+                    gun4.SetActive(true);
                     damige2.SetActive(false);
                 }
             }
@@ -330,6 +333,7 @@ public class controller : MonoBehaviour {
                         swich = 1;
                         gunoff = true;
                         gun3.SetActive(false);
+                        gun4.SetActive(false);
                         damige2.SetActive(true);
 
                     }
@@ -338,6 +342,7 @@ public class controller : MonoBehaviour {
                         swich = 0;
                         gunoff = false;
                         gun3.SetActive(true);
+                        gun4.SetActive(true);
                         damige2.SetActive(false);
                     }
                 }
