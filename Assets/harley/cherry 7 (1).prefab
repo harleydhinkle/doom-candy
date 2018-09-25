@@ -764,6 +764,7 @@ MonoBehaviour:
   damige: 1
   play: {fileID: 0}
   pow: {fileID: 1056763024177024, guid: 8a256c36649d9e442a598d6476a200b0, type: 2}
+  a: {fileID: 95414666397887400}
 --- !u!114 &114394864039706800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -802,10 +803,12 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
+  - {fileID: 2100000, guid: b8d331a2f6baef34d9b55acd996fc31e, type: 2}
   - {fileID: 2100000, guid: b8d331a2f6baef34d9b55acd996fc31e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -817,6 +820,7 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
